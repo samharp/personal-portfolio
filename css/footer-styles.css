@@ -1,0 +1,17 @@
+/*primary footer styles*/
+footer{
+	background-color:#333333;
+	color:white;
+	font-size:14px;
+}
+
+/*footer containers*/
+.eco-footer{
+	/* background-color:#3ca648; */
+	background-color:#007E71;
+	color:white;
+}
+
+footer section{
+	min-height:100%;
+}

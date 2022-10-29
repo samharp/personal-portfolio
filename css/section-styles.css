@@ -1,0 +1,307 @@
+/*page sections (full width/height sections)*/
+section{
+  min-height:100vh;
+  max-width:1200px;
+  margin:0 auto;
+  padding:40px;
+  overflow:hidden;
+}
+
+
+/***************/
+/*portfolio sections, general*/
+main{
+
+}
+main section:nth-child(n + 6){
+  /* display:none; */
+  /* opacity:0; */
+}
+
+.item-images-container{
+  position:relative;
+}
+.item-images-container img{
+  max-width:100%;
+}
+.item-description-container:first-child{
+  padding-right:40px;
+}
+.item-description-container:last-child{
+  padding-left:40px;
+}
+
+/*standard mobile styles*/
+@media only screen and (max-width:750px){
+  section{
+    padding:25px;
+  }
+}
+/*tablet sizing*/
+@media only screen and (max-width: 865px){
+  section{
+    flex-wrap:wrap;
+  }
+  .item-images-container{
+    flex:none;
+    margin-top:40px;
+    order:2;
+  }
+  .item-description-container:first-child,
+  .item-description-container:last-child{
+    order:1;
+    padding:0;
+  }
+}
+
+
+/*filter portfolio section*/
+@media only screen and (max-width:650px){
+  #filter-links-container{
+    flex-wrap:wrap;
+  }
+  #filter-links-container .icon-link-container{
+    width:50%;
+  }
+}
+
+/*************/
+/*sorting portfolio items styles*/
+main section.flex-container{
+  display:none;
+}
+main.show-all section.flex-container{
+  display:flex;
+}
+
+main.show-graphic-design section[data-filter~="graphic-design"]{
+  display:flex;
+}
+main.show-web-design section[data-filter~="web-design"]{
+  display:flex;
+}
+main.show-illustration section[data-filter~="illustration"]{
+  display:flex;
+}
+main.show-animation section[data-filter~="animation"]{
+  display:flex;
+}
+main.show-photography section[data-filter~="photography"]{
+  display:flex;
+}
+main.show-environmental section[data-filter~="environmental"]{
+  display:flex;
+}
+
+
+
+/***************/
+/*portfolio sections, specific styles*/
+.item-images-container img{
+  background-color:white;
+}
+
+/*more about me section*/
+.about-pics-container{
+  position:relative;
+}
+#more-about-me-section .picture-container img{
+  /* oslo image */
+  /* width:350px; */
+  width:250px;
+}
+/* pixel me hovering over oslo image */
+/* .about-pics-container .pixel-me{
+  width:80px;
+  height:170px;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-image:url(../img/self-pixel-portrait-summer-covid-outfit-transparent-cropped.png);
+  position:absolute;
+  bottom:-10px;
+  left:-10px;
+} */
+
+/*pixel planet*/
+#pixel-planet-today-section img{
+  width:275px;
+  /* height:275px; */
+}
+
+/* ncbvi */
+#ncbvi-section img{
+  width:275px;
+}
+
+/*undergrad research*/
+#undergraduate-research-section img{
+  width:420px;
+}
+
+/*eva*/
+#eva-section img{
+  width:420px;
+}
+
+/*bcm*/
+#bcm-section img{
+  width:350px;
+}
+
+/*glitch section*/
+#glitch-section img{
+  width:400px;
+}
+
+/*startup week section*/
+#startup-week-section img{
+  width:400px;
+}
+
+
+/*******************/
+/*photography section*/
+#photography-section .mosaic-gallery{
+  margin:40px 0;
+}
+#photography-section .mosaic-gallery img{
+  max-height:250px;
+  max-width:100%;
+  /* margin:0 auto 40px auto; */
+  margin-bottom:40px;
+}
+@media only screen and (max-width:1160px){
+  #photography-section .mosaic-gallery img{
+    margin:0 auto 40px auto;
+  }
+}
+
+/*photography slideshow section*/
+#photography-slideshow{
+  padding:40px;
+  position:relative;
+  display:none;
+}
+#photography-slideshow[data-page="1"] .photo-gallery-thumb:nth-child(-n+3){
+  display:block;
+}
+#photography-slideshow[data-page="2"] .photo-gallery-thumb:nth-child(n+4):nth-child(-n+7){
+  display:block;
+}
+#photography-slideshow[data-page="3"] .photo-gallery-thumb:nth-child(n+7):nth-child(-n+10){
+  display:block;
+}
+
+/*slideshow arrows*/
+.arrow-link.icon-link{
+  position:absolute;
+  top:calc(50% - 10px);
+  height:30px;
+  width:30px;
+}
+.left-arrow.icon-link{
+  left:10px;
+  border-top:5px solid currentColor;
+  border-left:5px solid currentColor;
+  transform:rotate(-45deg);
+}
+.right-arrow.icon-link{
+  right:10px;
+  border-top:5px solid currentColor;
+  border-right:5px solid currentColor;
+  transform:rotate(45deg);
+}
+
+.left-arrow.icon-link:hover{
+  left:10px;
+  border-top:5px solid currentColor;
+  border-left:5px solid currentColor;
+  transform:rotate(-45deg);
+}
+.right-arrow.icon-link{
+  right:10px;
+  border-top:5px solid currentColor;
+  border-right:5px solid currentColor;
+  transform:rotate(45deg);
+}
+
+/*photography items*/
+#photography-section .slideshow .photo-gallery-thumb{
+  /* max-height:250px; */
+  /* margin-bottom:40px; */
+  display:none;
+  background-color:#fddd10;
+  width:30%;
+  max-width:280px;
+  height:250px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+#up-img-thumb{
+  background-image:url("../img/up-resized.jpg");
+}
+#krakow-img-thumb{
+  background-image:url("../img/krakow.webp");
+}
+#nebraskasunset-img-thumb{
+  background-image:url("../img/nebraskasunset-resized.jpg");
+}
+
+#bladesofgreen-img-thumb{
+  background-image:url("../img/bladesofgreen.webp");
+}
+#apalebeach-img-thumb{
+  background-image:url("../img/apalebeach.webp");
+}
+#embers-img-thumb{
+  background-image:url("../img/embers-resized.jpg");
+}
+
+#eightysblues-img-thumb{
+  background-image:url("../img/80sBlues.webp");
+}
+/* #up-img-thumb{
+  background-image:url("../img/up-resized.jpg");
+}
+#up-img-thumb{
+  background-image:url("../img/up-resized.jpg");
+} */
+/*photoslideshow micro-manage responzive styles*/
+/* @media only screen and (max-width:880px){
+  #photography-section .slideshow{
+    padding:25px;
+  }
+  #photography-section .slideshow .photo-gallery-thumb{
+    height:150px;
+  }
+}
+@media only screen and (max-width:560px){
+  #photography-section .slideshow{
+    padding:10px;
+  }
+  #photography-section .slideshow .photo-gallery-thumb{
+    height:150px;
+  }
+} */
+
+
+
+/***********/
+/*show more section*/
+.button-container{
+	padding:40px;
+}
+
+
+
+/***********/
+/*Get In Touch/Contact section*/
+@media only screen and (max-width:360px){
+  #contact-links-container{
+    flex-wrap:wrap;
+  }
+  #contact-links-container .icon-link-tooltip{
+    display:none;
+  }
+}
