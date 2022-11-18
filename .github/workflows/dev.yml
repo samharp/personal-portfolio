@@ -15,8 +15,9 @@ jobs:
       uses: wlixcc/SFTP-Deploy-Action@v1.2.4
       with:
         server: thrain.dreamhost.com
+        # server: dev.sammyharper.com
         username: samharp_admin
         password: ${{ secrets.sftp_password }}
         port: 22
         local_path: './*'
-        remote_path: '/home/ghm_admin'
+        remote_path: '/home/samharp_admin/dev.sammyharper.com/'
