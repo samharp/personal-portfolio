@@ -19,4 +19,4 @@ jobs:
         password: ${{ secrets.sftp_password }}
         port: 22
         local_path: './*'
-        remote_path: '/home/samharp_admin/dev.sammyharper.com/'
+        remote_path: ${{ secrets.sftp_remote_path_dev }}
