@@ -1,22 +1,21 @@
-on: 
+on:
   push:
     branches:
       - dev
-name: 🚀 Deploy website to dev on push
+name: Deploy website (dev) over SFTP
 jobs:
-  web-deploy:
-    name: 🎉 Deploy
-    runs-on: ubuntu-latest
-    steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v2
-    
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.3.2
-      with:
-        server: ${{ secrets.ftp_server }}
-        username: ${{ secrets.ftp_username }}
-        password: ${{ secrets.ftp_password }}
-        server-dir: ${{ secrets.ftp_dev_server_dir }}
-        port: 22
-        protocol: ftps
+  deploy_job:
+  runs-on: ubuntu-latest
+  name: Deploy
+  steps:
+    - name: Checkout
+    uses: actions/checkout@v2
+    - name: Deploy file(s)
+    uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+    with:
+      server: thrain.dreamhost.com
+      username: samharp_admin
+      password: ${{ secrets.sftp_password }}
+      port: 22
+      local_path: './*'
+      remote_path: '/home/ghm_admin'
