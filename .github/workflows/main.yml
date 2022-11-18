@@ -1,20 +1,22 @@
-on: 
+on:
   push:
     branches:
       - main
-name: 🚀 Deploy website on push
+name: Deploy website (prod) over SFTP
 jobs:
-  web-deploy:
-    name: 🎉 Deploy
+  deploy_job:
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Get latest code
+    - name: Checkout
       uses: actions/checkout@v2
-    
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.3.2
+
+    - name: Deploy file(s)
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
       with:
-        server: ${{ secrets.ftp_server }}
-        username: ${{ secrets.ftp_username }}
-        password: ${{ secrets.ftp_password }}
-        server-dir: ${{ secrets.ftp_main_server_dir }}
+        server: ${{ secrets.sftp_server }}
+        username: ${{ secrets.sftp_username }}
+        password: ${{ secrets.sftp_password }}
+        port: 22
+        local_path: './*'
+        remote_path: '/home/samharp_admin/sammyharper.com/'
