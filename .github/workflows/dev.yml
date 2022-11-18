@@ -14,9 +14,8 @@ jobs:
     - name: Deploy file(s)
       uses: wlixcc/SFTP-Deploy-Action@v1.2.4
       with:
-        server: thrain.dreamhost.com
-        # server: dev.sammyharper.com
-        username: samharp_admin
+        server: ${{ secrets.sftp_server }}
+        username: ${{ secrets.sftp_username }}
         password: ${{ secrets.sftp_password }}
         port: 22
         local_path: './*'

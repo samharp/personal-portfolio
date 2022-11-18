@@ -89,14 +89,12 @@ h1{
 	font-family: 'Poppins', sans-serif;
   font-size:90px;
   line-height:80px;
-	/* color:#333333; */
-	color:Red;
+	color:#333333;
 }
 /*medium intro text*/
 h2{
 	font-family: 'Poppins', sans-serif;
   font-size:58px;
-	color:red;
 }
 /*intro subtitle text*/
 h3{
@@ -368,7 +366,6 @@ h4 .highlighter-container:before{
 	}
 	body{
 		background-color:#333333;
-		/* background-color:#333841; */
 		color:white;
 	}
 	.highlighter-container:before{
