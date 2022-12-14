@@ -58,6 +58,18 @@
     <link href="/css/section-styles.css" rel="stylesheet" type="text/css" />
     <link href="/css/footer-styles.css" rel="stylesheet" type="text/css" />
 
+    <!-- page styles -->
+    <style>
+      @media only screen and (max-width: 865px){
+        .error-header{
+          align-self:flex-end;
+        }
+        .error-label{
+          padding-top:50px;
+          align-self:flex-start;
+        }
+      }
+    </style>
 
     <!-- javascript -->
     <script src="/js/scripts.js"></script>
@@ -100,13 +112,13 @@
     <section id="error-section" class="flex-container align-center">
 
       <!-- <div class="set-width flex-container align-center"> -->
-        <div class="flex-width">
+        <div class="error-header flex-width">
           <h2>
-            <span class="highlighter-container" data-highlight-text="This doesn't look">This doesn't look</span><br>
+            This <span class="highlighter-container" data-highlight-text="doesn't look">doesn't look</span><br>
             <span class="highlighter-container" data-highlight-text="quite right...">quite right...</span>
           </h2>
         </div>
-        <div class="flex-width">
+        <div class="error-label flex-width">
           <h3 class="text-left">We ran into an error (<?php print ($error_code); ?>)</h3>
           <p>Check the URL above and try again. You can also head to the homepage (<a class="standard-link" href="<?php print ($server_url); ?>"><?php print ($server_url); ?></a>) to try to find what you were looking for there.</p>
         </div>
