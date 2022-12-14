@@ -99,16 +99,19 @@
   <body class="loading">
     <section id="error-section" class="flex-container align-center">
 
-      <div class="flex-width">
-        <h1>
-          <span class="highlighter-container" data-highlight-text="This doesn't look">This doesn't look</span><br>
-          <span class="highlighter-container" data-highlight-text="quite right...">quite right&hellip;</span>
-        </h1>
+      <div class="set-width flex-container align-center">
+        <div class="flex-width">
+          <h2>
+            <span class="highlighter-container" data-highlight-text="This doesn't look">This doesn't look</span><br>
+            <span class="highlighter-container" data-highlight-text="quite right...">quite right...</span>
+          </h2>
+        </div>
+        <div class="flex-width">
+          <h3 class="text-left">We ran into an error (<?php print ($error_code); ?>)</h3>
+          <p>Check the URL above and try again. You can also head to the homepage (<a class="standard-link" href="<?php print ($server_url); ?>"><?php print ($server_url); ?></a>) to try to find what you were looking for there.</p>
+        </div>
       </div>
-      <div class="flex-width">
-        <h3 class="text-left">We ran into an error (<?php print ($error_code); ?>)</h3>
-        <p>Check the URL above and try again. You can also head to the homepage (<a class="standard-link" href="<?php print ($server_url); ?>"><?php print ($server_url); ?></a>) to try to find what you were looking for there.</p>
-      </div>
+      
     </section>
 
 
