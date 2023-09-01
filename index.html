@@ -36,7 +36,7 @@
   <link rel="webmention" href="https://webmention.io/www.sammyharper.com/webmention" />
 
 	<!-- javascript -->
-	<script src="/js/scripts.js"></script>
+	<script src="/js/shared-scripts.js"></script>
 	<script src="/js/filterProjects.js"></script>
 
 	<!-- initial load transition -->
@@ -127,13 +127,7 @@
 		<div class="picture-container flex-width flex-container all-center">
 			<div class="picture-frame-container">
 				<div class="picture-frame material-shadow"></div>
-				<noscript>
-					<a href="#contact-section" class="icon-link smiley-convo">
-						<div class="smiley-icon"></div>
-						<h3 class="icon-link-tooltip say-hi-text">Say hi!</h3>
-					</a>
-				</noscript>
-				<a id="contact-me-link" class="icon-link smiley-convo show-with-js">
+				<a id="contact-me-link" class="icon-link smiley-convo" href="#contact-section">
 					<div class="smiley-icon"></div>
 					<h3 class="icon-link-tooltip say-hi-text">Say hi!</h3>
 				</a>
@@ -159,13 +153,8 @@
 			<p>I'm an imaginative and motivated designer with more than 6 years of professional experience in Web, Graphic, and UI/UX Design. I started coding in Batch at 12 years old, and quickly found my passion for computer and web-based design. Each of my projects have helped me learn and grow as a designer, as well as help set myself apart. I strive to not just show the world my creative ideas, but to change the world with them.</p>
 			<p>Professionally? I'm the President of <a class="standard-link" targer="_blank" href="https://www.goldenharpmedia.com">Golden Harp Media</a> and Founding Member &amp; Creator of <a class="standard-link" target="_blank" href="https://terrabyte.eco">Terrabyte</a>.</p>
 			<p>
-				<a id="portfolio-filter-link" class="standard-link show-with-js">Check out some of my projects</a>
-
-				<noscript>
-					<a href="#portfolio-section" class="standard-link">Check out some of my projects</a>
-				</noscript>
+				<a id="portfolio-filter-link" class="standard-link" href="#portfolio-filter-section">Check out some of my projects</a>
 			</p>
-			
 		</div>
 		<div class="picture-container item-images-container flex-width flex-container all-center">
 			<div class="about-pics-container">
@@ -177,6 +166,7 @@
 		</div>
 	</section>
 
+  <a name="portfolio-filter-section"></a>
 	<section id="portfolio-filter-section" class="show-with-js flex-container flex-vertical">
 		<div class="flex-container flex-width flex-vertical">
 			<div class="set-width">
@@ -491,10 +481,7 @@
 				</div>
 				<div class="flex-width text-right">
 					<p>
-						<noscript>
-							<a class="standard-link" href="#top">Back to top</a>
-						</noscript>
-						<a id="back-to-top-link" class="standard-link show-with-js">Back to top</a>
+						<a id="back-to-top-link" class="standard-link show-with-jsx" href="#top">Back to top</a>
 					</p>
 				</div>
 			</section>
