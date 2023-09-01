@@ -1,0 +1,12 @@
+/* now info/summary */
+#now-info-container{
+  width:360px;
+}
+#now-info-container h2{
+  margin-bottom:50px;
+}
+
+/* now page sections/items */
+.now-items-container{
+  margin-left:60px;
+}
