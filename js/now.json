@@ -1,0 +1,44 @@
+{"nowItems": [
+  {
+    "itemTitle": "Now Page",
+    "itemCaption": "Building this page is, on its own, a task. Though the basic page is up and ready, I'm planning on later implementing 'now' items through WordPress to more easily create, update, and sort items.",
+    "itemCategory": "p",
+    "linkTitle": "",
+    "linkHref": ""
+  },
+  {
+    "itemTitle": "BCM MoneyIQ Social",
+    "itemCaption": "My biggest contracted project right now - MoneyIQ Social is a soon-to-be content library and planning tool for Beavercreek Marketing clients. Currently, I am focusing on designing the UI, but later I will transition into building the flesh of the web app.",
+    "itemCategory": "ghm",
+    "linkTitle": "",
+    "linkHref": ""
+  },
+  {
+    "itemTitle": "Wasted Space",
+    "itemCaption": "",
+    "itemCategory": "tb",
+    "linkTitle": "",
+    "linkHref": ""
+  },
+  {
+    "itemTitle": "Etsy and Square Listings",
+    "itemCaption": "Though I want to expand the Pixel Planet Today merch offerings, I'm currently working on the listings already up. That means finishing exports for wallpapers, getting stickers up on Etsy, and other organizational things to tie up loose ends.",
+    "itemCategory": "tb",
+    "linkTitle": "",
+    "linkHref": ""
+  },
+  {
+    "itemTitle": "Reading",
+    "itemCaption": "I used to read a lot when I was younger, so to get back into reading has been really fun! I am in-between books now, but I have recently read Birdwing, Perks of Being a Wallflower, and other novels.",
+    "itemCategory": "p",
+    "linkTitle": "",
+    "linkHref": ""
+  },
+  {
+    "itemTitle": "Painting",
+    "itemCaption": "I'm not much of a painter, but I do really enjoy it. I'm currently finishing up the first painting I have attempted in a long time, and who knows, maybe more will follow.",
+    "itemCategory": "p",
+    "linkTitle": "",
+    "linkHref": ""
+  }
+]}

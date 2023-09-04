@@ -9,4 +9,48 @@
 /* now page sections/items */
 .now-items-container{
   margin-left:60px;
+  /* overflow-y:auto; */
+}
+/* now items */
+.item-row{
+  margin-bottom:30px;
+}
+.item-row:last-child{
+  margin-bottom:0;
+}
+
+/* item header */
+.item-header{
+  margin-bottom:5px;
+}
+.item-category-container{
+  margin-right:10px;
+}
+.item-category-badge{
+  font-family: 'Poppins', sans-serif;
+  padding: 3px 8px;
+  border-radius:2px;
+  background-color: pink;
+  color:white;
+  font-size:14px;
+  display:none;
+}
+.p .item-category-badge.personal-badge{
+  display:block;
+}
+.item-category-badge.terrabyte-badge{
+  background-color:#0A8C61;
+}
+.tb .item-category-badge.terrabyte-badge{
+  display:block;
+}
+.item-category-badge.goldenharpmedia-badge{
+  background-color:#ffcc00;
+}
+.ghm .item-category-badge.goldenharpmedia-badge{
+  display:block;
+}
+
+.item-row h3{
+  margin-bottom:0px;
 }
