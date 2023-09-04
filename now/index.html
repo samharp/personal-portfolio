@@ -33,7 +33,7 @@
 
   <!-- javascript -->
   <script src="/js/shared-scripts.js"></script>
-	<!-- <script src="/js/scripts.js"></script> -->
+	<script src="/js/now-scripts.js"></script>
 
 </head>
 <body>
@@ -51,9 +51,35 @@
         <p>It's not that "I have a lot going on" &mdash; it's that "There's a lot I'm trying to do." My hands may be pretty full, but as long as it doesn't cross into the dreaded 'overwhelming' territory, we'll be just fine.</p>
         <p><a class="standard-link" href="https://nownownow.com" target="_blank">Learn more</a> about the <a href="https://nownownow.com" target="_blank"><code>/now</code></a> webpage movement.</p>
 		</div>
-		<div class="flex-width now-items-container">
-			<p>currently working on my /now page...</p>
-		</div>
+
+    <!-- item template -->
+    <template id="item-template">
+      <div data-item-row class="item-row">
+        <div class="item-header flex-container align-center">
+          <div class="item-category-container flex-container">
+            <a class="item-category-badge personal-badge" href="https://sammyharper.com">
+              <span>Personal</span>
+            </a>
+            <a class="item-category-badge terrabyte-badge" href="https://terrabyte.eco" target="_blank">
+              <span>Terrabyte</span>
+            </a>
+            <a class="item-category-badge goldenharpmedia-badge" href="https://goldenharpmedia.com" target="_blank">
+              <span>Golden Harp Media</span>
+            </a>
+          </div>
+          <h3 class="" data-item-title></h3>
+        </div>
+        
+        <p data-item-caption></p>
+        <a class="" data-item-link></a>
+      </div>
+    </template>
+
+    <!-- container where now items will be populated -->
+    <div data-items-container class="flex-width now-items-container">
+      <!-- items populate here -->
+    </div>
+
 	</section>
 
 

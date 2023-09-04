@@ -2,6 +2,12 @@
 #now-info-container{
   width:360px;
 }
+@media only screen and (max-width: 865px){
+  #now-info-container{
+    width:100%;
+  }
+}
+
 #now-info-container h2{
   margin-bottom:50px;
 }
@@ -9,4 +15,56 @@
 /* now page sections/items */
 .now-items-container{
   margin-left:60px;
+  /* overflow-y:auto; */
+}
+/* responsive styles */
+@media only screen and (max-width: 865px){
+  .now-items-container{
+    margin-left:0;
+    margin-top:80px;
+  }
+}
+
+/* now items */
+.item-row{
+  margin-bottom:40px;
+}
+.item-row:last-child{
+  margin-bottom:0;
+}
+
+/* item header */
+.item-header{
+  margin-bottom:5px;
+}
+.item-category-container{
+  margin-right:10px;
+}
+.item-category-badge{
+  font-family: 'Poppins', sans-serif;
+  padding: 3px 8px;
+  border-radius:2px;
+  background-color: pink;
+  color:white;
+  font-size:14px;
+  display:none;
+}
+.p .item-category-badge.personal-badge{
+  display:block;
+}
+.item-category-badge.terrabyte-badge{
+  background-color:#0A8C61;
+}
+.tb .item-category-badge.terrabyte-badge{
+  display:block;
+}
+.item-category-badge.goldenharpmedia-badge{
+  background-color:#ffcc00;
+}
+.ghm .item-category-badge.goldenharpmedia-badge{
+  display:block;
+}
+
+.item-row h3{
+  margin-bottom:0px;
 }
