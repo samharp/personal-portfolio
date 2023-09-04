@@ -32,15 +32,14 @@ window.addEventListener("load", function(){
 
           // create additional link; if applicable
           if(data.nowItems[x].linkTitle !== ""){
-            addlLink = createdItem.querySelector("[data-item-link]")
+            addlLink = createdItem.querySelector("[data-item-link]");
             addlLink.innerHTML = data.nowItems[x].linkTitle;
 
             // fill in href
-            addlLink.href = data.nowItems[x].href;
+            addlLink.href = data.nowItems[x].linkHref;
 
             // show link
             addlLink.classList.add("standard-link");
-
           }
 
           // append to link container
