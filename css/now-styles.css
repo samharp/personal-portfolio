@@ -2,6 +2,12 @@
 #now-info-container{
   width:360px;
 }
+@media only screen and (max-width: 865px){
+  #now-info-container{
+    width:100%;
+  }
+}
+
 #now-info-container h2{
   margin-bottom:50px;
 }
@@ -11,6 +17,14 @@
   margin-left:60px;
   /* overflow-y:auto; */
 }
+/* responsive styles */
+@media only screen and (max-width: 865px){
+  .now-items-container{
+    margin-left:0;
+    margin-top:80px;
+  }
+}
+
 /* now items */
 .item-row{
   margin-bottom:40px;
