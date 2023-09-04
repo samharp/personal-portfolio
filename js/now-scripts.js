@@ -30,6 +30,19 @@ window.addEventListener("load", function(){
           // set category
           createdItem.classList.add(data.nowItems[x].itemCategory);
 
+          // create additional link; if applicable
+          if(data.nowItems[x].linkTitle !== ""){
+            addlLink = createdItem.querySelector("[data-item-link]")
+            addlLink.innerHTML = data.nowItems[x].linkTitle;
+
+            // fill in href
+            addlLink.href = data.nowItems[x].href;
+
+            // show link
+            addlLink.classList.add("standard-link");
+
+          }
+
           // append to link container
           itemsContainer.appendChild(createdItem);
         }
