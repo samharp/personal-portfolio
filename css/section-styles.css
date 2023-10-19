@@ -107,25 +107,12 @@ main.show-environmental section[data-filter~="environmental"]{
 }
 #more-about-me-section .picture-container img{
   /* oslo image */
-  /* width:350px; */
   width:250px;
 }
-/* pixel me hovering over oslo image */
-/* .about-pics-container .pixel-me{
-  width:80px;
-  height:170px;
-  background-size:contain;
-  background-repeat: no-repeat;
-  background-image:url(../img/self-pixel-portrait-summer-covid-outfit-transparent-cropped.png);
-  position:absolute;
-  bottom:-10px;
-  left:-10px;
-} */
 
 /*pixel planet*/
 #pixel-planet-today-section img{
   width:275px;
-  /* height:275px; */
 }
 
 /* ncbvi */
