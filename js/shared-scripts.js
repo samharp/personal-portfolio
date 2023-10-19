@@ -1,7 +1,6 @@
 window.addEventListener("load", function(){
 
   //change copyright date
-  // getElementById("copyright-year").innerHTML();
 
   var currentDate = new Date();
   var currentYear = currentDate.getFullYear();

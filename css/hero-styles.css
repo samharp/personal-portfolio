@@ -32,6 +32,10 @@
   transform:none;
 }
 
+/* text container(right) */
+h1.p-name{
+  margin-top:20px;
+}
 
 
 
