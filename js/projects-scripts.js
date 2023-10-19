@@ -3,7 +3,7 @@ window.addEventListener("load", function(){
   console.log("projects-scripts.js loaded");
 
   // created project section
-  var createdItem;
+  var createdSection;
 
   // where the sections will go
   var itemsContainer = document.querySelector("[data-sections-container]");
@@ -33,7 +33,6 @@ window.addEventListener("load", function(){
 
           //set img
           createdSection.querySelector("[data-project-thumbnail]").src = data.projectItems[x].projectThumbnail;
-
           
 
           // set links (if one exists)
@@ -49,8 +48,11 @@ window.addEventListener("load", function(){
             addlLink.href = data.projectItems[x].projectLinkHref;
           }
 
-          // set project tags
-          // here
+          // project tags
+          var arr = data.projectItems[x].projectTags;
+
+          createdSection.querySelector("[data-project-tags-container]").innerHTML = arr.join(", ");
+          
 
           // append to container
           itemsContainer.appendChild(createdSection);
