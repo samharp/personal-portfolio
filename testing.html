@@ -32,7 +32,9 @@
 
 	<!-- javascript -->
 	<script src="/js/shared-scripts.js"></script>
-	<script src="/js/filterProjects.js"></script>
+
+	<!-- <script src="/js/filterProjects.js"></script> -->
+	<script src="/js/projects-scripts.js"></script>
 
 	<!-- initial load transition -->
 	<style>
@@ -133,11 +135,17 @@
 				<h1>Hi,</h1>
 				<h2>my name is</h2>
 				<h1 class="p-name">
-					<span class="highlighter-container p-nickname" data-highlight-text="Sammy">Sammy</span><br>
-					<span class="highlighter-container p-family-name" data-highlight-text="Harper">Harper</h1>
+					<span class="highlighter-container p-nickname">
+            <span>Sammy</span>
+          </span><br>
+					<span class="highlighter-container p-family-name">
+            <span>Harper</span>
+          </span></h1>
 			</div>
 			<div class="about-me-description p-note">
-				<h3>I'm a <span class="highlighter-container" data-highlight-text="Web &amp; Graphic Designer">Web &amp; Graphic Designer<span>.</h3>
+				<h3>I'm a <span class="highlighter-container">
+          <span>Web &amp; Graphic Designer</span>
+          <span></h3>
 				<p>However, I've also been known to dabble in animation, photography, and nearby rivers.</p>
 			</div>
 		</div>
@@ -166,7 +174,9 @@
 		<div class="flex-container flex-width flex-vertical">
 			<div class="set-width">
 				<h4 class="middle-ish-header">
-					<span class="highlighter-container" data-highlight-text="Filter projects by&hellip;">Filter projects by&hellip;</span>
+					<span class="highlighter-container">
+            <span>Filter projects by&hellip;</span>
+          </span>
 				</h4>
 			</div>
 			<div id="filter-links-container" class="flex-width all-center flex-container text-center">
@@ -232,134 +242,33 @@
 	</section>
 
 	<a name="portfolio-section"></a>
+  <template id="section-template">
+    <section data-project-section id="" class="flex-container align-center" data-filter="">
+      <div class="item-images-container flex-width flex-container all-center">
+				<a data-project-thumbnail-link target="_blank">
+					<img data-project-thumbnail class="material-shadow" src="">
+				</a>
+			</div>
+      <div class="item-description-container flex-width">
+				<h4>
+					<span class="highlighter-container">
+            <span data-project-title></span>
+          </span>
+				</h4>
+				<h3 data-project-tags-container></h3>
+				<p data-project-caption></p>
+				<p>
+					<a data-project-link class="standard-link" target="_blank"></a>
+				</p>
+			</div>
+    </section>
+  </template>
+  
 	<main id="portfolio-sections-container" class="show-all">
-		<section id="pixel-planet-today-section" class="flex-container align-center" data-filter="illustration research writing web-design graphic-design animation environmental">
-			<div class="flex-width item-description-container">
-				<h4>
-					<span class="highlighter-container" data-highlight-text="Pixel Planet Today">Pixel Planet Today</span>
-				</h4>
-				<h3>Illustration, Writing, Web Design, Animation</h3>
-				<p>This is my pride and joy. Pixel Planet Today is a passion-fueled 'Design 365' turned-daily project I decided to undertake in July 2019. The daily pixel designs highlight facts about the planet in order to help raise an appreciation for the planet. I have continued to post every day for over a year with no end in sight. On top of the daily posts, I have also wrote blog posts about my journey, created and sold stickers to raise money for environmental causes, and made animated versions of my posts to celebrate follower milestones.</p>
-				<p>
-					<a class="standard-link" href="http://www.pixelplanettoday.com" target="_blank">See the Pixel Planet Today website</a>
-				</p>
-			</div>
-			<div class="flex-width item-images-container flex-container all-center">
-				<a href="http://www.pixelplanettoday.com" target="_blank">
-					<img class="material-shadow" src="./img/pixel-planet-today-logo-square.png">
-				</a>
-			</div>
-		</section>
+    <div data-sections-container>
+      <!-- sections loaded here -->
+    </div>
 
-		<section id="ncbvi-section" class="flex-container align-center" data-filter="graphic-design">
-			<div class="item-images-container flex-width flex-container all-center">
-				<img src="./img/ncbvi-logo.png" class="material-shadow">
-			</div>
-			<div class="item-description-container flex-width">
-				<h4>
-					<span class="highlighter-container" data-highlight-text="Nebraska Commission for the Blind and Visually Impaired">Nebraska Commission for the Blind and Visually Impaired</span>
-				</h4>
-				<h3>Graphic Design</h3>
-				<p>The Nebraska Commission for the Blind and Visually Impaired initially reached out to me about redesigning their logo for their 20th anniversary, but has since led to additional design projects like business cards and social media images. I am incredibly fortunate to continue working with an agency that provides necessary services to those that need it.</p>
-			</div>
-		</section>
-
-		<section id="eva-section" class="flex-container align-center" data-filter="web-design">
-			<div class="item-description-container flex-width">
-				<h4>
-					<span class="highlighter-container" data-highlight-text="Eva Therapeutic Wellbeing">Eva Therapeutic Wellbeing</span>
-				</h4>
-				<h3>Web Design</h3>
-				<p>While I was working as a Multimedia Work Study Student in the Center for Entrepreneurship and Rural Development office at UNK, I was approached to build a website for a new small business, Eva Therapeutic Wellbeing. The owner, Eva, and I clicked very early on in the process, and she has been a joy of a client ever since. Since the initial build, I have worked with her on adding more content to the site, as well as keeping information up to date.</p>
-				<p>
-					<a class="standard-link" href="https://www.evatherapyservices.com" target="_blank">View her website</a>
-				</p>
-			</div>
-			<div class="item-images-container flex-width flex-container all-center">
-				<a href="https://www.evatherapyservices.com" target="_blank">
-					<img src="./img/eva-thumbnail.png" class="material-shadow">
-				</a>
-			</div>
-		</section>
-
-		<section id="undergraduate-research-section" class="flex-container align-center" data-filter="illustration research writing web-design graphic-design animation environmental">
-			<div class="item-images-container flex-width flex-container all-center">
-				<a href="http://www.lopers.net/students/lopers/harpersj/urf/index.html" target="_blank">
-					<img src="./img/undergrad-research-initial-thumbnail.png" class="material-shadow">
-				</a>
-			</div>
-			<div class="item-description-container flex-width">
-				<h4>
-					<span class="highlighter-container" data-highlight-text="Undergraduate Research">Undergraduate Research</span>
-				</h4>
-				<h3>Writing, Web Design, Illustration, Animation</h3>
-				<p>Between January 2016 and May of 2017, I combined two of my passions into one Undergraduate Research project. I am really passionate about the Earth and going green, and I wanted to use my skills in Web Design to help bring attention to the state of the environment. My study focused on the question "Why do some college students recycle, and others don't?" I surveyed fellow students at the University of Nebraska at Kearney, and with the results I created an interactive website with the goal of reaching the audience that needed it: college students. For this project, I coded all of the HTML and CSS, created all the graphics, and coded most of the JavaScript.</p>
-				<p>
-					<a class="standard-link" href="http://www.lopers.net/students/lopers/harpersj/urf/index.html" target="_blank">View the interactive results</a>
-				</p>
-			</div>
-		</section>
-
-		<section id="bcm-section" class="flex-container align-center" data-filter="graphic-design web-design">
-			
-			<div class="item-description-container flex-width">
-				<h4>
-					<span class="highlighter-container" data-highlight-text="Beavercreek Marketing">Beavercreek Marketing</span>
-				</h4>
-				<h3>Web Design, Graphic Design</h3>
-				<p>While I worked at Beavercreek Marketing between 2018 and 2021 as a full-time employee, my design-relationship with the company didn't stop there. After ending my employment, I became an independent contractor, designing and building internal tools for the design agency. The projects I have helped build may not be public facing, but are used both by the Beavercreek employees and their clients who use their financial sector software.</p>
-				<p>
-					<a class="standard-link" href="https://bcm.io" target="_blank">View their website</a>
-				</p>
-			</div>
-
-			<div class="item-images-container flex-width flex-container all-center">
-				<a href="https://bcm.io" target="_blank">
-					<img src="./img/bcm-logo.png" class="material-shadow">
-				</a>
-			</div>
-		</section>
-
-
-		<section id="glitch-section" class="flex-container align-center" data-filter="animation">
-			<div class="item-images-container flex-width flex-container all-center">
-				<a href="https://www.youtube.com/watch?v=fIO23Xo0oXo" target="_blank">
-					<img class="material-shadow" src="./img/glitch-thumbnail.png">
-				</a>
-			</div>
-			<div class="item-description-container flex-width">
-				<h4>
-					<span class="highlighter-container" data-highlight-text="//glitch">//glitch</span>
-				</h4>
-				<h3>Animation</h3>
-				<p>You can only hide behind a computer screen for so long. //glitch, a concept Sci-Fi Thriller focuses on the dark side of the internet. In creating the animation, I used sounds that were a part of Creative Commons, and utilized open-use images to piece together the effects.</p>
-				<p>
-					<a class="standard-link" href="https://www.youtube.com/watch?v=fIO23Xo0oXo" target="_blank">Watch the opening credits on Youtube</a>
-				</p>
-			</div>
-		</section>
-		<!-- <section id="go-for-launch-section" class="flex-container align-center" data-filter="illustration graphic-design">
-			<div class="item-images-container flex-width flex-container all-center">
-			</div>
-			<div class="item-description-container flex-width">
-				<h4>Go For Launch 2018</h4>
-				<h3>Illustration, Graphic Design</h3>
-				<p>Go for Launch was a weekend-long workshop that brought startup business ideas to reality. As a Multimedia Work Study Student in the Center for Entrepreneurship and Rural Development office at UNK, I designed the majority of the promotional materials for the event, including the illustrations for postcards, flyers, and banners for email newsletters. The workshop had a limited 20 spots for attendees, and flyers were spread throughout the Kearney community and around the UNK campus.</p>
-			</div>
-		</section> -->
-		<section id="startup-week-section" class="flex-container align-center" data-filter="illustration graphic-design">
-			
-			<div class="item-description-container flex-width">
-				<h4>
-					<span class="highlighter-container" data-highlight-text="Start Up Week 2017">Start Up Week 2017</span>
-				</h4>
-				<h3>Illustration, Graphic Design</h3>
-				<p>Central Nebraska Startup Week 2017 was an entire week of events dedicated to entrepreneurship throughout the region. Events for all ages were held in Kearney, Grand Island, and Hastings, Nebraska. As a Multimedia Work Study Student in the Center for Entrepreneurship and Rural Development office at UNK, I created the Nebraska-themed banner using the pre-existing Techstars style guide. The style guide included colors that could be used, typefaces, and appropriate placement for the Techstars logo.</p>
-			</div>
-			<div class="item-images-container flex-width flex-container all-center">
-				<img class="material-shadow" src="./img/startupweek-banner.png">
-			</div>
-		</section>
 
 		<section id="photography-section" class="flex-container flex-vertical justify-center" data-filter="photography">
 			<div class="item-description-container">
@@ -407,7 +316,9 @@
 		<div class="flex-container flex-width flex-vertical">
 			<div class="set-width">
 				<h2 class="middle-ish-header">
-					<span class="highlighter-container" data-highlight-text="Get in touch!">Get in touch!</span>
+					<span class="highlighter-container">
+            <span>Get in touch!</span>
+          </span>
 				</h2>
 			</div>
 			<div id="contact-links-container" class="icon-links-container flex-width all-center flex-container text-center">
