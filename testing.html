@@ -33,7 +33,7 @@
 	<!-- javascript -->
 	<script src="/js/shared-scripts.js"></script>
 
-	<script src="/js/filterProjects.js"></script>
+	<!-- <script src="/js/filterProjects.js"></script> -->
 	<script src="/js/projects-scripts.js"></script>
 
 	<!-- initial load transition -->
@@ -181,7 +181,7 @@
 			</div>
 			<div id="filter-links-container" class="flex-width all-center flex-container text-center">
 				<div class="icon-link-container flex-width text-center">
-					<a class="filter-portfolio-link icon-link" data-filter="graphic-design">
+					<a class="filter-portfolio-link icon-link" data-filter-button data-filter="graphic-design">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#paint-tools-icon"/>
 						</svg>
@@ -189,7 +189,7 @@
 					</a>
 				</div>
 				<div class="icon-link-container flex-width text-center">
-					<a class="filter-portfolio-link icon-link" data-filter="web-design">
+					<a class="filter-portfolio-link icon-link" data-filter-button data-filter="web-design">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#code-icon"/>
 						</svg>
@@ -197,7 +197,7 @@
 					</a>
 				</div>
 				<div class="icon-link-container flex-width text-center">
-					<a class="filter-portfolio-link icon-link" data-filter="illustration">
+					<a class="filter-portfolio-link icon-link" data-filter-button data-filter="illustration">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#paint-palette-icon"/>
 						</svg>
@@ -205,7 +205,7 @@
 					</a>
 				</div>
 				<div class="icon-link-container flex-width text-center">
-					<a class="filter-portfolio-link icon-link" data-filter="animation">
+					<a class="filter-portfolio-link icon-link" data-filter-button data-filter="animation">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#video-clapper-icon"/>
 						</svg>
@@ -213,7 +213,7 @@
 					</a>
 				</div>
 				<div class="icon-link-container flex-width text-center">
-					<a class="filter-portfolio-link icon-link" data-filter="photography">
+					<a class="filter-portfolio-link icon-link" data-filter-button data-filter="photography">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#camera-icon"/>
 						</svg>
@@ -221,7 +221,7 @@
 					</a>
 				</div>
 				<div class="icon-link-container flex-width text-center">
-					<a class="filter-portfolio-link icon-link" data-filter="environmental">
+					<a class="filter-portfolio-link icon-link" data-filter-button data-filter="environmental">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#globe-icon"/>
 						</svg>
@@ -230,7 +230,7 @@
 				</div>
 
 				<div class="icon-link-container flex-width text-center">
-					<a class="filter-portfolio-link icon-link" data-filter="all">
+					<a class="filter-portfolio-link icon-link" data-filter-button data-filter="all">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#grid-icon"/>
 						</svg>
@@ -273,7 +273,9 @@
 		<section id="photography-section" class="flex-container flex-vertical justify-center" data-filter="photography">
 			<div class="item-description-container">
 				<h4>
-					<span class="highlighter-container" data-highlight-text="Photography">Photography</span>
+					<span class="highlighter-container">
+            <span data-project-title>Photography</span>
+          </span>
 				</h4>
 			</div>
 
