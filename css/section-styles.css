@@ -30,6 +30,9 @@ main section:nth-child(n + 6){
 .item-description-container:last-child{
   padding-left:40px;
 }
+.item-badges-container{
+  text-transform:capitalize;
+}
 
 /*standard mobile styles*/
 @media only screen and (max-width:750px){

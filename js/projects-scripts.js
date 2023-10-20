@@ -2,6 +2,21 @@ window.addEventListener("load", function(){
 
   console.log("projects-scripts.js loaded");
 
+
+// ************************************* 
+// LOAD JSON DATA
+  const jsonFileLocation = "/js/projects.json";
+
+
+
+
+
+
+
+
+
+// ************************************* 
+// DISPLAY THE NECESSARY SECTIONS
   // created project section
   var createdSection;
 
@@ -13,7 +28,7 @@ window.addEventListener("load", function(){
   var itemTemplateElem = itemTemplate.content.querySelector("[data-project-section]");
 
   // get JSON data, build items
-  fetch("/js/projects.json")
+  fetch(jsonFileLocation)
     .then(response => response.json())
       .then(data => {
 
@@ -51,8 +66,16 @@ window.addEventListener("load", function(){
           // project tags
           var arr = data.projectItems[x].projectTags;
 
+          // set text
           createdSection.querySelector("[data-project-tags-container]").innerHTML = arr.join(", ");
+
+          // set filters
+          // separate multi-word filters with dashes instead of spaces
+          for(let y = 0; y < arr.length; y++){
+            arr[y] = arr[y].replace(/\s+/g, '-');
+          }
           
+          createdSection.setAttribute('data-filter', arr.join(" "));
 
           // append to container
           itemsContainer.appendChild(createdSection);
