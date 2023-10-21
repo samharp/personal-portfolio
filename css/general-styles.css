@@ -119,9 +119,11 @@ p:last-child{
 
 /*links*/
 a{
-	cursor:pointer;
-	color:currentColor;
+  color:currentColor;
 	text-decoration:none;
+}
+a[href]{
+	cursor:pointer;
 }
 /*text links with underline*/
 a.standard-link{
@@ -166,16 +168,16 @@ a.standard-link:active{
 	transform:scale(.95);
 }
 /*image links/thumbnails*/
-a img.material-shadow{
+a[href] img.material-shadow{
 	transform:scale(1);
 	transition:.25s;
 }
-a img.material-shadow:hover{
+a[href] img.material-shadow:hover{
 	transform:scale(1.05);
 	/* box-shadow:0px 8px 17px -8px rgba(0,0,0,0.5); */
 	box-shadow:0px 8px 22px -8px rgba(0,0,0,0.4);
 }
-a img.material-shadow:active{
+a[href] img.material-shadow:active{
 	transform:scale(.98);
 	box-shadow:none;
 }
@@ -304,43 +306,45 @@ svg{
 .highlighter-container{
 	display:inline-block;
 	position:relative;
-	z-index:1;
-	visibility: hidden;
-	/* white-space: nowrap; */
+  background-color:#fddd10;
 }
-/*highlighter background*/
-.highlighter-container:before{
-	content:"";
-	position:absolute;
-	top:30px;
-	left:25px;
-	right:-10px;
-	z-index:0;
-	background-color:#fddd10;
-	width:100%;
-	height:75%;
-	visibility: visible;
+/* default text offset */
+.highlighter-container span{
+  position:relative;
 }
-h2 .highlighter-container:before{
-	top:-10px;
-	left:-10px;
+
+h1 .highlighter-container{
+  margin-left:28px;
+  line-height: 60%;
 }
-h3 .highlighter-container:before{
-  top: 14px;
-  left: 2px;
+h1 .highlighter-container span{
+  top:-18px;
+  left:-28px;
 }
-h4 .highlighter-container:before{
-	top: 20px;
-  left: -10px;
+h2 .highlighter-container{
+  line-height: 80%;
 }
-/*the text on top of the highlight*/
-.highlighter-container:after{
-	content:attr(data-highlight-text);
-	visibility: visible;
-	position:absolute;
-	top:0;
-	left:0;
+h2 .highlighter-container span{
+  top:20px;
+	left:10px;
 }
+h3 .highlighter-container{
+  margin-left:2px;
+  line-height: 111%;
+  top:10px;
+}
+h3 .highlighter-container span{
+  top: -10px;
+  left: -2px;
+}
+h4 .highlighter-container{
+  line-height:111%;
+}
+h4 .highlighter-container span{
+  top: -14px;
+  left: 10px;
+}
+
 .material-shadow{
   box-shadow:0px 8px 17px -8px rgba(0,0,0,0.5);
 }
@@ -380,13 +384,8 @@ h4 .highlighter-container:before{
 		background-color:#333333;
 		color:white;
 	}
-	.highlighter-container:before{
+	.highlighter-container{
 		background-color:#007E71;
-		/* background-color:#222222; */
-		/* display:none; */
-	}
-	.highlighter-container:after{
-		/* border-bottom:5px solid #fddd10; */
 	}
 	body img{
 		opacity:.9;
