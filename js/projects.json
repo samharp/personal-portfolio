@@ -4,7 +4,7 @@
       "projectID": "pixel-planet-today",
       "projectTitle": "Pixel Planet Today",
       "projectCaption": "This is my pride and joy. Pixel Planet Today is a passion-fueled 'Design 365' turned-daily project I decided to undertake in July 2019. The daily pixel designs highlight facts about the planet in order to help raise an appreciation for the planet. I have continued to post every day for over a year with no end in sight. On top of the daily posts, I have also wrote blog posts about my journey, created and sold stickers to raise money for environmental causes, and made animated versions of my posts to celebrate follower milestones.",
-      "projectTags": ["illustration", "writing", "web design", "animation", "environmental"],
+      "projectTags": ["illustration", "writing", "web-design", "animation", "environmental"],
       "projectLinkTitle": "See the Pixel Planet Today website",
       "projectLinkHref": "https://pixelplanettoday.com",
       "projectThumbnail": "./img/pixel-planet-today-logo-square.png"
@@ -13,7 +13,7 @@
       "projectID": "ncbvi",
       "projectTitle": "Nebraska Commission for the Blind and Visually Impaired",
       "projectCaption": "The Nebraska Commission for the Blind and Visually Impaired initially reached out to me about redesigning their logo for their 20th anniversary, but has since led to additional design projects like business cards and social media images. I am incredibly fortunate to continue working with an agency that provides necessary services to those that need it.",
-      "projectTags": ["graphic design"],
+      "projectTags": ["graphic-design"],
       "projectLinkTitle": "",
       "projectLinkHref": "",
       "projectThumbnail": "./img/ncbvi-logo.png"
@@ -22,7 +22,7 @@
       "projectID": "undergraduate-research",
       "projectTitle": "Undergraduate Research",
       "projectCaption": "Between January 2016 and May of 2017, I combined two of my passions into one Undergraduate Research project. I am really passionate about the Earth and going green, and I wanted to use my skills in Web Design to help bring attention to the state of the environment. My study focused on the question 'Why do some college students recycle, and others don't?' I surveyed fellow students at the University of Nebraska at Kearney, and with the results I created an interactive website with the goal of reaching the audience that needed it: college students. For this project, I coded all of the HTML and CSS, created all the graphics, and coded most of the JavaScript.",
-      "projectTags": ["illustration", "writing", "web design", "animation", "environmental"],
+      "projectTags": ["illustration", "writing", "web-design", "animation", "environmental"],
       "projectLinkTitle": "View the interactive results",
       "projectLinkHref": "http://www.lopers.net/students/lopers/harpersj/urf/index.html",
       "projectThumbnail": "./img/undergrad-research-initial-thumbnail.png"
@@ -31,7 +31,7 @@
       "projectID": "eva",
       "projectTitle": "Eva Therapeutic Wellbeing",
       "projectCaption": "While I was working as a Multimedia Work Study Student in the Center for Entrepreneurship and Rural Development office at UNK, I was approached to build a website for a new small business, Eva Therapeutic Wellbeing. The owner, Eva, and I clicked very early on in the process, and she has been a joy of a client ever since. Since the initial build, I have worked with her on adding more content to the site, as well as keeping information up to date.",
-      "projectTags": ["web design"],
+      "projectTags": ["web-design"],
       "projectLinkTitle": "View her company website",
       "projectLinkHref": "https://www.evatherapyservices.com",
       "projectThumbnail": "./img/eva-thumbnail.png"
@@ -40,7 +40,7 @@
       "projectID": "bcm",
       "projectTitle": "Beavercreek Marketing",
       "projectCaption": "While I worked at Beavercreek Marketing between 2018 and 2021 as a full-time employee, my design-relationship with the company didn't stop there. After ending my employment, I became an independent contractor, designing and building internal tools for the design agency. The projects I have helped build may not be public facing, but are used both by the Beavercreek employees and their clients who use their financial sector software.",
-      "projectTags": ["web design", "graphic design"],
+      "projectTags": ["web-design", "graphic-design"],
       "projectLinkTitle": "View their website",
       "projectLinkHref": "https://bcm.io",
       "projectThumbnail": "./img/bcm-logo.png"
@@ -58,7 +58,7 @@
       "projectID": "startup-week",
       "projectTitle": "Startup Week 2017",
       "projectCaption": "Central Nebraska Startup Week 2017 was an entire week of events dedicated to entrepreneurship throughout the region. Events for all ages were held in Kearney, Grand Island, and Hastings, Nebraska. As a Multimedia Work Study Student in the Center for Entrepreneurship and Rural Development office at UNK, I created the Nebraska-themed banner using the pre-existing Techstars style guide. The style guide included colors that could be used, typefaces, and appropriate placement for the Techstars logo.",
-      "projectTags": ["illustration", "graphic design"],
+      "projectTags": ["illustration", "graphic-design"],
       "projectLinkTitle": "",
       "projectLinkHref": "",
       "projectThumbnail": "./img/startupweek-banner.png"
@@ -70,7 +70,7 @@
       "projectID": "go-for-launch",
       "projectTitle": "Go for Launch 2018",
       "projectCaption": "Go for Launch was a weekend-long workshop that brought startup business ideas to reality. As a Multimedia Work Study Student in the Center for Entrepreneurship and Rural Development office at UNK, I designed the majority of the promotional materials for the event, including the illustrations for postcards, flyers, and banners for email newsletters. The workshop had a limited 20 spots for attendees, and flyers were spread throughout the Kearney community and around the UNK campus.",
-      "projectTags": ["illustration", "graphic design"],
+      "projectTags": ["illustration", "graphic-design"],
       "projectLinkTitle": "",
       "projectLinkHref": "",
       "projectThumbnail": ""

@@ -24,6 +24,14 @@ main section:nth-child(n + 6){
 .item-images-container img{
   max-width:100%;
 }
+section:nth-child(odd) .item-description-container,
+section:nth-child(even) .item-images-container{
+  order:2;
+}
+section:nth-child(even) .item-description-container,
+section:nth-child(odd) .item-images-container{
+  order:1;
+}
 .item-description-container:first-child{
   padding-right:40px;
 }
@@ -70,32 +78,12 @@ main section:nth-child(n + 6){
 
 /*************/
 /*sorting portfolio items styles*/
-main section.flex-container{
+section[data-filter~="photography"]{
   display:none;
 }
-main.show-all section.flex-container{
+div.show-photo + section[data-filter~="photography"]{
   display:flex;
 }
-
-main.show-graphic-design section[data-filter~="graphic-design"]{
-  display:flex;
-}
-main.show-web-design section[data-filter~="web-design"]{
-  display:flex;
-}
-main.show-illustration section[data-filter~="illustration"]{
-  display:flex;
-}
-main.show-animation section[data-filter~="animation"]{
-  display:flex;
-}
-main.show-photography section[data-filter~="photography"]{
-  display:flex;
-}
-main.show-environmental section[data-filter~="environmental"]{
-  display:flex;
-}
-
 
 
 /***************/
