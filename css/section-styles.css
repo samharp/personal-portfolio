@@ -53,15 +53,21 @@ section:nth-child(odd) .item-images-container{
   section{
     flex-wrap:wrap;
   }
-  .item-images-container{
+  section:nth-child(odd) .item-images-container,
+  section:nth-child(even) .item-images-container{
     flex:none;
-    margin-top:40px;
-    order:2;
+    margin-bottom:40px;
+    order:1;
   }
+  section:nth-child(odd) .item-description-container,
+  section:nth-child(even) .item-description-container,
   .item-description-container:first-child,
   .item-description-container:last-child{
-    order:1;
+    order:2;
     padding:0;
+  }
+  #photography-section .item-description-container{
+    order:1!important;
   }
 }
 
@@ -275,9 +281,12 @@ div.show-photo + section[data-filter~="photography"]{
 
 /***********/
 /*Get In Touch/Contact section*/
-@media only screen and (max-width:360px){
+@media only screen and (max-width:650px){
   #contact-links-container{
     flex-wrap:wrap;
+  }
+  .contact-link-container{
+    width:50%;
   }
   #contact-links-container .icon-link-tooltip{
     display:none;
