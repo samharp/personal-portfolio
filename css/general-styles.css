@@ -142,8 +142,10 @@ a.standard-link:after{
 	height:.85px;
 	background-color:currentColor;
 }
-a.standard-link:hover:after{
-	animation:hoverLink .55s;
+@media (hover: hover) and (pointer: fine) {
+  a.standard-link:hover:after{
+    animation:hoverLink .55s;
+  }
 }
 @keyframes hoverLink{
 	/* fade out */
@@ -172,10 +174,12 @@ a[href] img.material-shadow{
 	transform:scale(1);
 	transition:.25s;
 }
-a[href] img.material-shadow:hover{
-	transform:scale(1.05);
-	/* box-shadow:0px 8px 17px -8px rgba(0,0,0,0.5); */
-	box-shadow:0px 8px 22px -8px rgba(0,0,0,0.4);
+@media (hover: hover) and (pointer: fine) {
+  a[href] img.material-shadow:hover{
+    transform:scale(1.05);
+    /* box-shadow:0px 8px 17px -8px rgba(0,0,0,0.5); */
+    box-shadow:0px 8px 22px -8px rgba(0,0,0,0.4);
+  }
 }
 a[href] img.material-shadow:active{
 	transform:scale(.98);
@@ -200,10 +204,12 @@ a[href] img.material-shadow:active{
 	width:70px;
 	height:70px;
 }
-.icon-link:hover{
-	top:-15px;
-	transform:scale(1.05);
-	transition-delay: 0s;
+@media (hover: hover) and (pointer: fine) {
+  .icon-link:hover{
+    top:-15px;
+    transform:scale(1.05);
+    transition-delay: 0s;
+  }
 }
 .icon-link:active{
   transform:scale(1);
@@ -219,8 +225,10 @@ a[href] img.material-shadow:active{
 	transform: translateX(-50%);
 	white-space: nowrap;
 }
-.icon-link:hover .icon-link-tooltip{
-  opacity:1;
+@media (hover: hover) and (pointer: fine) {
+  .icon-link:hover .icon-link-tooltip{
+    opacity:1;
+  }
 }
 
 /*small tablet*/
@@ -249,9 +257,11 @@ button{
 	color:inherit;
 	font-family:inherit;
 }
-button:hover{
-	transform:scale(1.05);
-	box-shadow:0px 8px 17px -8px rgba(0,0,0,0.5);
+@media (hover: hover) and (pointer: fine) {
+  button:hover{
+    transform:scale(1.05);
+    box-shadow:0px 8px 17px -8px rgba(0,0,0,0.5);
+  }
 }
 button:focus{
 	outline:none;

@@ -18,8 +18,10 @@
   background-image:url("../img/speech-bubble-icon.png");
   padding:30px 0 44px;
 }
-.smiley-convo:hover{
-  top:-65px;
+@media (hover: hover) and (pointer: fine) {
+  .smiley-convo:hover{
+    top:-65px;
+  }
 }
 .smiley-icon{
   background-image:url("../img/happy-text-icon.png");
