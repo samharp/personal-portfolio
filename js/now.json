@@ -12,7 +12,7 @@
       "itemCaption": "To-do lists are amazing, but they are a struggle at the same time. It's annoying when making the to-do list becomes part of the to-do list! So, I decided to use the Asana API to create a simple Python program that allows a user to manage crazy simple tasks easier. Instead of firing up the Asana app, navigating to the right workspace, project, and then section to only create a task that says, 'wash dishes', I can now open the program and write the task title and boom! It's basic functionality is there, but there are some helper functions that I would like to include in it as well (like clearing done tasks, getting info about the Asana board, etc.)",
       "itemCategory": "p",
       "linkTitle": "View the GitHub Repo",
-      "linkHref": ""
+      "linkHref": "https://github.com/samharp/asana-mites"
     },
     {
       "itemTitle": "Etsy and Square Listings",
