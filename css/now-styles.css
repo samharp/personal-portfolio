@@ -1,9 +1,14 @@
 /* now info/summary */
+.page-nav{
+  margin-bottom:50px;
+}
 #now-info-container{
   width:360px;
+  position:fixed;
 }
 @media only screen and (max-width: 865px){
   #now-info-container{
+    position:relative;
     width:100%;
   }
 }
@@ -14,7 +19,8 @@
 
 /* now page sections/items */
 .now-items-container{
-  margin-left:60px;
+  /* margin-left:60px; */
+  margin-left:420px;
   /* overflow-y:auto; */
 }
 /* responsive styles */

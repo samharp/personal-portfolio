@@ -9,7 +9,7 @@
     },
     {
       "itemTitle": "Asana Mites Tool",
-      "itemCaption": "To-do lists are amazing, but they are a struggle at the same time. It's annoying when making the to-do list becomes part of the to-do list! So, I decided to use the Asana API to create a simple Python program that allows a user to manage crazy simple tasks easier. Instead of firing up the Asana app, navigating to the right workspace, project, and then section to only create a task that says, 'wash dishes', I can now open the program and write the task title and boom! It's basic functionality is there, but there are some helper functions that I would like to include in it as well (like clearing done tasks, getting info about the Asana board, etc.)",
+      "itemCaption": "To-do lists are amazing, but they are a struggle at the same time. It's annoying when making the to-do list becomes part of the to-do list! So, I decided to use the Asana API to create a simple Python program that allows a user to manage crazy-simple tasks easier. Instead of firing up the Asana app, navigating to the right workspace, project, and then section to only create a task that says, 'wash dishes', I can now open the program and write the task title and boom! It's basic functionality is implemented, as are some basic functions like clearing done tasks and getting info about the Mitebox (your container of mites)",
       "itemCategory": "p",
       "linkTitle": "View the GitHub Repo",
       "linkHref": "https://github.com/samharp/asana-mites"
@@ -44,7 +44,7 @@
     },
     {
       "itemTitle": "Reading",
-      "itemCaption": "I used to read a lot when I was younger, so to get back into reading has been really fun! I'm currently reading Supermarket by Bobby Hall (AKA Logic), but I have recently read Birdwing, Perks of Being a Wallflower, and other novels.",
+      "itemCaption": "I used to read a lot when I was younger, so to get back into reading has been really fun! I'm in-between books right now, but I have recently read Supermarket, Birdwing, Perks of Being a Wallflower, and a couple of others.",
       "itemCategory": "p",
       "linkTitle": "",
       "linkHref": ""
