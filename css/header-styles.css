@@ -3,16 +3,3 @@ header{
   margin:0 auto;
   padding: 40px;
 }
-
-/* banners */
-.banner{
-  position: fixed;
-  left: 0;
-  z-index: 900;
-  top: 0;
-  width: 100%;
-  background-color: #db2a2a;
-  color: white;
-  padding: 15px 20px;
-  font-size: 12px;
-}
