@@ -2,6 +2,44 @@ window.addEventListener("load", function(){
 
   console.log("now-scripts.js loaded");
 
+// STICKY ASIDE
+  // on startup
+  var nowAside = document.getElementById("now-info-container");
+
+  function stickAside(nowAside){
+
+    var nowSection = document.getElementById("now-section");
+    var nowSectionTop = nowSection.offsetTop;
+
+    console.log(nowSectionTop);
+
+    // var windowTop = window.scrollY - window.innerHeight;
+    
+    // console.log(windowTop);
+    console.log(window.scrollY);
+
+    if(window.scrollY >= nowSectionTop){
+      nowAside.classList.add("stick");
+      // pageFooter.style.paddingTop = 0 + "px";
+    }
+    else{
+      nowAside.classList.remove("stick");
+      // pageFooter.style.paddingTop = cookieBanner.offsetHeight + "px";
+    }
+    
+  }
+
+  this.addEventListener("scroll", function(){
+    
+    var nowAside = document.getElementById("now-info-container");
+
+    if(nowAside !== null){
+      stickAside(nowAside);
+    }
+  });
+
+
+//BUILD NOW ITEMS 
   // created link row
   var createdItem;
 

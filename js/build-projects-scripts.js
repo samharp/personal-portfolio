@@ -174,13 +174,6 @@ window.addEventListener("load", function(){
   function showPhotoSection(){
     itemsContainer.classList.add("show-photo");
   }
-  
-  // get JSON data, build items
-  // fetch(jsonFileLocation)
-  //   .then(response => response.json())
-  //     .then(data => {
-            // stuff
-  //     })
 
   ///////////////
   
