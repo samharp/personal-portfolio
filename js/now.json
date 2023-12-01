@@ -29,6 +29,13 @@
       "linkHref": "https://github.com/samharp/asana-mites"
     },
     {
+      "itemTitle": "The Aurum Framework",
+      "itemCaption": "After years of working in HTML and CSS, I am finally starting to build my own framework! It's nothing compared to Bootstrap, but a lightweight system to help build flex layouts more easily. I already use the same styles for this across (most of) my projects, so the thought is that if I can use the same resource for all of them, I don't have to have duplicate code everywhere. It's not exactly ready for primetime, but if you'd like to check it out, you're more than welcome to!",
+      "itemCategory": "ghm",
+      "linkTitle": "Check out the GitHub Repo",
+      "linkHref": "https://github.com/goldenharpmedia/aurum"
+    },
+    {
       "itemTitle": "Wasted Space",
       "itemCaption": "The first game in the Terrabyte roster, I'm super excited for when it can see the light of day. There is plenty of work yet to be done, but the best things are never easy.",
       "itemCategory": "tb",

@@ -10,21 +10,12 @@ window.addEventListener("load", function(){
 
     var nowSection = document.getElementById("now-section");
     var nowSectionTop = nowSection.offsetTop;
-
-    console.log(nowSectionTop);
-
-    // var windowTop = window.scrollY - window.innerHeight;
     
-    // console.log(windowTop);
-    console.log(window.scrollY);
-
     if(window.scrollY >= nowSectionTop){
       nowAside.classList.add("stick");
-      // pageFooter.style.paddingTop = 0 + "px";
     }
     else{
       nowAside.classList.remove("stick");
-      // pageFooter.style.paddingTop = cookieBanner.offsetHeight + "px";
     }
     
   }
