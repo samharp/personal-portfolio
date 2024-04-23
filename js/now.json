@@ -1,11 +1,11 @@
 {
   "nowItems": [
     {
-      "itemTitle": "BCM MoneyIQ Social",
-      "itemCaption": "My biggest contracted project right now - MoneyIQ Social is a soon-to-be content library and planning tool for Beavercreek Marketing clients. I recently finished designing most of the UI, and have started building out the HTML and CSS.",
-      "itemCategory": "ghm",
-      "linkTitle": "",
-      "linkHref": ""
+      "itemTitle": "Wasted Space",
+      "itemCaption": "The first game in the Terrabyte roster, I'm super excited for when it can see the light of day. There is plenty of work yet to be done, but the best things are never easy.",
+      "itemCategory": "tb",
+      "linkTitle": "View the Wasted Space Webpage",
+      "linkHref": "https://terrabyte.eco/wasted-space"
     },
     {
       "itemTitle": "Pixel Planet Today",
@@ -22,13 +22,6 @@
       "linkHref": "https://shop.pixelplanettoday.com"
     },
     {
-      "itemTitle": "Asana Mites Tool",
-      "itemCaption": "To-do lists are amazing, but they are a struggle at the same time. It's annoying when making the to-do list becomes part of the to-do list! So, I decided to use the Asana API to create a simple Python program that allows a user to manage crazy-simple tasks easier. Instead of firing up the Asana app, navigating to the right workspace, project, and then section to only create a task that says, 'wash dishes', I can now open the program and write the task title and boom! It's basic functionality is implemented, as are some basic functions like clearing done tasks and getting info about the Mitebox (your container of mites)",
-      "itemCategory": "p",
-      "linkTitle": "View the GitHub Repo",
-      "linkHref": "https://github.com/samharp/asana-mites"
-    },
-    {
       "itemTitle": "The Aurum Framework",
       "itemCaption": "After years of working in HTML and CSS, I am finally starting to build my own framework! It's nothing compared to Bootstrap, but a lightweight system to help build flex layouts more easily. I already use the same styles for this across (most of) my projects, so the thought is that if I can use the same resource for all of them, I don't have to have duplicate code everywhere. It's not exactly ready for primetime, but if you'd like to check it out, you're more than welcome to!",
       "itemCategory": "ghm",
@@ -36,15 +29,8 @@
       "linkHref": "https://github.com/goldenharpmedia/aurum"
     },
     {
-      "itemTitle": "Wasted Space",
-      "itemCaption": "The first game in the Terrabyte roster, I'm super excited for when it can see the light of day. There is plenty of work yet to be done, but the best things are never easy.",
-      "itemCategory": "tb",
-      "linkTitle": "",
-      "linkHref": ""
-    },
-    {
       "itemTitle": "Omaha & Nebraska Public Transportation Plan",
-      "itemCaption": "Because I'm such an urbanism nerd, something that I've found myself doing is creating a map that outlines where public transportation improvements could be made in Omaha and other Central Nebraska locations. Do I expect these ideas to bloom to fruition? Not exactly, but if they did, man, the state would be all the better for it.",
+      "itemCaption": "Because I'm such an urbanism nerd, something that I've found myself doing is creating a map that outlines where public transportation improvements could be made in Omaha and other Central Nebraska locations. Do I expect these ideas to bloom to fruition? Not exactly, but if they did, man, the state would be all the better for it. :)",
       "itemCategory": "p",
       "linkTitle": "View the custom Google Map",
       "linkHref": "https://www.google.com/maps/d/u/0/edit?mid=1m-HwihuWTXU6SkHG9q-nHJ25keWnUkc&usp=sharing"
@@ -66,6 +52,20 @@
   ],
 
   "oldItems": [
+    {
+      "itemTitle": "BCM MoneyIQ Social",
+      "itemCaption": "My biggest contracted project right now - MoneyIQ Social is a soon-to-be content library and planning tool for Beavercreek Marketing clients. I recently finished designing most of the UI, and have started building out the HTML and CSS.",
+      "itemCategory": "ghm",
+      "linkTitle": "",
+      "linkHref": ""
+    },
+    {
+      "itemTitle": "Asana Mites Tool",
+      "itemCaption": "To-do lists are amazing, but they are a struggle at the same time. It's annoying when making the to-do list becomes part of the to-do list! So, I decided to use the Asana API to create a simple Python program that allows a user to manage crazy-simple tasks easier. Instead of firing up the Asana app, navigating to the right workspace, project, and then section to only create a task that says, 'wash dishes', I can now open the program and write the task title and boom! It's basic functionality is implemented, as are some basic functions like clearing done tasks and getting info about the Mitebox (your container of mites)",
+      "itemCategory": "p",
+      "linkTitle": "View the GitHub Repo",
+      "linkHref": "https://github.com/samharp/asana-mites"
+    },
     {
       "itemTitle": "<little-bytes> October Newsletter",
       "itemCaption": "It's that time of year for another newsletter! It feels like there has been so much going on, so I'm really excited to get it all bundled up in a newsletter.",
