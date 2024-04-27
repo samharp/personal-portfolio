@@ -2,10 +2,10 @@
   "nowItems": [
     {
       "itemTitle": "Wasted Space",
-      "itemCaption": "The first game in the Terrabyte roster, I'm super excited for when it can see the light of day. There is plenty of work yet to be done, but the best things are never easy.",
+      "itemCaption": "The first game in the Terrabyte roster, I'm super excited for it to go public! Currently the game is in closed beta, but we're aiming for an open beta to launch in June. We're going to showcase our game in Berlin (yes, Germany!) at GTF, so we're getting things prepared for that as well.",
       "itemCategory": "tb",
-      "linkTitle": "View the Wasted Space Webpage",
-      "linkHref": "https://terrabyte.eco/wasted-space"
+      "linkTitle": "View the Wasted Space website",
+      "linkHref": "https://www.wastedspace.fun"
     },
     {
       "itemTitle": "Pixel Planet Today",
@@ -13,6 +13,13 @@
       "itemCategory": "tb",
       "linkTitle": "View the Pixel Planet Today Website",
       "linkHref": "https://pixelplanettoday.com"
+    },
+    {
+      "itemTitle": "Reading",
+      "itemCaption": "I used to read a lot when I was younger, so to get back into reading has been really fun! I'm currently reading Tomorrow and Tomorrow and Tomorrow - it's a story about a budding game development duo, and it's really good 😊",
+      "itemCategory": "p",
+      "linkTitle": "",
+      "linkHref": ""
     },
     {
       "itemTitle": "Etsy and Square Listings",
@@ -38,13 +45,6 @@
     {
       "itemTitle": "PC Build",
       "itemCaption": "It's been awhile since I built my last desktop PC (10 years at this point!), so there's no time like the present! This one however, is different. I'm building this one with 100% used parts in an effort to cut down on e-waste! I plan on making it the first company computer for Terrabyte, but there are a few parts that I have yet to gather.",
-      "itemCategory": "p",
-      "linkTitle": "",
-      "linkHref": ""
-    },
-    {
-      "itemTitle": "Reading",
-      "itemCaption": "I used to read a lot when I was younger, so to get back into reading has been really fun! I'm in-between books right now, but I have recently read Supermarket, Birdwing, Perks of Being a Wallflower, and a couple of others.",
       "itemCategory": "p",
       "linkTitle": "",
       "linkHref": ""
