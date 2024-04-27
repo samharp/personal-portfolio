@@ -1,15 +1,26 @@
+#now-section{
+  padding-bottom:60px;
+}
+
 /* now info/summary */
 .page-nav{
   margin-bottom:50px;
 }
 #now-info-container{
   width:360px;
+  font-size:14px;
+  position:absolute;
+}
+#now-info-container.stick{
   position:fixed;
+  top:40px;
 }
 @media only screen and (max-width: 865px){
   #now-info-container{
-    position:relative;
+    position:relative!important;
+    top:unset!important;
     width:100%;
+    font-size:inherit;
   }
 }
 

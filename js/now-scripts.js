@@ -2,6 +2,35 @@ window.addEventListener("load", function(){
 
   console.log("now-scripts.js loaded");
 
+// STICKY ASIDE
+  // on startup
+  var nowAside = document.getElementById("now-info-container");
+
+  function stickAside(nowAside){
+
+    var nowSection = document.getElementById("now-section");
+    var nowSectionTop = nowSection.offsetTop;
+    
+    if(window.scrollY >= nowSectionTop){
+      nowAside.classList.add("stick");
+    }
+    else{
+      nowAside.classList.remove("stick");
+    }
+    
+  }
+
+  this.addEventListener("scroll", function(){
+    
+    var nowAside = document.getElementById("now-info-container");
+
+    if(nowAside !== null){
+      stickAside(nowAside);
+    }
+  });
+
+
+//BUILD NOW ITEMS 
   // created link row
   var createdItem;
 
