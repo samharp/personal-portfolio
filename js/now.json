@@ -1,8 +1,22 @@
 {
   "nowItems": [
     {
+      "itemTitle": "byteOS: Notes",
+      "itemCaption": "A tiny pixel note-taking app that was originally 'something I wanted to do later down the line' quickly became 'something that needs done immediately'. Google recently changed their policies on who can create apps for Google Play, so in order to reserve my spot (or more so, save my account from deletion), I pushed the project to the top of the queue.",
+      "itemCategory": "tb",
+      "linkTitle": "",
+      "linkHref": ""
+    },
+    {
+      "itemTitle": "Birding",
+      "itemCaption": "I was raised on the outdoors, but as I got older, my studies and work grew to take up more and more of my free time. And now living in a big city, it can sometimes feel like I'm more disconnected to the natural world than my environmental work would suggest (and more than I would like). That was, until my brother introduced me to birding. I was skeptical on if I would actually enjoy it (or if it was an 'old person activity' like I previously thought), but it's a great way to get outside, connect with local wildlife, and be more mindful of what's out there.",
+      "itemCategory": "p",
+      "linkTitle": "I'm on eBird!",
+      "linkHref": "https://ebird.org/profile/NjE4NTM3Ng"
+    },
+    {
       "itemTitle": "Wasted Space",
-      "itemCaption": "The first game in the Terrabyte roster, I'm super excited for it to go public! Currently the game is in closed beta, but we're aiming for an open beta to launch in June. We're going to showcase our game in Berlin (yes, Germany!) at GTF, so we're getting things prepared for that as well.",
+      "itemCaption": "The first game in the Terrabyte roster, the concept is to blast space enemies, collect destroyed materials, and recycle them into ship upgrades. We showcased our game in Berlin (yes, Germany!) at GTF and now you can play it too! I'm still working on some additions to the game hence why it's here and not on the main portfolio page.",
       "itemCategory": "tb",
       "linkTitle": "View the Wasted Space website",
       "linkHref": "https://www.wastedspace.fun"
@@ -16,7 +30,7 @@
     },
     {
       "itemTitle": "Reading",
-      "itemCaption": "I used to read a lot when I was younger, so to get back into reading has been really fun! I'm currently reading Tomorrow and Tomorrow and Tomorrow - it's a story about a budding game development duo, and it's really good 😊",
+      "itemCaption": "I'm falling behind on my to-be-read (TBR, if you know the lingo) shelf! I have the incredibly modest goal of reading 4 books a year, and I've only read two... I most recently finished Tomorrow and Tomorrow and Tomorrow - it's a story about a budding game development duo, and it's really good. 😊",
       "itemCategory": "p",
       "linkTitle": "",
       "linkHref": ""
@@ -25,7 +39,7 @@
       "itemTitle": "Etsy and Square Listings",
       "itemCaption": "Though I want to expand the Pixel Planet Today merch offerings, I'm currently working on the listings already up. That means finishing exports for wallpapers, getting stickers up on Etsy, and other organizational things to tie up loose ends.",
       "itemCategory": "tb",
-      "linkTitle": "View the Pixel Store",
+      "linkTitle": "View the Webstore",
       "linkHref": "https://shop.pixelplanettoday.com"
     },
     {
@@ -41,17 +55,31 @@
       "itemCategory": "p",
       "linkTitle": "View the custom Google Map",
       "linkHref": "https://www.google.com/maps/d/u/0/edit?mid=1m-HwihuWTXU6SkHG9q-nHJ25keWnUkc&usp=sharing"
-    },
+    }
+  ],
+
+  "oldItems": [
     {
       "itemTitle": "PC Build",
       "itemCaption": "It's been awhile since I built my last desktop PC (10 years at this point!), so there's no time like the present! This one however, is different. I'm building this one with 100% used parts in an effort to cut down on e-waste! I plan on making it the first company computer for Terrabyte, but there are a few parts that I have yet to gather.",
       "itemCategory": "p",
       "linkTitle": "",
       "linkHref": ""
-    }
-  ],
-
-  "oldItems": [
+    },
+    {
+      "itemTitle": "Wasted Space",
+      "itemCaption": "The first game in the Terrabyte roster, I'm super excited for it to go public! Currently the game is in closed beta, but we're aiming for an open beta to launch in June. We're going to showcase our game in Berlin (yes, Germany!) at GTF, so we're getting things prepared for that as well.",
+      "itemCategory": "tb",
+      "linkTitle": "View the Wasted Space website",
+      "linkHref": "https://www.wastedspace.fun"
+    },
+    {
+      "itemTitle": "Reading",
+      "itemCaption": "I used to read a lot when I was younger, so to get back into reading has been really fun! I'm currently reading Tomorrow and Tomorrow and Tomorrow - it's a story about a budding game development duo, and it's really good 😊",
+      "itemCategory": "p",
+      "linkTitle": "",
+      "linkHref": ""
+    },
     {
       "itemTitle": "BCM MoneyIQ Social",
       "itemCaption": "My biggest contracted project right now - MoneyIQ Social is a soon-to-be content library and planning tool for Beavercreek Marketing clients. I recently finished designing most of the UI, and have started building out the HTML and CSS.",
