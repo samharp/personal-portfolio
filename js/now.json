@@ -4,15 +4,22 @@
       "itemTitle": "byteOS: Notes",
       "itemCaption": "A tiny pixel note-taking app that was originally 'something I wanted to do later down the line' quickly became 'something that needs done immediately'. Google recently changed their policies on who can create apps for Google Play, so in order to reserve my spot (or more so, save my account from deletion), I pushed the project to the top of the queue.",
       "itemCategory": "tb",
-      "linkTitle": "",
-      "linkHref": ""
+      "linkTitle": "Download on Android",
+      "linkHref": "https://play.google.com/store/apps/details?id=com.terrabyte.byteosnotes"
     },
     {
-      "itemTitle": "Birding",
-      "itemCaption": "I was raised on the outdoors, but as I got older, my studies and work grew to take up more and more of my free time. And now living in a big city, it can sometimes feel like I'm more disconnected to the natural world than my environmental work would suggest (and more than I would like). That was, until my brother introduced me to birding. I was skeptical on if I would actually enjoy it (or if it was an 'old person activity' like I previously thought), but it's a great way to get outside, connect with local wildlife, and be more mindful of what's out there.",
+      "itemTitle": "Omaha Metro Bike Trail Connection Proposal",
+      "itemCaption": "It's fun to envision a world/city that is built for people, not for cars. And since I'm an avid bicyclist, I made a map that plots where trail connections would make the most positive impact in the metro. I actually talked with the Papio NRD about my ideas, and while I don't know if I'll ever see them come to light (they say they will keep them in mind as other proposals move forward!), I at least did what I could as a concerned citizen to try.",
       "itemCategory": "p",
-      "linkTitle": "I'm on eBird!",
-      "linkHref": "https://ebird.org/profile/NjE4NTM3Ng"
+      "linkTitle": "View the custom Google Map",
+      "linkHref": "https://www.google.com/maps/d/u/0/edit?mid=1YDg1iHCJykm6U4PgYVpDH3Z2dd1haQE&usp=sharing"
+    },
+    {
+      "itemTitle": "Etsy and Square Listings",
+      "itemCaption": "Though I want to expand the Pixel Planet Today merch offerings, I'm currently working on the listings already up. That means finishing exports for wallpapers, getting stickers up on Etsy, and other organizational things to tie up loose ends.",
+      "itemCategory": "tb",
+      "linkTitle": "View the Webstore",
+      "linkHref": "https://shop.pixelplanettoday.com"
     },
     {
       "itemTitle": "Wasted Space",
@@ -20,6 +27,13 @@
       "itemCategory": "tb",
       "linkTitle": "View the Wasted Space website",
       "linkHref": "https://www.wastedspace.fun"
+    },
+    {
+      "itemTitle": "Birding",
+      "itemCaption": "I was raised on the outdoors, but as I got older, my studies and work grew to take up more and more of my free time. And now living in a big city, it can sometimes feel like I'm more disconnected to the natural world than my environmental work would suggest (and more than I would like). That was, until my brother introduced me to birding. I was skeptical on if I would actually enjoy it (or if it was an 'old person activity' like I previously thought), but it's a great way to get outside, connect with local wildlife, and be more mindful of what's out there.",
+      "itemCategory": "p",
+      "linkTitle": "I'm on eBird!",
+      "linkHref": "https://ebird.org/profile/NjE4NTM3Ng"
     },
     {
       "itemTitle": "Pixel Planet Today",
@@ -30,17 +44,10 @@
     },
     {
       "itemTitle": "Reading",
-      "itemCaption": "I'm falling behind on my to-be-read (TBR, if you know the lingo) shelf! I have the incredibly modest goal of reading 4 books a year, and I've only read two... I most recently finished Tomorrow and Tomorrow and Tomorrow - it's a story about a budding game development duo, and it's really good. 😊",
+      "itemCaption": "I'm falling behind on my to-be-read (TBR, if you know the lingo) shelf! I have the incredibly modest goal of reading 4 books a year, and I've only read two... I most recently finished Tomorrow and Tomorrow and Tomorrow - it's a story about a budding game development duo, and it's really good. 😊 Currently, I'm reading Plastic Free and All Sad Things Are Untrue.",
       "itemCategory": "p",
       "linkTitle": "",
       "linkHref": ""
-    },
-    {
-      "itemTitle": "Etsy and Square Listings",
-      "itemCaption": "Though I want to expand the Pixel Planet Today merch offerings, I'm currently working on the listings already up. That means finishing exports for wallpapers, getting stickers up on Etsy, and other organizational things to tie up loose ends.",
-      "itemCategory": "tb",
-      "linkTitle": "View the Webstore",
-      "linkHref": "https://shop.pixelplanettoday.com"
     },
     {
       "itemTitle": "The Aurum Framework",
@@ -51,7 +58,7 @@
     },
     {
       "itemTitle": "Omaha & Nebraska Public Transportation Plan",
-      "itemCaption": "Because I'm such an urbanism nerd, something that I've found myself doing is creating a map that outlines where public transportation improvements could be made in Omaha and other Central Nebraska locations. Do I expect these ideas to bloom to fruition? Not exactly, but if they did, man, the state would be all the better for it. :)",
+      "itemCaption": "...but because I'm SUCH an urbanism nerd, something that I've found myself doing is also creating a map that outlines where public transportation improvements could be made in Omaha and other Central Nebraska locations. Do I expect these ideas to bloom to fruition? Not exactly, but if they did - man, the state would be all the better for it. :)",
       "itemCategory": "p",
       "linkTitle": "View the custom Google Map",
       "linkHref": "https://www.google.com/maps/d/u/0/edit?mid=1m-HwihuWTXU6SkHG9q-nHJ25keWnUkc&usp=sharing"
