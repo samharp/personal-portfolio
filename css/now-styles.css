@@ -7,9 +7,12 @@
   margin-bottom:50px;
 }
 #now-info-container{
-  width:360px;
+  width:390px;
+  padding-right:30px;
+  padding-bottom:30px;
   font-size:14px;
   position:absolute;
+  background-color:white;
 }
 #now-info-container.stick{
   position:fixed;
