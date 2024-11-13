@@ -13,6 +13,7 @@
   font-size:14px;
   position:absolute;
   background-color:white;
+  transition: top .2s;
 }
 #now-info-container.stick{
   position:fixed;
