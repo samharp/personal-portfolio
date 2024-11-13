@@ -112,6 +112,10 @@ div.show-photo + section[data-filter~="photography"]{
   width:275px;
 }
 
+#wasted-space-section img{
+  width:275px;
+}
+
 /* ncbvi */
 #ncbvi-section img{
   width:275px;

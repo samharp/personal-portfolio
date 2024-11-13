@@ -2,24 +2,10 @@
   "nowItems": [
     {
       "itemTitle": "byteOS: Notes",
-      "itemCaption": "A tiny pixel note-taking app that was originally 'something I wanted to do later down the line' quickly became 'something that needs done immediately'. Google recently changed their policies on who can create apps for Google Play, so in order to reserve my spot (or more so, save my account from deletion), I pushed the project to the top of the queue.",
+      "itemCaption": "A tiny pixel art note-taking app that came to be mostly as an experiment for lightweight, offline tools. The app is released, but work on basic features is very much ongoing (like font packs, auto-saving, and recent notes).",
       "itemCategory": "tb",
       "linkTitle": "Download on Android",
       "linkHref": "https://play.google.com/store/apps/details?id=com.terrabyte.byteosnotes"
-    },
-    {
-      "itemTitle": "Omaha Metro Bike Trail Connection Proposal",
-      "itemCaption": "It's fun to envision a world/city that is built for people, not for cars. And since I'm an avid bicyclist, I made a map that plots where trail connections would make the most positive impact in the metro. I actually talked with the Papio NRD about my ideas, and while I don't know if I'll ever see them come to light (they say they will keep them in mind as other proposals move forward!), I at least did what I could as a concerned citizen to try.",
-      "itemCategory": "p",
-      "linkTitle": "View the custom Google Map",
-      "linkHref": "https://www.google.com/maps/d/u/0/edit?mid=1YDg1iHCJykm6U4PgYVpDH3Z2dd1haQE&usp=sharing"
-    },
-    {
-      "itemTitle": "Etsy and Square Listings",
-      "itemCaption": "Though I want to expand the Pixel Planet Today merch offerings, I'm currently working on the listings already up. That means finishing exports for wallpapers, getting stickers up on Etsy, and other organizational things to tie up loose ends.",
-      "itemCategory": "tb",
-      "linkTitle": "View the Webstore",
-      "linkHref": "https://shop.pixelplanettoday.com"
     },
     {
       "itemTitle": "Wasted Space",
@@ -36,6 +22,13 @@
       "linkHref": "https://ebird.org/profile/NjE4NTM3Ng"
     },
     {
+      "itemTitle": "Etsy and Square Listings",
+      "itemCaption": "Though I want to expand the Pixel Planet Today merch offerings, I'm currently working on the listings already up. That means finishing exports for wallpapers, getting stickers up on Etsy, and other organizational things to tie up loose ends.",
+      "itemCategory": "tb",
+      "linkTitle": "View the Webstore",
+      "linkHref": "https://shop.pixelplanettoday.com"
+    },
+    {
       "itemTitle": "Pixel Planet Today",
       "itemCaption": "The world is constantly calling for environmental facts and pixel art: making this the project that never sleeps. I am trying to get into a more consistent posting schedule, but what can I say, there is much to be done.",
       "itemCategory": "tb",
@@ -44,7 +37,7 @@
     },
     {
       "itemTitle": "Reading",
-      "itemCaption": "I'm falling behind on my to-be-read (TBR, if you know the lingo) shelf! I have the incredibly modest goal of reading 4 books a year, and I've only read two... I most recently finished Tomorrow and Tomorrow and Tomorrow - it's a story about a budding game development duo, and it's really good. 😊 Currently, I'm reading Plastic Free and All Sad Things Are Untrue.",
+      "itemCaption": "I recently completed my reading goal for the year, but that's not to say I have stopped reading. Currently, I'm reading All Sad Things Are Untrue, a story about an immigrant child in the United States school system.",
       "itemCategory": "p",
       "linkTitle": "",
       "linkHref": ""
@@ -58,7 +51,7 @@
     },
     {
       "itemTitle": "Omaha & Nebraska Public Transportation Plan",
-      "itemCaption": "...but because I'm SUCH an urbanism nerd, something that I've found myself doing is also creating a map that outlines where public transportation improvements could be made in Omaha and other Central Nebraska locations. Do I expect these ideas to bloom to fruition? Not exactly, but if they did - man, the state would be all the better for it. :)",
+      "itemCaption": "Because I'm such an urbanism nerd, something that I've found myself doing is creating a map that outlines where public transportation improvements could be made in Omaha and other Central Nebraska locations. Do I expect these ideas to bloom to fruition? Not exactly, but if they did - boy, the state would be all the better for it. :)",
       "itemCategory": "p",
       "linkTitle": "View the custom Google Map",
       "linkHref": "https://www.google.com/maps/d/u/0/edit?mid=1m-HwihuWTXU6SkHG9q-nHJ25keWnUkc&usp=sharing"
@@ -66,6 +59,13 @@
   ],
 
   "oldItems": [
+    {
+      "itemTitle": "Omaha Metro Bike Trail Connection Proposal",
+      "itemCaption": "It's fun to envision a world/city that is built for people, not for cars. And since I'm an avid bicyclist, I made a map that plots where trail connections would make the most positive impact in the metro. I actually talked with the Papio NRD about my ideas, and while I don't know if I'll ever see them come to light (they say they will keep them in mind as other proposals move forward!), I at least did what I could as a concerned citizen to try.",
+      "itemCategory": "p",
+      "linkTitle": "View the custom Google Map",
+      "linkHref": "https://www.google.com/maps/d/u/0/edit?mid=1YDg1iHCJykm6U4PgYVpDH3Z2dd1haQE&usp=sharing"
+    },
     {
       "itemTitle": "PC Build",
       "itemCaption": "It's been awhile since I built my last desktop PC (10 years at this point!), so there's no time like the present! This one however, is different. I'm building this one with 100% used parts in an effort to cut down on e-waste! I plan on making it the first company computer for Terrabyte, but there are a few parts that I have yet to gather.",

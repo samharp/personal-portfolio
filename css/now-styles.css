@@ -7,9 +7,13 @@
   margin-bottom:50px;
 }
 #now-info-container{
-  width:360px;
+  width:390px;
+  padding-right:30px;
+  padding-bottom:30px;
   font-size:14px;
   position:absolute;
+  background-color:white;
+  transition: top .2s;
 }
 #now-info-container.stick{
   position:fixed;
@@ -56,59 +60,4 @@
 }
 .item-category-container{
   margin-right:10px;
-}
-.item-category-badge{
-  font-family: 'Poppins', sans-serif;
-  padding: 3px 8px;
-  border-radius:2px;
-  background-color: #ffc2c2;
-  color:white;
-  font-size:14px;
-  display:none;
-}
-/* personal badges */
-.p .item-category-badge.personal-badge{
-  display:block;
-}
-/* terrabyte badges */
-.item-category-badge.terrabyte-badge{
-  background-color:#0A8C61;
-}
-.tb .item-category-badge.terrabyte-badge{
-  display:block;
-}
-/* golden harp media badges */
-.item-category-badge.goldenharpmedia-badge{
-  background-color:#ffcc00;
-}
-.ghm .item-category-badge.goldenharpmedia-badge{
-  display:block;
-}
-
-.item-row h3{
-  margin-bottom:0px;
-}
-/* responsive styles */
-@media only screen and (max-width: 865px){
-  .item-header.align-center{
-    align-items:initial;
-  }
-  .item-category-badge span{
-    display:none;
-  }
-}
-
-/*dark mode styles*/
-@media (prefers-color-scheme: dark) and (min-width: 865px){
-  .item-category-badge{
-    background-color: transparent!important;
-    border:1px solid #ffc2c2;
-  }
-  .item-category-badge.terrabyte-badge{
-    
-    border-color:#0A8C61;
-  }
-  .item-category-badge.goldenharpmedia-badge{
-    border-color:#ffcc00;
-  }
 }
