@@ -1,6 +1,8 @@
 /*primary footer styles*/
 footer{
 	background-color:#333333;
+  position:relative;
+  /* z-index:2; */
 	color:white;
 	font-size:14px;
 }

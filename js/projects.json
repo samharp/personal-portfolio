@@ -10,6 +10,15 @@
       "projectThumbnail": "./img/pixel-planet-today-logo-square.png"
     },
     {
+      "projectID": "wasted-space",
+      "projectTitle": "Wasted Space",
+      "projectCaption": "My second art-and-tech-for-the-planet project, Wasted Space is a classic arcade game that drives home the idea of reusing and recycling. In the game, players fly a spaceship through endless enemies and collect materials from destroyed ships in order to upgrade their own. In pixel art fashion, environmental education in the game isn't as in your face as other projects, making it a lot more approachable to casual players.",
+      "projectTags": ["illustration", "web-design", "animation", "environmental", "game-design", "sound-design"],
+      "projectLinkTitle": "See the Wasted Space website",
+      "projectLinkHref": "https://wastedspace.fun",
+      "projectThumbnail": "./img/wasted-space-ship-title.png"
+    },
+    {
       "projectID": "ncbvi",
       "projectTitle": "Nebraska Commission for the Blind and Visually Impaired",
       "projectCaption": "The Nebraska Commission for the Blind and Visually Impaired initially reached out to me about redesigning their logo for their 20th anniversary, but has since led to additional design projects like business cards and social media images. I am incredibly fortunate to continue working with an agency that provides necessary services to those that need it.",
