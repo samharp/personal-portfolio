@@ -29,15 +29,16 @@
 	<link href="/css/section-styles.css" rel="stylesheet" type="text/css" />
 	<link href="/css/footer-styles.css" rel="stylesheet" type="text/css" />
 
-  <!-- scripts -->
+  {# scripts #}
 	<script src="/js/shared-scripts.js"></script>
 	<script src="/js/build-projects-scripts.js"></script>
 
   {# other metadata #}
-  <a rel="me" href="https://climatejustice.social/@samharp"></a>
-  <!-- indieauth login -->
-	<a rel="me" href="https://github.com/samharp"></a>
-  <!-- webmention -->
+  {# mastodon #}
+  <link rel="me" href="https://climatejustice.social/@samharp"/>
+  {# indieauth login #}
+	<link rel="me" href="https://github.com/samharp"/>
+  {# webmentions #}
   <link rel="webmention" href="https://webmention.io/www.sammyharper.com/webmention" />
 
   {# analytics #}
@@ -46,8 +47,12 @@
 </head>
 <body>
   {# svg container component #}
+  {% include "svgs.njk" %}
 
   {# noscript banner component #}
+  {# <noscript> #}
+  {% include "noscript-banner.njk" %}
+  {# </noscript> #}
 
   <a name="top"></a>
 
@@ -56,6 +61,7 @@
   <main>
     {{ content | safe }}
   </main>
-  <footer></footer>
+
+  {% include "footer.njk" %}
 </body>
 </html>
