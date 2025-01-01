@@ -28,5 +28,5 @@ jobs:
         username: ${{ secrets.sftp_username }}
         password: ${{ secrets.sftp_password }}
         port: 22
-        local_path: './*'
+        local_path: './_site/*'
         remote_path: ${{ secrets.sftp_remote_path_dev }}
