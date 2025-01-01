@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}
-    {% if title %}
-      : {{ title }}
+    {% if subtitle %}
+      : {{ subtitle }}
     {% endif %}
   </title>
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{{ description }}">
   <meta name="author" content="{{ site.author }}">
 
   {# favicons #}
@@ -17,8 +17,40 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
 
+  {# css #}
+  {# fonts #}
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+  {# shared styles #}
+
+  {# site styles #}
+  <link href="/css/general-styles.css" rel="stylesheet" type="text/css" />
+	<link href="/css/hero-styles.css" rel="stylesheet" type="text/css" />
+	<link href="/css/section-styles.css" rel="stylesheet" type="text/css" />
+	<link href="/css/footer-styles.css" rel="stylesheet" type="text/css" />
+
+  <!-- scripts -->
+	<script src="/js/shared-scripts.js"></script>
+	<script src="/js/build-projects-scripts.js"></script>
+
+  {# other metadata #}
+  <a rel="me" href="https://climatejustice.social/@samharp"></a>
+  <!-- indieauth login -->
+	<a rel="me" href="https://github.com/samharp"></a>
+  <!-- webmention -->
+  <link rel="webmention" href="https://webmention.io/www.sammyharper.com/webmention" />
+
+  {# analytics #}
+  <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
 </head>
 <body>
+  {# svg container component #}
+
+  {# noscript banner component #}
+
+  <a name="top"></a>
+
   <header>
   </header>
   <main>
