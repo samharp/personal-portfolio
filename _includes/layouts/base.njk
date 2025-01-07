@@ -29,14 +29,14 @@
 	<link href="/css/footer-styles.css" rel="stylesheet" type="text/css" />
   {# page styles #}
   {% if stylesheets %}
-    {{ stylesheets }}
+    <link href="{{ stylesheets }}" rel="stylesheet" type="text/css" />
   {% endif %}
 
   {# shared scripts #}
 	<script src="/js/shared-scripts.js"></script>
-  {# page scripts #}
+  {# page scripts will be in HTML? #}
   {% if scripts %}
-    {{ scripts }}
+  <script src="{{ scripts }}"></script>
   {% endif %}
 
   {# initial load transition #}
