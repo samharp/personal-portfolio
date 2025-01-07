@@ -27,6 +27,12 @@
     font-size:inherit;
   }
 }
+/*dark mode styles*/
+@media (prefers-color-scheme: dark) {
+	#now-info-container{
+    background-color:#333333;
+  }
+}
 
 #now-info-container h2{
   margin-bottom:50px;

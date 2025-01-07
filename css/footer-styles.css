@@ -66,6 +66,9 @@ footer .p-name .highlighter-container span{
 .footer-link-container {
   margin-bottom: 10px;
 }
+#back-to-top-link{
+  margin-top:30px;
+}
 @media only screen and (max-width: 500px){
   #footer-link-cols-container{
     flex-wrap: wrap;
