@@ -53,6 +53,17 @@
       "projectLinkTitle": "View their website",
       "projectLinkHref": "https://bcm.io",
       "projectThumbnail": "./img/bcm-logo.png"
+    }
+  ],
+  "unusedProjectItems":[
+    {
+      "projectID": "startup-week",
+      "projectTitle": "Startup Week 2017",
+      "projectCaption": "Central Nebraska Startup Week 2017 was an entire week of events dedicated to entrepreneurship throughout the region. Events for all ages were held in Kearney, Grand Island, and Hastings, Nebraska. As a Multimedia Work Study Student in the Center for Entrepreneurship and Rural Development office at UNK, I created the Nebraska-themed banner using the pre-existing Techstars style guide. The style guide included colors that could be used, typefaces, and appropriate placement for the Techstars logo.",
+      "projectTags": ["illustration", "graphic-design"],
+      "projectLinkTitle": "",
+      "projectLinkHref": "",
+      "projectThumbnail": "./img/startupweek-banner.png"
     },
     {
       "projectID": "glitch",
@@ -63,18 +74,6 @@
       "projectLinkHref": "https://www.youtube.com/watch?v=fIO23Xo0oXo",
       "projectThumbnail": "./img/glitch-thumbnail.png"
     },
-    {
-      "projectID": "startup-week",
-      "projectTitle": "Startup Week 2017",
-      "projectCaption": "Central Nebraska Startup Week 2017 was an entire week of events dedicated to entrepreneurship throughout the region. Events for all ages were held in Kearney, Grand Island, and Hastings, Nebraska. As a Multimedia Work Study Student in the Center for Entrepreneurship and Rural Development office at UNK, I created the Nebraska-themed banner using the pre-existing Techstars style guide. The style guide included colors that could be used, typefaces, and appropriate placement for the Techstars logo.",
-      "projectTags": ["illustration", "graphic-design"],
-      "projectLinkTitle": "",
-      "projectLinkHref": "",
-      "projectThumbnail": "./img/startupweek-banner.png"
-    }
-  ],
-  "unusedProjectItems":[
-    
     {
       "projectID": "go-for-launch",
       "projectTitle": "Go for Launch 2018",
