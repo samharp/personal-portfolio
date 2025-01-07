@@ -31,6 +31,7 @@ section:nth-child(even) .item-images-container{
 section:nth-child(even) .item-description-container,
 section:nth-child(odd) .item-images-container{
   order:1;
+  /* padding-right:40px; */
 }
 .item-description-container:first-child{
   padding-right:40px;

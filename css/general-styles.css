@@ -84,6 +84,9 @@ body{
 .text-center{
 	text-align:center;
 }
+.force-inlineb{
+  display:inline-block;
+}
 
 /* banners */
 .banner{

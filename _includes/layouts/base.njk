@@ -22,16 +22,51 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
 
   {# shared styles #}
-
   {# site styles #}
   <link href="/css/general-styles.css" rel="stylesheet" type="text/css" />
 	<link href="/css/hero-styles.css" rel="stylesheet" type="text/css" />
 	<link href="/css/section-styles.css" rel="stylesheet" type="text/css" />
 	<link href="/css/footer-styles.css" rel="stylesheet" type="text/css" />
+  {# page styles #}
+  {% if stylesheets %}
+    {{ stylesheets }}
+  {% endif %}
 
-  {# scripts #}
+  {# shared scripts #}
 	<script src="/js/shared-scripts.js"></script>
-	<script src="/js/build-projects-scripts.js"></script>
+  {# page scripts #}
+  {% if scripts %}
+    {{ scripts }}
+  {% endif %}
+
+  {# initial load transition #}
+	{# <style>
+		.loading{
+			opacity:0;
+		}
+	</style>
+	<script>
+		window.addEventListener("load", function(){
+			document.body.classList.remove("loading");
+		})
+	</script> #}
+
+	{# <noscript>
+		<style>
+			.loading{
+				opacity:1;
+			}
+		</style>
+	</noscript> #}
+
+  {# hide JS only items when there isn't js #}
+	{# <noscript>
+		<style>
+			.show-with-js{
+				display:none;
+			}
+		</style>
+	</noscript> #}
 
   {# other metadata #}
   {# mastodon #}
@@ -56,11 +91,9 @@
 
   <a name="top"></a>
 
-  <header>
-  </header>
-  <main>
-    {{ content | safe }}
-  </main>
+  {# <header>
+  </header> #}
+  {{ content | safe }}
 
   {% include "footer.njk" %}
 </body>
