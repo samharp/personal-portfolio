@@ -1,0 +1,24 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio hosted at sammyharper.com",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samharp/personal-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samharp/personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/samharp/personal-portfolio#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

@@ -31,12 +31,13 @@ section:nth-child(even) .item-images-container{
 section:nth-child(even) .item-description-container,
 section:nth-child(odd) .item-images-container{
   order:1;
-}
-.item-description-container:first-child{
   padding-right:40px;
 }
+.item-description-container:first-child{
+  /* padding-right:40px; */
+}
 .item-description-container:last-child{
-  padding-left:40px;
+  /* padding-left:40px; */
 }
 .item-badges-container{
   text-transform:capitalize;

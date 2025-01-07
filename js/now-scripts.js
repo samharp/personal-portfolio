@@ -1,6 +1,6 @@
 window.addEventListener("load", function(){
 
-  console.log("now-scripts.js loaded");
+  console.log("[samharp] now-scripts.js loaded");
 
 // STICKY ASIDE
   // on startup
