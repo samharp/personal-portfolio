@@ -1,6 +1,6 @@
 window.addEventListener("load", function(){
 
-  console.log("projects-scripts.js loaded");
+  console.log("[samharp] projects-scripts.js loaded");
 
   // variables
 
@@ -59,7 +59,7 @@ window.addEventListener("load", function(){
         showPhotoSection();
       })
     }else if(newFilter == "photography"){
-      console.log("photography time!");
+      console.log("[samharp] photography time!");
 
       getProjects().then(function(response){
         clearProjects();
@@ -90,7 +90,7 @@ window.addEventListener("load", function(){
   
           // add the array item to the filteredProjects Array
           if(tagExist > 0){
-            console.log("tag exists!");
+            console.log("[samharp] tag exists!");
             filteredProjects.push(projects[x]);
           }
         }
@@ -108,14 +108,14 @@ window.addEventListener("load", function(){
 
 
   function clearProjects(){
-    console.log("clearing projects...")
+    console.log("[samharp] clearing projects...")
     itemsContainer.innerHTML = "";
     itemsContainer.classList.remove("show-photo");
   }
 
 
   function buildProjects(projectsArray){
-    console.log("building projects...");
+    console.log("[samharp] building projects...");
 
     // created project section
     var createdSection;
