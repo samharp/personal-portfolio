@@ -1,11 +1,11 @@
 {
   "nowItems": [
     {
-      "itemTitle": "byteOS: Notes",
-      "itemCaption": "A tiny pixel art note-taking app that came to be mostly as an experiment for lightweight, offline tools. The app is released, but work on basic features is very much ongoing (like font packs, auto-saving, and recent notes).",
-      "itemCategory": "tb",
-      "linkTitle": "Download on Android",
-      "linkHref": "https://play.google.com/store/apps/details?id=com.terrabyte.byteosnotes"
+      "itemTitle": "Earth Day Omaha",
+      "itemCaption": "The biggest Earth Day event in the Omaha area, Earth Day Omaha is a celebration of our planet and the people who work to protect it. I recently joined the Green Omaha Coalition Board of Directors (yay!), and I've been very busy helping plan this year's event and create social media content to promote it.",
+      "itemCategory": "p",
+      "linkTitle": "Learn more",
+      "linkHref": "https://www.greenomaha.org/about-earthdayomaha"
     },
     {
       "itemTitle": "Wasted Space",
@@ -22,11 +22,18 @@
       "linkHref": "https://ebird.org/profile/NjE4NTM3Ng"
     },
     {
-      "itemTitle": "Etsy and Square Listings",
+      "itemTitle": "Square Listings",
       "itemCaption": "Though I want to expand the Pixel Planet Today merch offerings, I'm currently working on the listings already up. That means finishing exports for wallpapers, getting stickers up on Etsy, and other organizational things to tie up loose ends.",
       "itemCategory": "tb",
       "linkTitle": "View the Webstore",
       "linkHref": "https://shop.pixelplanettoday.com"
+    },
+    {
+      "itemTitle": "byteOS: Notes",
+      "itemCaption": "A tiny pixel art note-taking app that came to be mostly as an experiment for lightweight, offline tools. The app is released, but work on basic features is very much ongoing (like font packs, auto-saving, and recent notes).",
+      "itemCategory": "tb",
+      "linkTitle": "Download on Android",
+      "linkHref": "https://play.google.com/store/apps/details?id=com.terrabyte.byteosnotes"
     },
     {
       "itemTitle": "Pixel Planet Today",
@@ -37,7 +44,7 @@
     },
     {
       "itemTitle": "Reading",
-      "itemCaption": "I recently completed my reading goal for the year, but that's not to say I have stopped reading. Currently, I'm reading All Sad Things Are Untrue, a story about an immigrant child in the United States school system.",
+      "itemCaption": "I'm on a roll for reading! Last year, I completed my reading goal for the year, and I'm already halfway to my beefed-up goal for this year! I'm actively reading 'Digital Degrowth' and 'Slaughterhouse Five', but have a couple of other books in progress (whoops).",
       "itemCategory": "p",
       "linkTitle": "",
       "linkHref": ""
