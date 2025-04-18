@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('*.png');
 
 
-  // Watch the `css` directory for changes
+  // Watch directories for changes
   eleventyConfig.addWatchTarget('css');
   eleventyConfig.addWatchTarget('js');
   eleventyConfig.addWatchTarget('img');
