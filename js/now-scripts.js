@@ -45,7 +45,7 @@ window.addEventListener("load", function(){
   });
 
 
-//BUILD NOW ITEMS 
+//BUILD NOW ITEMS
   // created link row
   var createdItem;
 
@@ -61,33 +61,52 @@ window.addEventListener("load", function(){
     .then(response => response.json())
       .then(data => {
 
+        var sysCurrentDate = new Date();
+        
         for(let x = 0; x < data.nowItems.length; x++){
 
-          createdItem = document.importNode(itemTemplateElem, true);
+          if(data.nowItems[x].itemDateExpire){
+            var itemExpireDate = new Date(data.nowItems[x].itemDateExpire);
+            if(sysCurrentDate < itemExpireDate){
 
-          // set innerHTML of title
-          createdItem.querySelector("[data-item-title]").innerHTML = data.nowItems[x].itemTitle;
 
-          // set caption
-          createdItem.querySelector("[data-item-caption]").innerHTML = data.nowItems[x].itemCaption;
+              createdItem = document.importNode(itemTemplateElem, true);
 
-          // set category
-          createdItem.classList.add(data.nowItems[x].itemCategory);
+              // set innerHTML of title
+              createdItem.querySelector("[data-item-title]").innerHTML = data.nowItems[x].itemTitle;
 
-          // create additional link; if applicable
-          if(data.nowItems[x].linkTitle !== ""){
-            addlLink = createdItem.querySelector("[data-item-link]");
-            addlLink.innerHTML = data.nowItems[x].linkTitle;
+              // set caption
+              createdItem.querySelector("[data-item-caption]").innerHTML = data.nowItems[x].itemCaption;
 
-            // fill in href
-            addlLink.href = data.nowItems[x].linkHref;
+              // set category
+              createdItem.classList.add(data.nowItems[x].itemCategory);
 
-            // show link
-            addlLink.classList.add("standard-link");
+              // create additional link; if applicable
+              if(data.nowItems[x].linkTitle !== ""){
+                addlLink = createdItem.querySelector("[data-item-link]");
+                addlLink.innerHTML = data.nowItems[x].linkTitle;
+
+                // fill in href
+                addlLink.href = data.nowItems[x].linkHref;
+
+                // show link
+                // addlLink.classList.add("standard-link");
+                addlLink.classList.add("text-link");
+              }
+
+              // append to link container
+              itemsContainer.appendChild(createdItem);
+
+
+
+            }
+
           }
 
-          // append to link container
-          itemsContainer.appendChild(createdItem);
+            
+          
+
+          
         }
       })
 

@@ -8,13 +8,13 @@ scripts: /js/build-projects-scripts.js
 {# page scripts #}
 {# <script src="/js/build-projects-scripts.js"></script> #}
 
-<section id="hero-section" class="flex-container align-center h-card">
+<section id="hero-section" class="h-card" data-au="flex-container align-center">
   <div class="hide other-h-card-data">
     <img class="u-photo" src="./img/self-pixel-portrait-summer-outfit-covid-centered.png">
     <a href="https://sammyharper.com" class="u-url u-uid">sammyharper.com</a>
 
   </div>
-  <div class="picture-container flex-width flex-container all-center">
+  <div class="picture-container" data-au="flex-width flex-container all-center">
     <div class="picture-frame-container">
       <div class="picture-frame material-shadow"></div>
       <a id="contact-me-link" class="icon-link smiley-convo" href="#contact-section">
@@ -23,7 +23,7 @@ scripts: /js/build-projects-scripts.js
       </a>
     </div>
   </div>
-  <div class="about-me-container flex-width">
+  <div class="about-me-container" data-au="flex-width">
     <div class="about-me-title">
       <h1>Hi,</h1>
       <h2>my name is</h2>
@@ -41,16 +41,16 @@ scripts: /js/build-projects-scripts.js
     </div>
   </div>
 </section>
-<section id="more-about-me-section" class="flex-container align-center">
-  <div class="flex-width item-description-container">
+<section id="more-about-me-section" data-au="flex-container align-center">
+  <div class="item-description-container" data-au="flex-width">
     <h3>A little more about me&hellip;</h3>
     <p>I'm an imaginative and motivated designer with 7 years of professional experience in Web, Graphic, and UI/UX Design. I started coding in Batch at 12 years old, and quickly found my passion for computer and web-based design. Each of my projects have helped me learn and grow as a designer, as well as help set myself apart. I strive to not just show the world my creative ideas, but to change the world with them.</p>
-    <p>Professionally, I'm the Founder &amp; CEO of <a class="standard-link" target="_blank" href="https://terrabyte.eco">Terrabyte</a> and the President of <a class="standard-link" targer="_blank" href="https://www.goldenharpmedia.com">Golden Harp Media</a>.</p>
+    <p>Professionally, I'm the Founder &amp; CEO of <a class="text-link" target="_blank" href="https://www.terrabyte.eco">Terrabyte</a> and the President of <a class="text-link" targer="_blank" href="https://www.goldenharpmedia.com">Golden Harp Media</a>.</p>
     {# <p>
       Keep scrolling to see some of my <a class="standard-link" href="#portfolio-filter-section">past projects</a> &mdash; or, read about what I'm up to <a class="standard-link" href="/now">now</a>.
     </p> #}
   </div>
-  <div class="picture-container item-images-container flex-width flex-container all-center">
+  <div class="picture-container item-images-container" data-au="flex-width flex-container all-center">
     <div class="about-pics-container">
       <!-- <img class="material-shadow" src="./img/self-pixel-portrait-summer-outfit-covid-centered.png"> -->
       <img class="material-shadow" src="./img/self-pixel-portrait_full_dark-wintery_some-snow_large-cropped.png">
@@ -60,9 +60,9 @@ scripts: /js/build-projects-scripts.js
 </section>
 
   <a name="portfolio-filter-section"></a>
-	<section id="portfolio-filter-section" class="show-with-js flex-container flex-vertical">
-		<div class="flex-container flex-width flex-vertical">
-			<div class="set-width">
+	<section id="portfolio-filter-section" class="show-with-js" data-au="flex-container flex-vertical">
+		<div data-au="flex-container flex-width flex-vertical">
+			<div data-au="set-width">
 				<h4 class="middle-ish-header">
 					<span class="highlighter-container">
             <span>Filter projects by&hellip;</span>
@@ -71,7 +71,7 @@ scripts: /js/build-projects-scripts.js
 			</div>
       <!-- <div class="filter-row flex-container align-center">
         <span>Category</span>
-        <div class="flex-container flex-width">
+        <div data-au="flex-container flex-width">
           <div class="filter-button set-width">
             <span>Environmental</span>
           </div>
@@ -80,8 +80,8 @@ scripts: /js/build-projects-scripts.js
       <div class="set-width filter-row">
         <p>Focus</p>
       </div> -->
-			<div id="filter-links-container" class="flex-width all-center flex-container text-center">
-				<div class="icon-link-container flex-width text-center">
+			<div id="filter-links-container" data-au="flex-width all-center flex-container text-center">
+				<div class="icon-link-container" data-au="flex-width text-center">
 					<a class="filter-portfolio-link icon-link" data-filter-button data-filter="graphic-design">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#paint-tools-icon"/>
@@ -89,7 +89,7 @@ scripts: /js/build-projects-scripts.js
 						<h3 class="icon-link-tooltip">Graphic Design</h3>
 					</a>
 				</div>
-				<div class="icon-link-container flex-width text-center">
+				<div class="icon-link-container" data-au="flex-width text-center">
 					<a class="filter-portfolio-link icon-link" data-filter-button data-filter="web-design">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#code-icon"/>
@@ -97,7 +97,7 @@ scripts: /js/build-projects-scripts.js
 						<h3 class="icon-link-tooltip">Web Design</h3>
 					</a>
 				</div>
-				<div class="icon-link-container flex-width text-center">
+				<div class="icon-link-container" data-au="flex-width text-center">
 					<a class="filter-portfolio-link icon-link" data-filter-button data-filter="illustration">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#paint-palette-icon"/>
@@ -105,7 +105,7 @@ scripts: /js/build-projects-scripts.js
 						<h3 class="icon-link-tooltip">Illustration</h3>
 					</a>
 				</div>
-				<div class="icon-link-container flex-width text-center">
+				<div class="icon-link-container" data-au="flex-width text-center">
 					<a class="filter-portfolio-link icon-link" data-filter-button data-filter="animation">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#video-clapper-icon"/>
@@ -113,7 +113,7 @@ scripts: /js/build-projects-scripts.js
 						<h3 class="icon-link-tooltip">Animation</h3>
 					</a>
 				</div>
-				<div class="icon-link-container flex-width text-center">
+				<div class="icon-link-container" data-au="flex-width text-center">
 					<a class="filter-portfolio-link icon-link" data-filter-button data-filter="photography">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#camera-icon"/>
@@ -121,7 +121,7 @@ scripts: /js/build-projects-scripts.js
 						<h3 class="icon-link-tooltip">Photography</h3>
 					</a>
 				</div>
-				<div class="icon-link-container flex-width text-center">
+				<div class="icon-link-container" data-au="flex-width text-center">
 					<a class="filter-portfolio-link icon-link" data-filter-button data-filter="environmental">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#globe-icon"/>
@@ -130,7 +130,7 @@ scripts: /js/build-projects-scripts.js
 					</a>
 				</div>
 
-				<div class="icon-link-container flex-width text-center">
+				<div class="icon-link-container" data-au="flex-width text-center">
 					<a class="filter-portfolio-link icon-link" data-filter-button data-filter="all">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#grid-icon"/>
@@ -144,13 +144,13 @@ scripts: /js/build-projects-scripts.js
 
 	<a name="portfolio-section"></a>
   <template id="section-template">
-    <section data-project-section id="" class="flex-container align-center" data-filter="">
-      <div class="item-images-container flex-width flex-container all-center">
+    <section data-project-section id="" data-au="flex-container align-center" data-filter="">
+      <div class="item-images-container" data-au="flex-width flex-container all-center">
 				<a data-project-thumbnail-link target="_blank">
 					<img data-project-thumbnail class="material-shadow" src="">
 				</a>
 			</div>
-      <div class="item-description-container flex-width">
+      <div class="item-description-container" data-au="flex-width">
 				<h4>
 					<span class="highlighter-container">
             <span data-project-title></span>
@@ -159,7 +159,7 @@ scripts: /js/build-projects-scripts.js
 				<h3 data-project-tags-container class="item-badges-container"></h3>
 				<p data-project-caption></p>
 				<p>
-					<a data-project-link class="standard-link" target="_blank"></a>
+					<a data-project-link class="text-link" target="_blank"></a>
 				</p>
 			</div>
     </section>
@@ -171,7 +171,7 @@ scripts: /js/build-projects-scripts.js
     </div>
 
 
-		<section id="photography-section" class="flex-container flex-vertical justify-center" data-filter="photography">
+		<section id="photography-section" data-au="flex-container flex-vertical justify-center" data-filter="photography">
 			<div class="item-description-container">
 				<h4>
 					<span class="highlighter-container">
@@ -180,7 +180,7 @@ scripts: /js/build-projects-scripts.js
 				</h4>
 			</div>
 
-			<div class="item-images-container mosaic-gallery set-width flex-container space-between flex-wrap">
+			<div class="item-images-container mosaic-gallery" data-au="set-width flex-container space-between flex-wrap">
 				<img class="material-shadow" src="./img/up-resized.jpg" loading="lazy" alt="Photo of a viewer looking up to the tops of pine trees from the bottom of them.">
 				<img class="material-shadow" src="./img/krakow.webp" loading="lazy" alt="Photo of the top of a cathedral in Krakow, Poland.">
 				<img class="material-shadow" src="./img/nebraskasunset-resized.jpg" loading="lazy" alt="Photo of a Nebraska sunset out a car window.">
@@ -215,25 +215,17 @@ scripts: /js/build-projects-scripts.js
 	</main>
 
 	<a name="contact-section"></a>
-	<section id="contact-section" class="flex-container flex-vertical">
-		<div class="flex-container flex-width flex-vertical">
-			<div class="set-width">
+	<section id="contact-section" data-au="flex-container flex-vertical">
+		<div data-au="flex-container flex-width flex-vertical">
+			<div data-au="set-width">
 				<h2 class="middle-ish-header">
 					<span class="highlighter-container">
             <span>Get in touch!</span>
           </span>
 				</h2>
 			</div>
-			<div id="contact-links-container" class="icon-links-container flex-width all-center flex-container text-center">
-				<div class="contact-link-container flex-width text-center">
-					<a href="mailto:&#104;&#105;&#064;&#115;&#097;&#109;&#109;&#121;&#104;&#097;&#114;&#112;&#101;&#114;&#046;&#099;&#111;&#109;" class="icon-link">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
-							<use href="#email-icon"/>
-						</svg>
-						<h3 class="icon-link-tooltip">Email</h3>
-					</a>
-				</div>
-				<div class="contact-link-container flex-width text-center">
+			<div id="contact-links-container" class="icon-links-container" data-au="flex-width all-center flex-container text-center">
+				<div class="contact-link-container" data-au="flex-width text-center">
 					<a href="https://instagram.com/OfficialSamHarp" class="icon-link" target="_blank">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#instagram-icon"/>
@@ -241,7 +233,7 @@ scripts: /js/build-projects-scripts.js
 						<h3 class="icon-link-tooltip">Instagram</h3>
 					</a>
 				</div>
-        <div class="contact-link-container flex-width text-center">
+        <div class="contact-link-container" data-au="flex-width text-center">
 					<a href="https://www.linkedin.com/in/harpersj/" class="icon-link" target="_blank">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#linkedin-icon"/>
@@ -249,8 +241,7 @@ scripts: /js/build-projects-scripts.js
 						<h3 class="icon-link-tooltip">LinkedIn</h3>
 					</a>
 				</div>
-
-				<div class="contact-link-container flex-width text-center">
+				<div class="contact-link-container" data-au="flex-width text-center">
 					<a rel="me" href="https://github.com/samharp" class="icon-link" target="_blank">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#github-icon"/>
@@ -258,7 +249,7 @@ scripts: /js/build-projects-scripts.js
 						<h3 class="icon-link-tooltip">Github</h3>
 					</a>
 				</div>
-				<div class="contact-link-container flex-width text-center">
+				<div class="contact-link-container" data-au="flex-width text-center">
 					<a rel="me" href="https://climatejustice.social/@samharp" class="icon-link" target="_blank">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
 							<use href="#mastodon-icon"/>

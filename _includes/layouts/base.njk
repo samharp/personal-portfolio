@@ -22,6 +22,11 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
 
   {# shared styles #}
+
+  {# aurum framework #}
+  <link rel="stylesheet" type="text/css" href="https://au.goldenharpmedia.com/framework/packages/v1.1.1/au.css">
+  {# <link href="https://www.au.goldenharpmedia.com/packages/vLatest" rel="stylesheet" type="text/css" /> #}
+
   {# site styles #}
   <link href="/css/general-styles.css" rel="stylesheet" type="text/css" />
 	<link href="/css/hero-styles.css" rel="stylesheet" type="text/css" />
@@ -80,7 +85,7 @@
   <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
 
 </head>
-<body>
+<body data-theme="{{ defaults.uiTheme | default("system") }}">
   {# svg container component #}
   {% include "svgs.njk" %}
 
