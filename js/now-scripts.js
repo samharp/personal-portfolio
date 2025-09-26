@@ -62,13 +62,21 @@ window.addEventListener("load", function(){
       .then(data => {
 
         var sysCurrentDate = new Date();
+
+        // console.log(sysCurrentDate);
         
         for(let x = 0; x < data.nowItems.length; x++){
 
-          if(data.nowItems[x].itemDateExpire){
+          // if(data.nowItems[x].itemDateExpire){
+            console.log("existing data for itemDateExpire: " + data.nowItems[x].itemDateExpire);
             var itemExpireDate = new Date(data.nowItems[x].itemDateExpire);
-            if(sysCurrentDate < itemExpireDate){
 
+            console.log("writing data for itemExpireDate: " + itemExpireDate);
+
+            if(sysCurrentDate > itemExpireDate){
+              console.log("item expired: " + data.nowItems[x].itemTitle);
+            }else{
+              console.log("item active: " + data.nowItems[x].itemTitle);
 
               createdItem = document.importNode(itemTemplateElem, true);
 
@@ -96,16 +104,9 @@ window.addEventListener("load", function(){
 
               // append to link container
               itemsContainer.appendChild(createdItem);
-
-
-
             }
 
-          }
-
-            
-          
-
+          // }
           
         }
       })

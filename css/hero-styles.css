@@ -55,7 +55,8 @@ h1.p-name{
 /*responsive*/
 @media only screen and (max-width: 865px){
   #hero-section .picture-container{
-    display:none;
+    display:none!important;
+    background-color:red;
   }
   .about-me-container{
     margin-left:0;

@@ -11,16 +11,23 @@ scripts: /js/build-projects-scripts.js
 <section id="hero-section" class="h-card" data-au="flex-container align-center">
   <div class="hide other-h-card-data">
     <img class="u-photo" src="./img/self-pixel-portrait-summer-outfit-covid-centered.png">
-    <a href="https://sammyharper.com" class="u-url u-uid">sammyharper.com</a>
+    <a href="{{ site.url }}" class="u-url u-uid">{{ site.url }}</a>
 
   </div>
-  <div class="picture-container" data-au="flex-width flex-container all-center">
+  <div class="picture-container" data-au="flex-width flex-container all-center flex-vertical">
     <div class="picture-frame-container">
       <div class="picture-frame material-shadow"></div>
+      {# <a id="see-now-link" class="icon-link smiley-convo" href="/now">
+        <div class="smiley-icon"></div>
+        <h3 class="icon-link-tooltip ">What are you up to /now?</h3>
+      </a> #}
       <a id="contact-me-link" class="icon-link smiley-convo" href="#contact-section">
         <div class="smiley-icon"></div>
         <h3 class="icon-link-tooltip say-hi-text">Say hi!</h3>
       </a>
+    </div>
+    <div class="buttons-container">
+      {# <a class="standard-button" href="/now">What are you working on <code>/now</code>?</a> #}
     </div>
   </div>
   <div class="about-me-container" data-au="flex-width">

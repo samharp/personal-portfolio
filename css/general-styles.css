@@ -405,6 +405,9 @@ h4 .highlighter-container span{
   .item-header[data-au~="align-center"]{
     align-items:initial;
   }
+  .item-category-badge{
+    height:100%;
+  }
   .item-category-badge span{
     display:none;
   }
