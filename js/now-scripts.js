@@ -45,7 +45,7 @@ window.addEventListener("load", function(){
   });
 
 
-//BUILD NOW ITEMS 
+//BUILD NOW ITEMS
   // created link row
   var createdItem;
 
@@ -61,33 +61,53 @@ window.addEventListener("load", function(){
     .then(response => response.json())
       .then(data => {
 
+        var sysCurrentDate = new Date();
+
+        // console.log(sysCurrentDate);
+        
         for(let x = 0; x < data.nowItems.length; x++){
 
-          createdItem = document.importNode(itemTemplateElem, true);
+          // if(data.nowItems[x].itemDateExpire){
+            console.log("existing data for itemDateExpire: " + data.nowItems[x].itemDateExpire);
+            var itemExpireDate = new Date(data.nowItems[x].itemDateExpire);
 
-          // set innerHTML of title
-          createdItem.querySelector("[data-item-title]").innerHTML = data.nowItems[x].itemTitle;
+            console.log("writing data for itemExpireDate: " + itemExpireDate);
 
-          // set caption
-          createdItem.querySelector("[data-item-caption]").innerHTML = data.nowItems[x].itemCaption;
+            if(sysCurrentDate > itemExpireDate){
+              console.log("item expired: " + data.nowItems[x].itemTitle);
+            }else{
+              console.log("item active: " + data.nowItems[x].itemTitle);
 
-          // set category
-          createdItem.classList.add(data.nowItems[x].itemCategory);
+              createdItem = document.importNode(itemTemplateElem, true);
 
-          // create additional link; if applicable
-          if(data.nowItems[x].linkTitle !== ""){
-            addlLink = createdItem.querySelector("[data-item-link]");
-            addlLink.innerHTML = data.nowItems[x].linkTitle;
+              // set innerHTML of title
+              createdItem.querySelector("[data-item-title]").innerHTML = data.nowItems[x].itemTitle;
 
-            // fill in href
-            addlLink.href = data.nowItems[x].linkHref;
+              // set caption
+              createdItem.querySelector("[data-item-caption]").innerHTML = data.nowItems[x].itemCaption;
 
-            // show link
-            addlLink.classList.add("standard-link");
-          }
+              // set category
+              createdItem.classList.add(data.nowItems[x].itemCategory);
 
-          // append to link container
-          itemsContainer.appendChild(createdItem);
+              // create additional link; if applicable
+              if(data.nowItems[x].linkTitle !== ""){
+                addlLink = createdItem.querySelector("[data-item-link]");
+                addlLink.innerHTML = data.nowItems[x].linkTitle;
+
+                // fill in href
+                addlLink.href = data.nowItems[x].linkHref;
+
+                // show link
+                // addlLink.classList.add("standard-link");
+                addlLink.classList.add("text-link");
+              }
+
+              // append to link container
+              itemsContainer.appendChild(createdItem);
+            }
+
+          // }
+          
         }
       })
 
