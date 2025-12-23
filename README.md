@@ -2,7 +2,7 @@
 
 ## Description
 
-A collection of personal projects ranging from 2016 to present in categories such as Graphic Design, Web Design, and Animation. Website is built using Eleventy (11ty), Nunjucks is used for templating markup.
+A collection of personal projects ranging from 2016 to present in categories such as Graphic Design, Web Design, and Animation. Website is built using Eleventy (11ty), Nunjucks is used for templating markup. This setup is to maximize smart features for website creation (components, variables, etc.) while also reducing data process on servers and clients (go green).
 
 
 ## Build
