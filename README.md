@@ -2,7 +2,9 @@
 
 ## Description
 
-A collection of personal projects ranging from 2016 to present in categories such as Graphic Design, Web Design, and Animation. Website is built using Eleventy (11ty), Nunjucks is used for templating markup. This setup is to maximize smart features for website creation (components, variables, etc.) while also reducing data process on servers and clients (go green).
+A collection of personal projects ranging from 2016 to present in categories such as Graphic Design, Web Design, and Animation. Website is built using Eleventy (11ty), Nunjucks is used for templating markup.
+
+This setup is to maximize smart features for website creation (components, variables, etc.) while also reducing data process on servers and clients (go green).
 
 
 ## Build
@@ -15,7 +17,7 @@ To better handle sorting/filtering and to allow for easier management, portfolio
 
 ### `/now` page
 
-For easier management/updating, the items on the `/now` page are generated from JSON. The JSON file outlines different aspects of each item, including a title, description, and link (if applicable). Then, on page load, `build-projects-scripts.js` generates sections for each JSON item.
+For easier management/updating, the items on the `/now` page are generated from JSON. The JSON file outlines different aspects of each item, including a title, description, and link (if applicable). Then, on page load, `build-projects-scripts.js` generates sections for each JSON item. This will eventually be converted to utilizing the 11ty build process to handle JSON data/item generation.
 
 
 ## Contributions
