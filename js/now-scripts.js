@@ -44,7 +44,7 @@ window.addEventListener("load", function(){
     }
   });
 
-
+// TO-DO: Refactor to use 11ty build proc instead of on page load.
 //BUILD NOW ITEMS
   // created link row
   var createdItem;
@@ -62,51 +62,46 @@ window.addEventListener("load", function(){
       .then(data => {
 
         var sysCurrentDate = new Date();
-
-        // console.log(sysCurrentDate);
         
         for(let x = 0; x < data.nowItems.length; x++){
 
-          // if(data.nowItems[x].itemDateExpire){
-            console.log("existing data for itemDateExpire: " + data.nowItems[x].itemDateExpire);
-            var itemExpireDate = new Date(data.nowItems[x].itemDateExpire);
+          console.log("existing data for itemDateExpire: " + data.nowItems[x].itemDateExpire);
+          var itemExpireDate = new Date(data.nowItems[x].itemDateExpire);
 
-            console.log("writing data for itemExpireDate: " + itemExpireDate);
+          console.log("writing data for itemExpireDate: " + itemExpireDate);
 
-            if(sysCurrentDate > itemExpireDate){
-              console.log("item expired: " + data.nowItems[x].itemTitle);
-            }else{
-              console.log("item active: " + data.nowItems[x].itemTitle);
+          if(sysCurrentDate > itemExpireDate){
+            console.log("item expired: " + data.nowItems[x].itemTitle);
+          }else{
+            console.log("item active: " + data.nowItems[x].itemTitle);
 
-              createdItem = document.importNode(itemTemplateElem, true);
+            createdItem = document.importNode(itemTemplateElem, true);
 
-              // set innerHTML of title
-              createdItem.querySelector("[data-item-title]").innerHTML = data.nowItems[x].itemTitle;
+            // set innerHTML of title
+            createdItem.querySelector("[data-item-title]").innerHTML = data.nowItems[x].itemTitle;
 
-              // set caption
-              createdItem.querySelector("[data-item-caption]").innerHTML = data.nowItems[x].itemCaption;
+            // set caption
+            createdItem.querySelector("[data-item-caption]").innerHTML = data.nowItems[x].itemCaption;
 
-              // set category
-              createdItem.classList.add(data.nowItems[x].itemCategory);
+            // set category
+            createdItem.classList.add(data.nowItems[x].itemCategory);
 
-              // create additional link; if applicable
-              if(data.nowItems[x].linkTitle !== ""){
-                addlLink = createdItem.querySelector("[data-item-link]");
-                addlLink.innerHTML = data.nowItems[x].linkTitle;
+            // create additional link; if applicable
+            if(data.nowItems[x].linkTitle !== ""){
+              addlLink = createdItem.querySelector("[data-item-link]");
+              addlLink.innerHTML = data.nowItems[x].linkTitle;
 
-                // fill in href
-                addlLink.href = data.nowItems[x].linkHref;
+              // fill in href
+              addlLink.href = data.nowItems[x].linkHref;
 
-                // show link
-                // addlLink.classList.add("standard-link");
-                addlLink.classList.add("text-link");
-              }
-
-              // append to link container
-              itemsContainer.appendChild(createdItem);
+              // show link
+              // addlLink.classList.add("standard-link");
+              addlLink.classList.add("text-link");
             }
 
-          // }
+            // append to link container
+            itemsContainer.appendChild(createdItem);
+          }
           
         }
       })
