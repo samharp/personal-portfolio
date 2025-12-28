@@ -1,9 +1,9 @@
 /*primary footer styles*/
 footer{
-	background-color:#333333;
+	background-color:var(--base-charcoal);
   position:relative;
   /* z-index:2; */
-	color:white;
+	color:var(--base-white);
 	font-size:14px;
 }
 /* responsive */

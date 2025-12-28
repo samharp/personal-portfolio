@@ -33,12 +33,6 @@ section:nth-child(odd) .item-images-container{
   order:1;
   padding-right:40px;
 }
-.item-description-container:first-child{
-  /* padding-right:40px; */
-}
-.item-description-container:last-child{
-  /* padding-left:40px; */
-}
 .item-badges-container{
   text-transform:capitalize;
 }
@@ -96,7 +90,7 @@ div.show-photo + section[data-filter~="photography"]{
 /***************/
 /*portfolio sections, specific styles*/
 .item-images-container img{
-  background-color:white;
+  background-color:var(--site-background-color);
 }
 
 /*more about me section*/
@@ -219,7 +213,7 @@ div.show-photo + section[data-filter~="photography"]{
   /* max-height:250px; */
   /* margin-bottom:40px; */
   display:none;
-  background-color:#fddd10;
+  background-color:var(--accent-color);
   width:30%;
   max-width:280px;
   height:250px;

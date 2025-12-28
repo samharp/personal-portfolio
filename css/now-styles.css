@@ -12,7 +12,7 @@
   padding-bottom:30px;
   font-size:14px;
   position:absolute;
-  background-color:white;
+  background-color:var(--site-background-color);
   transition: top .2s;
 }
 #now-info-container.stick{
@@ -27,12 +27,6 @@
     font-size:inherit;
   }
 }
-/*dark mode styles*/
-@media (prefers-color-scheme: dark) {
-	#now-info-container{
-    background-color:#333333;
-  }
-}
 
 #now-info-container h2{
   margin-bottom:50px;
@@ -40,9 +34,7 @@
 
 /* now page sections/items */
 .now-items-container{
-  /* margin-left:60px; */
   margin-left:420px;
-  /* overflow-y:auto; */
 }
 /* responsive styles */
 @media only screen and (max-width: 865px){
