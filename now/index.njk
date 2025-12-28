@@ -21,10 +21,11 @@ scripts: /js/now-scripts.js
 
   <div data-items-container class="flex-width now-items-container">
 
-    {% for item in now.nowItems %}
+    {# populate with non-expired #}
+    {% for item in now.nowItems | notExpired %}
       <div class="item-row now-row">
         <div class="item-header" data-au="flex-container align-center">
-          <div class="item-category-container" data-au"flex-container">
+          <div class="item-category-container" data-au="flex-container">
             {% if item.itemCategory == "tb" %}
               <a class="item-category-badge terrabyte-badge" href="https://www.terrabyte.eco" target="_blank">
                 <span>Terrabyte</span>

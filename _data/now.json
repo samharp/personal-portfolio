@@ -1,13 +1,6 @@
 {
   "nowItems": [
-    {
-      "itemDateExpire": "2025-08-25",
-      "itemTitle": "Funding",
-      "itemCaption": "Seeking funds to help us help Terrabyte make the planet a little bit better of a place. Have to spend money to make money, or something like that. Fingers crossed! (psst get in touch if you are looking for funding opportunities..? :)",
-      "itemCategory": "p",
-      "linkTitle": "What is Terrabyte?",
-      "linkHref": "https://www.terrabyte.eco"
-    },
+    
     {
       "itemDateExpire": "2026-01-20",
       "itemTitle": "Wasted Space",
@@ -17,7 +10,6 @@
       "linkHref": "https://www.wastedspace.fun"
     },
     {
-      "itemDateExpire": "",
       "itemTitle": "Birding",
       "itemCaption": "I was raised on the outdoors, but as I got older, my studies and work grew to take up more and more of my free time. And now living in a big city, it can sometimes feel like I'm more disconnected to the natural world than my environmental work would suggest (and more than I would like). That was, until my brother introduced me to birding. I was skeptical on if I would actually enjoy it (or if it was an 'old person activity' like I previously thought), but it's a great way to get outside, connect with local wildlife, and be more mindful of what's out there.",
       "itemCategory": "p",
@@ -25,7 +17,6 @@
       "linkHref": "https://ebird.org/profile/NjE4NTM3Ng"
     },
     {
-      "itemDateExpire": "",
       "itemTitle": "Square Listings",
       "itemCaption": "Though I want to expand the Pixel Planet Today merch offerings, I'm currently working on the listings already up. That means finishing exports for wallpapers, getting stickers up on Etsy, and other organizational things to tie up loose ends.",
       "itemCategory": "tb",
@@ -33,7 +24,6 @@
       "linkHref": "https://shop.pixelplanettoday.com"
     },
     {
-      "itemDateExpire": "",
       "itemTitle": "byteOS: Notes",
       "itemCaption": "A tiny pixel art note-taking app that came to be mostly as an experiment for lightweight, offline tools. The app is released, but work on basic features is very much ongoing (like font packs, auto-saving, and recent notes).",
       "itemCategory": "tb",
@@ -41,7 +31,6 @@
       "linkHref": "https://play.google.com/store/apps/details?id=com.terrabyte.byteosnotes"
     },
     {
-      "itemDateExpire": "",
       "itemTitle": "Pixel Planet Today",
       "itemCaption": "The world is constantly calling for environmental facts and pixel art: making this the project that never sleeps. I am trying to get into a more consistent posting schedule, but what can I say, there is much to be done.",
       "itemCategory": "tb",
@@ -49,13 +38,11 @@
       "linkHref": "https://www.pixelplanettoday.com"
     },
     {
-      "itemDateExpire": "",
       "itemTitle": "Reading",
       "itemCaption": "Hit the reading goal for the year, but still working on a couple! TBR is getting smaller, but there is quite a pile to get through...",
       "itemCategory": "p"
     },
     {
-      "itemDateExpire": "",
       "itemTitle": "The Aurum Framework",
       "itemCaption": "After years of working in HTML and CSS, I am finally starting to build my own framework! It's nothing compared to Bootstrap, but a lightweight system to help build flex layouts more easily. I already use the same styles for this across (most of) my projects, so the thought is that if I can use the same resource for all of them, I don't have to have duplicate code everywhere. It's not exactly ready for primetime, but if you'd like to check it out, you're more than welcome to!",
       "itemCategory": "ghm",
@@ -63,7 +50,6 @@
       "linkHref": "https://github.com/goldenharpmedia/aurum"
     },
     {
-      "itemDateExpire": "",
       "itemTitle": "Omaha & Nebraska Public Transportation Plan",
       "itemCaption": "Because I'm such an urbanism nerd, something that I've found myself doing is creating a map that outlines where public transportation improvements could be made in Omaha and other Central Nebraska locations. Do I expect these ideas to bloom to fruition? Not exactly, but if they did - boy, the state would be all the better for it. :)",
       "itemCategory": "p",
@@ -73,7 +59,15 @@
   ],
 
   "oldItems": [
-        {
+    {
+      "itemDateExpire": "2025-08-25",
+      "itemTitle": "Funding",
+      "itemCaption": "Seeking funds to help us help Terrabyte make the planet a little bit better of a place. Have to spend money to make money, or something like that. Fingers crossed! (psst get in touch if you are looking for funding opportunities..? :)",
+      "itemCategory": "p",
+      "linkTitle": "What is Terrabyte?",
+      "linkHref": "https://www.terrabyte.eco"
+    },
+    {
       "itemDateExpire": "2025-08-25",
       "itemTitle": "Earth Day Omaha",
       "itemCaption": "The biggest Earth Day event in the Omaha area, Earth Day Omaha is a celebration of our planet and the people who work to protect it. I recently joined the Green Omaha Coalition Board of Directors (yay!), and I've been very busy helping plan this year's event and create social media content to promote it.",
