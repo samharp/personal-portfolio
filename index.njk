@@ -5,9 +5,6 @@ layout: layouts/base.njk
 scripts: /js/build-projects-scripts.js
 ---
 
-{# page scripts #}
-{# <script src="/js/build-projects-scripts.js"></script> #}
-
 <section id="hero-section" class="h-card" data-au="flex-container align-center">
   <div class="hide other-h-card-data">
     <img class="u-photo" src="./img/self-pixel-portrait-summer-outfit-covid-centered.png">
@@ -21,7 +18,7 @@ scripts: /js/build-projects-scripts.js
         <div class="smiley-icon"></div>
         <h3 class="icon-link-tooltip ">What are you up to /now?</h3>
       </a> #}
-      <a id="contact-me-link" class="icon-link smiley-convo" href="#contact-section">
+      <a id="contact-me-link" class="icon-link smiley-convo" href="#contact">
         <div class="smiley-icon"></div>
         <h3 class="icon-link-tooltip say-hi-text">Say hi!</h3>
       </a>
@@ -44,7 +41,6 @@ scripts: /js/build-projects-scripts.js
     </div>
     <div class="about-me-description p-note">
       <h3>I'm a <span class="highlighter-container"><span>green tech founder</span></span>, <span class="highlighter-container"><span>designer</span></span>, <span class="force-inlineb">and <span class="highlighter-container"><span>dreamer</span></span>.</span></h3>
-      {# <p>I'm also known for driving skills .</p> #}
     </div>
   </div>
 </section>
@@ -62,11 +58,10 @@ scripts: /js/build-projects-scripts.js
       <!-- <img class="material-shadow" src="./img/self-pixel-portrait-summer-outfit-covid-centered.png"> -->
       <img class="material-shadow" src="./img/self-pixel-portrait_full_dark-wintery_some-snow_large-cropped.png">
     </div>
-    
   </div>
 </section>
 
-  <a name="portfolio-filter-section"></a>
+  <a name="portfolio-filter"></a>
 	<section id="portfolio-filter-section" class="show-with-js" data-au="flex-container flex-vertical">
 		<div data-au="flex-container flex-width flex-vertical">
 			<div data-au="set-width">
@@ -149,7 +144,7 @@ scripts: /js/build-projects-scripts.js
 		</div>
 	</section>
 
-	<a name="portfolio-section"></a>
+	<a name="portfolio"></a>
   <template id="section-template">
     <section data-project-section id="" data-au="flex-container align-center" data-filter="">
       <div class="item-images-container" data-au="flex-width flex-container all-center">
@@ -221,8 +216,8 @@ scripts: /js/build-projects-scripts.js
 		</section>
 	</main>
 
-	<a name="contact-section"></a>
-	<section id="contact-section" data-au="flex-container flex-vertical">
+	{# <a name="contact"></a> #}
+	{# <section id="contact-section" data-au="flex-container flex-vertical">
 		<div data-au="flex-container flex-width flex-vertical">
 			<div data-au="set-width">
 				<h2 class="middle-ish-header">
@@ -264,15 +259,6 @@ scripts: /js/build-projects-scripts.js
 						<h3 class="icon-link-tooltip">Mastodon</h3>
 					</a>
 				</div>
-				{# <div class="contact-link-container flex-width text-center">
-					<a href="https://www.buymeacoffee.com/samharp" class="icon-link" target="_blank">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
-							<use href="#bmacoffee-icon"/>
-						</svg>
-						<h3 class="icon-link-tooltip">Buy Me A Coffee</h3>
-					</a>
-				</div> #}
-
 			</div>
 		</div>
-	</section>
+	</section> #}
