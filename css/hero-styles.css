@@ -52,7 +52,7 @@ h1.p-name{
 
 /*responsive*/
 @media only screen and (max-width: 865px){
-  #hero-section .picture-container{
+  #hero .picture-container{
     display:none!important;
     background-color:red;
   }

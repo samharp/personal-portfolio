@@ -61,13 +61,13 @@ section:nth-child(odd) .item-images-container{
     order:2;
     padding:0;
   }
-  #photography-section .item-description-container{
+  #photography .item-description-container{
     order:1!important;
   }
 }
 
 
-/*filter portfolio section*/
+/*filter projects*/
 @media only screen and (max-width:650px){
   #filter-links-container{
     flex-wrap:wrap;
@@ -97,64 +97,64 @@ div.show-photo + section[data-filter~="photography"]{
 .about-pics-container{
   position:relative;
 }
-#more-about-me-section .picture-container img{
+#more-about-me .picture-container img{
   /* oslo image */
   width:250px;
 }
 
 /*pixel planet*/
-#pixel-planet-today-section img{
+#pixel-planet-today img{
   width:275px;
 }
 
-#wasted-space-section img{
+#wasted-space img{
   width:275px;
 }
 
 /* ncbvi */
-#ncbvi-section img{
+#ncbvi img{
   width:275px;
 }
 
 /*undergrad research*/
-#undergraduate-research-section img{
+#undergraduate-research img{
   width:420px;
 }
 
 /*eva*/
-#eva-section img{
+#eva img{
   width:420px;
 }
 
 /*bcm*/
-#bcm-section img{
+#bcm img{
   width:350px;
 }
 
 /*glitch section*/
-#glitch-section img{
+#glitch img{
   width:400px;
 }
 
 /*startup week section*/
-#startup-week-section img{
+#startup-week img{
   width:400px;
 }
 
 
 /*******************/
 /*photography section*/
-#photography-section .mosaic-gallery{
+#photography .mosaic-gallery{
   margin:40px 0;
 }
-#photography-section .mosaic-gallery img{
+#photography .mosaic-gallery img{
   max-height:250px;
   max-width:100%;
   /* margin:0 auto 40px auto; */
   margin-bottom:40px;
 }
 @media only screen and (max-width:1160px){
-  #photography-section .mosaic-gallery img{
+  #photography .mosaic-gallery img{
     margin:0 auto 40px auto;
   }
 }
@@ -209,7 +209,7 @@ div.show-photo + section[data-filter~="photography"]{
 }
 
 /*photography items*/
-#photography-section .slideshow .photo-gallery-thumb{
+#photography .slideshow .photo-gallery-thumb{
   /* max-height:250px; */
   /* margin-bottom:40px; */
   display:none;

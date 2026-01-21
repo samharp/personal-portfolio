@@ -131,7 +131,7 @@ window.addEventListener("load", function(){
       createdSection = document.importNode(itemTemplateElem, true);
 
       // set ID
-      createdSection.id = projectsArray[x].projectID + "-section";
+      createdSection.id = projectsArray[x].projectID;
 
       // set innerHTML of title
       createdSection.querySelector("[data-project-title]").innerHTML = projectsArray[x].projectTitle;

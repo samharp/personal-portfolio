@@ -78,7 +78,7 @@ body{
 }
 
 /*shared native element attributes*/
-h1, h2, h3, h4{
+h1, h2, h3, h4, button{
 	font-family: 'Poppins', sans-serif;
 }
 /*big intro text*/
