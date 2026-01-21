@@ -34,8 +34,17 @@
   transform:none;
 }
 
-/* text container(right) */
-h1.p-name{
+/* text container (right) */
+#hero h1 > *{
+  display:block;
+}
+/*medium intro text*/
+#hero h1 .rel-smaller-text{
+	font-size:58px;
+  line-height:100%;
+}
+/* actual name */
+#hero h1 .p-name{
   margin-top:20px;
 }
 
