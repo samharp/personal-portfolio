@@ -14,38 +14,41 @@ scripts: /js/now-scripts.js
       <p>&lt;&nbsp; <a class="text-link" href="/index.html">Return to Portfolio</a></p>
     </div>
       
-
-    <h2>Sammy, what are you doing?</h2>
-    <p>It's not that "I have a lot going on" &mdash; it's that "There's a lot I'm trying to do." My hands may be pretty full, but as long as it doesn't cross into the dreaded 'overwhelming' territory, we'll be just fine.</p>
+    <h2>Sammy, what are you up to?</h2>
+    <p>It's not that "I have a lot going on" &mdash; it's that "there's a lot I'm trying to do." My hands may be pretty full, but as long as it doesn't cross into the dreaded 'overwhelming' territory, we'll be just fine.</p>
     <p><a class="text-link" href="https://nownownow.com" target="_blank">Learn more</a> about the <a href="https://nownownow.com" target="_blank"><code>/now</code></a> webpage movement.</p>
   </div>
 
-  <!-- item template -->
-  <template id="item-template">
-    <div data-item-row class="item-row">
-      <div class="item-header" data-au="flex-container align-center">
-        <div class="item-category-container" data-au"flex-container">
-          <a class="item-category-badge personal-badge" href="https://www.sammyharper.com">
-            <span>Personal</span>
-          </a>
-          <a class="item-category-badge terrabyte-badge" href="https://www.terrabyte.eco" target="_blank">
-            <span>Terrabyte</span>
-          </a>
-          <a class="item-category-badge goldenharpmedia-badge" href="https://www.goldenharpmedia.com" target="_blank">
-            <span>Golden Harp Media</span>
-          </a>
-        </div>
-        <h3 class="" data-item-title></h3>
-      </div>
-      
-      <p data-item-caption></p>
-      <a class="" data-item-link target="_blank"></a>
-    </div>
-  </template>
-
-  <!-- container where now items will be populated -->
   <div data-items-container class="flex-width now-items-container">
-    <!-- items populate here -->
-  </div>
 
+    {# populate with non-expired #}
+    {% for item in now.nowItems | notExpired %}
+      <div class="item-row now-row">
+        <div class="item-header" data-au="flex-container align-center">
+          <div class="item-category-container" data-au="flex-container">
+            {% if item.itemCategory == "tb" %}
+              <a class="item-category-badge terrabyte-badge" href="https://www.terrabyte.eco" target="_blank">
+                <span>Terrabyte</span>
+              </a>
+            {% elif item.itemCategory == "ghm" %}
+              <a class="item-category-badge goldenharpmedia-badge" href="https://www.goldenharpmedia.com" target="_blank">
+                <span>Golden Harp Media</span>
+              </a>
+            {% else %}
+              <a class="item-category-badge personal-badge" href="https://www.sammyharper.com">
+                <span>Personal</span>
+              </a>
+            {% endif %}
+          </div>
+          <h3 class="" data-item-title>{{ item.itemTitle }}</h3>
+        </div>
+
+        <p>{{ item.itemCaption }}</p>
+
+        {% if item.linkHref %}
+          <a class="text-link" href="{{ item.linkHref }}" target="_blank">{{ item.linkTitle }}</a>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
 </section>
