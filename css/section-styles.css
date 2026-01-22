@@ -19,6 +19,10 @@ main section:nth-child(n + 6){
   /* display:none; */
   /* opacity:0; */
 }
+main section{
+  opacity:1;
+  transition:.15s;
+}
 
 .item-images-container{
   position:relative;
@@ -40,6 +44,7 @@ section:nth-child(odd) .item-images-container{
 }
 .filter-row{
   gap:10px;
+  /* margin-bottom:20px; */
 }
 
 /*standard mobile styles*/
@@ -285,7 +290,7 @@ div.show-photo + section[data-filter~="photography"]{
 
 /***********/
 /*Get In Touch/Contact section*/
-@media only screen and (max-width:650px){
+/* @media only screen and (max-width:650px){
   #contact-links-container{
     flex-wrap:wrap;
   }
@@ -294,5 +299,16 @@ div.show-photo + section[data-filter~="photography"]{
   }
   #contact-links-container .icon-link-tooltip{
     display:none;
+  }
+} */
+
+
+/* OVERWRITES */
+/* dark theme */
+@media (prefers-color-scheme: dark) {
+  /* transparent logo images... */
+  #bcm img,
+  #ncbvi img{
+    background-color:var(--base-white);
   }
 }

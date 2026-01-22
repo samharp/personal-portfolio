@@ -2,7 +2,7 @@
 subtitle: Technology, Design, and Environmentalism
 description: Hi, my name is Sammy Harper. I'm a Green Tech Founder, Designer, & Dreamer.
 layout: layouts/base.njk
-scripts: /js/build-projects-scripts.js
+scripts: /js/projects-scripts.js
 ---
 
 {% include "header.njk" %}
@@ -54,41 +54,40 @@ scripts: /js/build-projects-scripts.js
 </section>
 
 <a name="projects"></a>
-<section id="projects-filter" class="show-with-js" data-au="flex-container flex-vertical">
-	<div data-au="flex-container flex-width flex-vertical">
+<main class="" data-au="flex-container flex-vertical">
+	<section data-au="flex-container flex-width flex-vertical">
 		<div data-au="set-width">
 			<h2>
 				<span>Filter projects by&hellip;</span>
 			</h2>
 		</div>
 		<div class="filter-row" data-au="flex-container align-center flex-wrap">
-			<label class="filter-button" data-au="set-width">
-				<input type="checkbox" data-filter="environmental">
+			<label class="filter-button filter-chip" aria-checked="false" data-au="set-width">
+				<input data-filter-toggle data-filter="environmental" type="checkbox">
 				<span>Environmental</span>
 			</label>
-			<label class="filter-button" data-au="set-width">
-				<input type="checkbox" data-filter="graphic-design">
+			<label class="filter-button filter-chip" aria-checked="false" data-au="set-width">
+				<input data-filter-toggle data-filter="graphic-design" type="checkbox">
 				<span>Graphic Design</span>
 			</label>
-			<label class="filter-button" data-au="set-width">
-				<input type="checkbox" data-filter="web-design">
+			<label class="filter-button filter-chip" aria-checked="false" data-au="set-width">
+				<input data-filter-toggle data-filter="web-design" type="checkbox">
 				<span>Web Design</span>
 			</label>
-			<label class="filter-button" data-au="set-width">
-				<input type="checkbox" data-filter="ui-ux">
+			<label class="filter-button filter-chip" aria-checked="false" data-au="set-width">
+				<input data-filter-toggle data-filter="ui-ux" type="checkbox">
 				<span>UI/UX</span>
 			</label>
 		</div>
+	</section>
 
-	</div>
-</section>
 
-<main id="portfolio-sections-container" class="">
-	<div>
+
+	<div id="portfolio-sections-container" class="">
 		{% for item in projects.projectItems %}
-			<section id="{{ item.itemID }}" data-au="flex-container align-center" data-filter="">
+			<section data-project-section id="{{ item.itemID }}" data-au="flex-container align-center" data-filter="{{ item.itemTags | join(" ") }}">
 				<div class="item-images-container" data-au="flex-width flex-container all-center">
-					<a target="_blank">
+					<a href="{{ item.linkHref }}" target="_blank">
 						<img data-project-thumbnail class="material-shadow" src="{{ item.itemThumbnail }}">
 					</a>
 				</div>
@@ -98,7 +97,7 @@ scripts: /js/build-projects-scripts.js
 							<span>{{ item.itemTitle }}</span>
 						</span>
 					</h3>
-					<h4 data-project-tags-container class="item-badges-container"></h4>
+					<h4 data-project-tags-container class="item-badges-container">{{ item.itemTags | join(", ") }}</h4>
 					<p>{{ item.itemCaption }}</p>
 					<p>
 						<a class="text-link" href="{{ item.linkHref }}" target="_blank">{{ item.linkTitle }}</a>
@@ -106,48 +105,49 @@ scripts: /js/build-projects-scripts.js
 				</div>
 			</section>
 		{% endfor %}
+
+
+		<section id="photography" data-au="flex-container flex-vertical justify-center" data-filter="photography">
+			<div class="item-description-container">
+				<h4>
+					<span class="highlighter-container">
+						<span data-project-title>Photography</span>
+					</span>
+				</h4>
+			</div>
+
+			<div class="item-images-container mosaic-gallery" data-au="set-width flex-container space-between flex-wrap">
+				<img class="material-shadow" src="./img/up-resized.jpg" loading="lazy" alt="Photo of a viewer looking up to the tops of pine trees from the bottom of them.">
+				<img class="material-shadow" src="./img/krakow.webp" loading="lazy" alt="Photo of the top of a cathedral in Krakow, Poland.">
+				<img class="material-shadow" src="./img/nebraskasunset-resized.jpg" loading="lazy" alt="Photo of a Nebraska sunset out a car window.">
+				<img class="material-shadow" src="./img/bladesofgreen.webp" loading="lazy" alt="Photo of a sunset from the viewpoint of blades of grass.">
+				<img class="material-shadow" src="./img/apalebeach.webp" loading="lazy" alt="Photo of a palm tree on the beach in Barcelona, Spain.">
+				<img class="material-shadow" src="./img/embers-resized.jpg" loading="lazy" alt="Photo of embers flying into the night sky from a campfire.">
+				<img class="material-shadow" src="./img/80sBlues.webp" loading="lazy" alt="Edited photo of Lake Geneva, outside of Montreaux, Switzerland, with the Alps in the background.">
+			</div>
+			<!-- <div id="photography-slideshow" class="slideshow show-with-js" data-page="1">
+				<div class="right-arrow arrow-link icon-link"></div>
+				<div class="left-arrow arrow-link icon-link"></div>
+
+				<div class="item-images-container flex-container space-around flex-wrap">
+					<div id="up-img-thumb" class="photo-gallery-thumb"></div>
+					<div id="krakow-img-thumb" class="photo-gallery-thumb"></div>
+					<div id="nebraskasunset-img-thumb" class="photo-gallery-thumb"></div>
+					<div id="bladesofgreen-img-thumb" class="photo-gallery-thumb"></div>
+					<div id="apalebeach-img-thumb" class="photo-gallery-thumb"></div>
+					<div id="embers-img-thumb" class="photo-gallery-thumb"></div>
+					<div id="eightysblues-img-thumb" class="photo-gallery-thumb"></div>
+
+					<img class="material-shadow" src="./img/up-resized.jpg">
+					<img class="material-shadow" src="./img/krakow.webp">
+					<img class="material-shadow" src="./img/nebraskasunset-resized.jpg">
+					<img class="material-shadow" src="./img/bladesofgreen.webp">
+					<img class="material-shadow" src="./img/apalebeach.webp">
+					<img class="material-shadow" src="./img/embers-resized.jpg">
+					<img class="material-shadow" src="./img/80sBlues.webp">
+				</div>
+			</div> -->
+		</section>
 	</div>
 
-
-	<section id="photography" data-au="flex-container flex-vertical justify-center" data-filter="photography">
-		<div class="item-description-container">
-			<h4>
-				<span class="highlighter-container">
-					<span data-project-title>Photography</span>
-				</span>
-			</h4>
-		</div>
-
-		<div class="item-images-container mosaic-gallery" data-au="set-width flex-container space-between flex-wrap">
-			<img class="material-shadow" src="./img/up-resized.jpg" loading="lazy" alt="Photo of a viewer looking up to the tops of pine trees from the bottom of them.">
-			<img class="material-shadow" src="./img/krakow.webp" loading="lazy" alt="Photo of the top of a cathedral in Krakow, Poland.">
-			<img class="material-shadow" src="./img/nebraskasunset-resized.jpg" loading="lazy" alt="Photo of a Nebraska sunset out a car window.">
-			<img class="material-shadow" src="./img/bladesofgreen.webp" loading="lazy" alt="Photo of a sunset from the viewpoint of blades of grass.">
-			<img class="material-shadow" src="./img/apalebeach.webp" loading="lazy" alt="Photo of a palm tree on the beach in Barcelona, Spain.">
-			<img class="material-shadow" src="./img/embers-resized.jpg" loading="lazy" alt="Photo of embers flying into the night sky from a campfire.">
-			<img class="material-shadow" src="./img/80sBlues.webp" loading="lazy" alt="Edited photo of Lake Geneva, outside of Montreaux, Switzerland, with the Alps in the background.">
-		</div>
-		<!-- <div id="photography-slideshow" class="slideshow show-with-js" data-page="1">
-			<div class="right-arrow arrow-link icon-link"></div>
-			<div class="left-arrow arrow-link icon-link"></div>
-
-			<div class="item-images-container flex-container space-around flex-wrap">
-				<div id="up-img-thumb" class="photo-gallery-thumb"></div>
-				<div id="krakow-img-thumb" class="photo-gallery-thumb"></div>
-				<div id="nebraskasunset-img-thumb" class="photo-gallery-thumb"></div>
-				<div id="bladesofgreen-img-thumb" class="photo-gallery-thumb"></div>
-				<div id="apalebeach-img-thumb" class="photo-gallery-thumb"></div>
-				<div id="embers-img-thumb" class="photo-gallery-thumb"></div>
-				<div id="eightysblues-img-thumb" class="photo-gallery-thumb"></div>
-
-				<img class="material-shadow" src="./img/up-resized.jpg">
-				<img class="material-shadow" src="./img/krakow.webp">
-				<img class="material-shadow" src="./img/nebraskasunset-resized.jpg">
-				<img class="material-shadow" src="./img/bladesofgreen.webp">
-				<img class="material-shadow" src="./img/apalebeach.webp">
-				<img class="material-shadow" src="./img/embers-resized.jpg">
-				<img class="material-shadow" src="./img/80sBlues.webp">
-			</div>
-		</div> -->
-	</section>
 </main>

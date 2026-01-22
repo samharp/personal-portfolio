@@ -303,8 +303,11 @@ svg{
 
 
 /*shared custom element attributes*/
-.hide{
+.hide,
+[hide],
+[hidden]{
 	display:none;
+	opacity:0;
 }
 .highlighter-container{
 	display:inline-block;
@@ -363,6 +366,7 @@ h4 .highlighter-container span{
   font-size:14px;
   padding: 3px 8px;
   transform:none;
+	transition:.15s;
 }
 .filter-button{
   background-color:transparent;
@@ -380,6 +384,34 @@ h4 .highlighter-container span{
 /* golden harp media badges */
 .item-category-badge.goldenharpmedia-badge{
   background-color:var(--ghm-accent-color);
+}
+
+/* filter chips */
+.filter-chip{
+  border-radius: 100px;
+  padding: 5px 15px;
+	user-select: none;
+	cursor:pointer;
+	transform:scale(1);
+}
+.filter-chip input{
+	display:none;
+	opacity:0;
+}
+/* hover */
+@media (hover: hover) and (pointer: fine) {
+  .filter-chip:hover{
+    transform:scale(1.05);
+  }
+}
+/* active click */
+.filter-chip:active{
+	opacity:.75;
+}
+/* selected/checked */
+.filter-chip[aria-checked="true"]{
+	background-color:var(--site-accent-color);
+	color:var(--base-white);
 }
 
 .item-row h3{
