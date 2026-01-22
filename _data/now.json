@@ -1,12 +1,32 @@
 {
   "nowItems": [
     {
-      "itemDateExpire": "2026-01-20",
-      "itemTitle": "Wasted Space",
-      "itemCaption": "The first game in the Terrabyte roster, the concept is to blast space enemies, collect destroyed materials, and recycle them into ship upgrades. We showcased our game in Berlin (yes, Germany!) at GTF and now you can play it too! I'm still working on some additions to the game hence why it's here and not on the main portfolio page.",
+      "itemTitle": "The Eco Arcade",
+      "itemCaption": "An arcade game like Wasted Space is really only properly experienced on a full-size arcade machine. So, I'm going to attempt building one! I am aiming to have it done in time to bring to Earth Day Omaha later this spring. It'll be equal parts promotion of Terrabyte, environmental education, and a conversation-starter of what environmentalism can even look like.",
       "itemCategory": "tb",
-      "linkTitle": "View the Wasted Space website",
+      "linkTitle": "Play Wasted Space online!",
       "linkHref": "https://www.wastedspace.fun"
+    },
+    {
+      "itemTitle": "Pixel Peeps Wallpaper Club",
+      "itemCaption": "Last year, I launched a Patreon that rewards subscribers with a new pixel art wallpaper every month. The designs incorporate Pixel Planet Today designs, environmental themes, or other pixel-y goodness. If you're interested in supporting my work and getting some cool wallpapers, I'd encourage you to check it out!",
+      "itemCategory": "tb",
+      "linkTitle": "Become a Pixel Peep",
+      "linkHref": "https://patreon.com/terrabyte_tech"
+    },
+    {
+      "itemTitle": "Earth Day Omaha",
+      "itemCaption": "As a board member for the Green Omaha Coalition, I'm also helping plan this year's Earth Day Omaha event! Being my second EDO, I'm excited to help make it bigger and better than ever.",
+      "itemCategory": "p",
+      "linkTitle": "Learn more about Earth Day Omaha",
+      "linkHref": "https://www.greenomaha.org"
+    },
+    {
+      "itemTitle": "Pixel Planet Today",
+      "itemCaption": "The world is constantly calling for environmental facts and pixel art: making this the project that never sleeps. I am trying to get into a more consistent posting schedule, but I got a lot going on... For not a lack of will, but a lack of time.",
+      "itemCategory": "tb",
+      "linkTitle": "View the Pixel Planet Today Website",
+      "linkHref": "https://www.pixelplanettoday.com"
     },
     {
       "itemTitle": "Birding",
@@ -16,11 +36,9 @@
       "linkHref": "https://ebird.org/profile/NjE4NTM3Ng"
     },
     {
-      "itemTitle": "Square Listings",
-      "itemCaption": "Though I want to expand the Pixel Planet Today merch offerings, I'm currently working on the listings already up. That means finishing exports for wallpapers, getting stickers up on Etsy, and other organizational things to tie up loose ends.",
-      "itemCategory": "tb",
-      "linkTitle": "View the Webstore",
-      "linkHref": "https://shop.pixelplanettoday.com"
+      "itemTitle": "Reading",
+      "itemCaption": "With the new year, a new reading goal (8 books). Currently, I'm reading \"Silent Spring\" by Rachel Carson. Other books on my TBR for the year include \"The Phoenix Project\" and  \"They Both Die at the End.\"",
+      "itemCategory": "p"
     },
     {
       "itemTitle": "byteOS: Notes",
@@ -30,16 +48,21 @@
       "linkHref": "https://play.google.com/store/apps/details?id=com.terrabyte.byteosnotes"
     },
     {
-      "itemTitle": "Pixel Planet Today",
-      "itemCaption": "The world is constantly calling for environmental facts and pixel art: making this the project that never sleeps. I am trying to get into a more consistent posting schedule, but what can I say, there is much to be done.",
-      "itemCategory": "tb",
-      "linkTitle": "View the Pixel Planet Today Website",
-      "linkHref": "https://www.pixelplanettoday.com"
-    },
+      "itemTitle": "Omaha & Nebraska Public Transportation Plan",
+      "itemCaption": "Because I'm such an urbanism nerd, something that I've found myself doing is creating a map that outlines where public transportation improvements could be made in Omaha and other Central Nebraska locations. Do I expect these ideas to bloom to fruition? Not at all, but if they did - boy, I'd be one happy camper.",
+      "itemCategory": "p",
+      "linkTitle": "View the custom Google Map",
+      "linkHref": "https://www.google.com/maps/d/u/0/edit?mid=1m-HwihuWTXU6SkHG9q-nHJ25keWnUkc&usp=sharing"
+    }
+  ],
+
+  "oldItems": [
     {
-      "itemTitle": "Reading",
-      "itemCaption": "Hit the reading goal for the year, but still working on a couple! TBR is getting smaller, but there is quite a pile to get through...",
-      "itemCategory": "p"
+      "itemTitle": "Square Listings",
+      "itemCaption": "Though I want to expand the Pixel Planet Today merch offerings, I'm currently working on the listings already up. That means finishing exports for wallpapers, getting stickers up on Etsy, and other organizational things to tie up loose ends.",
+      "itemCategory": "tb",
+      "linkTitle": "View the Webstore",
+      "linkHref": "https://shop.pixelplanettoday.com"
     },
     {
       "itemTitle": "The Aurum Framework",
@@ -49,15 +72,13 @@
       "linkHref": "https://github.com/goldenharpmedia/aurum"
     },
     {
-      "itemTitle": "Omaha & Nebraska Public Transportation Plan",
-      "itemCaption": "Because I'm such an urbanism nerd, something that I've found myself doing is creating a map that outlines where public transportation improvements could be made in Omaha and other Central Nebraska locations. Do I expect these ideas to bloom to fruition? Not exactly, but if they did - boy, the state would be all the better for it. :)",
-      "itemCategory": "p",
-      "linkTitle": "View the custom Google Map",
-      "linkHref": "https://www.google.com/maps/d/u/0/edit?mid=1m-HwihuWTXU6SkHG9q-nHJ25keWnUkc&usp=sharing"
-    }
-  ],
-
-  "oldItems": [
+      "itemDateExpire": "2026-01-20",
+      "itemTitle": "Wasted Space",
+      "itemCaption": "The first game in the Terrabyte roster, the concept is to blast space enemies, collect destroyed materials, and recycle them into ship upgrades. We showcased our game in Berlin (yes, Germany!) at GTF and now you can play it too! I'm still working on some additions to the game hence why it's still here and not just on the main portfolio page.",
+      "itemCategory": "tb",
+      "linkTitle": "View the Wasted Space website",
+      "linkHref": "https://www.wastedspace.fun"
+    },
     {
       "itemDateExpire": "2025-08-25",
       "itemTitle": "Funding",
