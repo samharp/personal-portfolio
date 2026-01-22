@@ -4,8 +4,8 @@
       "itemID": "pixel-planet-today",
       "itemTitle": "Pixel Planet Today",
       "itemCompletionDate": "",
-      "itemCaption": "This is my pride and joy. Pixel Planet Today is a passion-fueled 'Design 365' turned-daily project I decided to undertake in July 2019. The daily pixel designs highlight facts about the planet in order to help raise an appreciation for the planet. I have continued to post every day for over a year with no end in sight. On top of the daily posts, I have also wrote blog posts about my journey, created and sold stickers to raise money for environmental causes, and made animated versions of my posts to celebrate follower milestones.",
-      "itemTags": ["illustration", "writing", "web-design", "animation", "environmental"],
+      "itemCaption": "The project that kicked off my drive to combine environmentalism, design, and technology. Pixel Planet Today, initially a 'Design 365' project, combines pixel art designs with facts about the planet. The project core is found in its social media posts, but it has since expanded to include eco-merch, blog posts, and other content.",
+      "itemTags": ["environmental", "creative", "research"],
       "linkTitle": "See the Pixel Planet Today website",
       "linkHref": "https://pixelplanettoday.com",
       "itemThumbnail": "./img/pixel-planet-today-logo-square.png"
@@ -14,38 +14,48 @@
       "itemID": "wasted-space",
       "itemTitle": "Wasted Space",
       "itemCompletionDate": "",
-      "itemCaption": "My second art-and-tech-for-the-planet project, Wasted Space is a classic arcade game that drives home the idea of reusing and recycling. In the game, players fly a spaceship through endless enemies and collect materials from destroyed ships in order to upgrade their own. In pixel art fashion, environmental education in the game isn't as in your face as other projects, making it a lot more approachable to casual players.",
-      "itemTags": ["illustration", "web-design", "animation", "environmental", "game-design", "sound-design"],
+      "itemCaption": "Wasted Space is a classic arcade game that drives home the idea of reusing and recycling. In the game, players fly a spaceship through endless enemies and collect materials from destroyed ships in order to upgrade their own. In pixel art fashion, environmental education in game isn't as in your face as other projects, making it a lot more approachable to casual players.",
+      "itemTags": ["environmental", "creative", "software", "interactive"],
       "linkTitle": "See the Wasted Space website",
       "linkHref": "https://wastedspace.fun",
       "itemThumbnail": "./img/wasted-space-ship-title.png"
+    },
+    {
+      "itemID": "byteos-notes",
+      "itemTitle": "byteOS: Notes",
+      "itemCompletionDate": "",
+      "itemCaption": "A simple note-taking app inspired by, you guessed it, pixel art. byteOS: Notes is designed to be as lightweight as possible, making it eco-friendly while also helping you break-free from AI and the cloud. The basic version of the app is published on the Google Play Store, but plenty of updates are in the works to add more features and functionality.",
+      "itemTags": ["environmental", "software", "interactive"],
+      "linkTitle": "Download byteOS: Notes on Google Play",
+      "linkHref": "https://play.google.com/store/apps/details?id=com.terrabyte.byteosnotes",
+      "itemThumbnail": "./img/byteos-notes-logo.png"
+    },
+    {
+      "itemID": "ne-sheds",
+      "itemTitle": "NE Sheds",
+      "itemCompletionDate": "",
+      "itemCaption": "NE Sheds is a shed and outbuilding retailer based in Nebraska. In redesigning and rebuilding their website, I worked closely with the owners to create a site that fit both their vision, improve SEO, and enhance user experience.",
+      "itemTags": ["creative", "client"],
+      "linkTitle": "Visit their website",
+      "linkHref": "https://www.nesheds.us/",
+      "itemThumbnail": "./img/ne-sheds-thumbnail.png"
     },
     {
       "itemID": "ncbvi",
       "itemTitle": "Nebraska Commission for the Blind and Visually Impaired",
       "itemCompletionDate": "",
       "itemCaption": "The Nebraska Commission for the Blind and Visually Impaired initially reached out to me about redesigning their logo for their 20th anniversary, but has since led to additional design projects like business cards and social media images. I am incredibly fortunate to continue working with an agency that provides necessary services to those that need it.",
-      "itemTags": ["graphic-design"],
-      "linkTitle": "",
-      "linkHref": "",
+      "itemTags": ["creative", "client"],
+      "linkTitle": "Visit their website",
+      "linkHref": "https://www.ncbvi.org/",
       "itemThumbnail": "./img/ncbvi-logo.png"
-    },
-    {
-      "itemID": "undergraduate-research",
-      "itemTitle": "Undergraduate Research",
-      "itemCompletionDate": "",
-      "itemCaption": "Between January 2016 and May of 2017, I combined two of my passions into one Undergraduate Research project. I am really passionate about the Earth and going green, and I wanted to use my skills in Web Design to help bring attention to the state of the environment. My study focused on the question 'Why do some college students recycle, and others don't?' I surveyed fellow students at the University of Nebraska at Kearney, and with the results I created an interactive website with the goal of reaching the audience that needed it: college students. For this project, I coded all of the HTML and CSS, created all the graphics, and coded most of the JavaScript.",
-      "itemTags": ["illustration", "writing", "web-design", "animation", "environmental"],
-      "linkTitle": "View the interactive results",
-      "linkHref": "http://www.lopers.net/students/lopers/harpersj/urf/index.html",
-      "itemThumbnail": "./img/undergrad-research-initial-thumbnail.png"
     },
     {
       "itemID": "eva",
       "itemTitle": "Eva Therapeutic Wellbeing",
       "itemCompletionDate": "",
       "itemCaption": "While I was working as a Multimedia Work Study Student in the Center for Entrepreneurship and Rural Development office at UNK, I was approached to build a website for a new small business, Eva Therapeutic Wellbeing. The owner, Eva, and I clicked very early on in the process, and she has been a joy of a client ever since. Since the initial build, I have worked with her on adding more content to the site, as well as keeping information up to date.",
-      "itemTags": ["web-design"],
+      "itemTags": ["creative", "client"],
       "linkTitle": "View her company website",
       "linkHref": "https://www.evatherapyservices.com",
       "itemThumbnail": "./img/eva-thumbnail.png"
@@ -55,13 +65,23 @@
       "itemTitle": "Beavercreek Marketing",
       "itemCompletionDate": "2022-03-25",
       "itemCaption": "While I worked at Beavercreek Marketing between 2018 and 2021 as a full-time employee, my design-relationship with the company didn't stop there. After ending my employment, I became an independent contractor, designing and building internal tools for the design agency. The projects I have helped build may not be public facing, but are used both by the Beavercreek employees and their clients who use their financial sector software.",
-      "itemTags": ["web-design", "graphic-design"],
+      "itemTags": ["creative", "software", "interactive", "client"],
       "linkTitle": "View their website",
       "linkHref": "https://bcm.io",
       "itemThumbnail": "./img/bcm-logo.png"
     }
   ],
   "unusedProjectItems":[
+    {
+      "itemID": "undergraduate-research",
+      "itemTitle": "Undergraduate Research",
+      "itemCompletionDate": "2017",
+      "itemCaption": "Between January 2016 and May of 2017, I combined two of my passions into one Undergraduate Research project. I am really passionate about the Earth and going green, and I wanted to use my skills in Web Design to help bring attention to the state of the environment. My study focused on the question 'Why do some college students recycle, and others don't?' I surveyed fellow students at the University of Nebraska at Kearney, and with the results I created an interactive website with the goal of reaching the audience that needed it: college students.",
+      "itemTags": ["environmental", "creative", "research"],
+      "linkTitle": "View the interactive results",
+      "linkHref": "http://www.lopers.net/students/lopers/harpersj/urf/index.html",
+      "itemThumbnail": "./img/undergrad-research-initial-thumbnail.png"
+    },
     {
       "itemID": "startup-week",
       "itemTitle": "Startup Week 2017",

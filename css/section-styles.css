@@ -2,11 +2,12 @@
 section{
   max-width:1200px;
   margin:0 auto;
-  padding:40px;
+  padding:4rem 40px;
   overflow:hidden;
 }
 section.full-section{
   min-height:100vh;
+  /* padding:0; */
 }
 
 
@@ -136,6 +137,11 @@ div.show-photo + section[data-filter~="photography"]{
   width:420px;
 }
 
+/* ne sheds */
+#ne-sheds img{
+  width:420px;
+}
+
 /*bcm*/
 #bcm img{
   width:350px;
@@ -151,6 +157,11 @@ div.show-photo + section[data-filter~="photography"]{
   width:400px;
 }
 
+/* byteOS: Notes */
+#byteos-notes img{
+  width:300px;
+  background-color:#333333;
+}
 
 /*******************/
 /*photography section*/
