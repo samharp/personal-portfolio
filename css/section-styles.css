@@ -63,6 +63,7 @@ section:nth-child(odd) .item-images-container{
   section:nth-child(even) .item-images-container{
     flex:none;
     margin-bottom:40px;
+    padding:0;
     order:1;
   }
   section:nth-child(odd) .item-description-container,
@@ -159,7 +160,7 @@ div.show-photo + section[data-filter~="photography"]{
 
 /* byteOS: Notes */
 #byteos-notes img{
-  width:300px;
+  width:275px;
   background-color:#333333;
 }
 

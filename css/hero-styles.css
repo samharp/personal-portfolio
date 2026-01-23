@@ -63,7 +63,9 @@
 @media only screen and (max-width: 865px){
   #hero .picture-container{
     display:none!important;
-    background-color:red;
+  }
+  #hero h1 .rel-smaller-text{
+    font-size:3rem;
   }
   .about-me-container{
     margin-left:0;

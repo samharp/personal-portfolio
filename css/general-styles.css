@@ -186,6 +186,8 @@ a[href].item-category-badge:active{
 	position:relative;
 	display:inline-block;
 	cursor: pointer;
+	font-size: 2rem;
+  line-height: 1em;
 	top:0;
 	transform:scale(1);
 	transition:.25s;
@@ -225,6 +227,9 @@ a[href].item-category-badge:active{
 
 /*small tablet*/
 @media only screen and (max-width: 750px){
+	body{
+		font-size: 1rem;
+	}
 	.icon-links-container{
 		width:100%;
 	}
@@ -285,11 +290,11 @@ svg{
 /*small mobile styles*/
 @media only screen and (max-width:450px){
 	h1{
-		font-size: 4em;
+		font-size: 4rem;
     line-height: 1em;
 	}
 	h2{
-		font-size:1.5em;
+		font-size:1.5rem;
 	}
 	a.standard-link,
   a.text-link{
