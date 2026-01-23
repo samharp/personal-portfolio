@@ -43,7 +43,7 @@
   {% endif %}
 
   {# initial load transition #}
-	{# <style>
+	<style>
 		.loading{
 			opacity:0;
 		}
@@ -52,24 +52,24 @@
 		window.addEventListener("load", function(){
 			document.body.classList.remove("loading");
 		})
-	</script> #}
+	</script>
 
-	{# <noscript>
+	<noscript>
 		<style>
 			.loading{
 				opacity:1;
 			}
 		</style>
-	</noscript> #}
+	</noscript>
 
   {# hide JS only items when there isn't js #}
-	{# <noscript>
+	<noscript>
 		<style>
 			.show-with-js{
 				display:none;
 			}
 		</style>
-	</noscript> #}
+	</noscript>
 
   {# other metadata #}
   {# mastodon #}
@@ -83,7 +83,7 @@
   <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
 
 </head>
-<body data-theme="{{ defaults.uiTheme | default("system") }}">
+<body class="loading" data-theme="{{ defaults.uiTheme | default("system") }}">
   {# svg container component #}
   {% include "svgs.njk" %}
 
