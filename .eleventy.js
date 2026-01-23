@@ -15,10 +15,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget('site.webmanifest');
 
   // COLLECTIONS
-  // eleventyConfig.addCollection("projects", (collection) => {
-  //   return collection.globalData.projects;
-  // });
-
 
   // FILTERS
   eleventyConfig.addFilter("notExpired", function(items) {
