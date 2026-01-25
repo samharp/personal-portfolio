@@ -1,0 +1,116 @@
+{
+  "projectItems": [
+    {
+      "itemID": "pixel-planet-today",
+      "itemTitle": "Pixel Planet Today",
+      "itemCompletionDate": "",
+      "itemCaption": "The project that kicked off my drive to combine environmentalism, design, and technology. Pixel Planet Today, initially a 'Design 365' project, combines pixel art designs with facts about the planet. The project core is found in its social media posts, but it has since expanded to include eco-merch, blog posts, and other content.",
+      "itemTags": ["environmental", "creative", "research"],
+      "linkTitle": "See the Pixel Planet Today website",
+      "linkHref": "https://pixelplanettoday.com",
+      "itemThumbnail": "./img/pixel-planet-today-logo-square.png"
+    },
+    {
+      "itemID": "wasted-space",
+      "itemTitle": "Wasted Space",
+      "itemCompletionDate": "",
+      "itemCaption": "Wasted Space is a classic arcade game that drives home the idea of reusing and recycling. In the game, players fly a spaceship through endless enemies and collect materials from destroyed ships in order to upgrade their own. In pixel art fashion, environmental education in game isn't as in your face as other projects, making it a lot more approachable to casual players.",
+      "itemTags": ["environmental", "creative", "software", "interactive"],
+      "linkTitle": "See the Wasted Space website",
+      "linkHref": "https://wastedspace.fun",
+      "itemThumbnail": "./img/wasted-space-ship-title.png"
+    },
+    {
+      "itemID": "byteos-notes",
+      "itemTitle": "byteOS: Notes",
+      "itemCompletionDate": "",
+      "itemCaption": "A simple note-taking app inspired by, you guessed it, pixel art. byteOS: Notes is designed to be as lightweight as possible, making it eco-friendly while also helping you break-free from AI and the cloud. The basic version of the app is published on the Google Play Store, but plenty of updates are in the works to add more features and functionality.",
+      "itemTags": ["environmental", "software", "interactive"],
+      "linkTitle": "Download byteOS: Notes on Google Play",
+      "linkHref": "https://play.google.com/store/apps/details?id=com.terrabyte.byteosnotes",
+      "itemThumbnail": "./img/byteos-notes-logo.png"
+    },
+    {
+      "itemID": "ne-sheds",
+      "itemTitle": "NE Sheds",
+      "itemCompletionDate": "",
+      "itemCaption": "NE Sheds is a shed and outbuilding retailer based in Nebraska. In redesigning and rebuilding their website, I worked closely with the owners to create a site that fit both their vision, improve SEO, and enhance user experience.",
+      "itemTags": ["creative", "client"],
+      "linkTitle": "Visit their website",
+      "linkHref": "https://www.nesheds.us/",
+      "itemThumbnail": "./img/ne-sheds-thumbnail.png"
+    },
+    {
+      "itemID": "ncbvi",
+      "itemTitle": "Nebraska Commission for the Blind and Visually Impaired",
+      "itemCompletionDate": "",
+      "itemCaption": "The Nebraska Commission for the Blind and Visually Impaired initially reached out to me about redesigning their logo for their 20th anniversary, but has since led to additional design projects like business cards and social media images. I am incredibly fortunate to continue working with an agency that provides necessary services to those that need it.",
+      "itemTags": ["creative", "client"],
+      "linkTitle": "Visit their website",
+      "linkHref": "https://www.ncbvi.org/",
+      "itemThumbnail": "./img/ncbvi-logo.png"
+    },
+    {
+      "itemID": "eva",
+      "itemTitle": "Eva Therapeutic Wellbeing",
+      "itemCompletionDate": "",
+      "itemCaption": "While I was working as a Multimedia Work Study Student in the Center for Entrepreneurship and Rural Development office at UNK, I was approached to build a website for a new small business, Eva Therapeutic Wellbeing. The owner, Eva, and I clicked very early on in the process, and she has been a joy of a client ever since. Since the initial build, I have worked with her on adding more content to the site, as well as keeping information up to date.",
+      "itemTags": ["creative", "client"],
+      "linkTitle": "View her company website",
+      "linkHref": "https://www.evatherapyservices.com",
+      "itemThumbnail": "./img/eva-thumbnail.png"
+    },
+    {
+      "itemID": "bcm",
+      "itemTitle": "Beavercreek Marketing",
+      "itemCompletionDate": "2022-03-25",
+      "itemCaption": "While I worked at Beavercreek Marketing between 2018 and 2021 as a full-time employee, my design-relationship with the company didn't stop there. After ending my employment, I became an independent contractor, designing and building internal tools for the design agency. The projects I have helped build may not be public facing, but are used both by the Beavercreek employees and their clients who use their financial sector software.",
+      "itemTags": ["creative", "software", "interactive", "client"],
+      "linkTitle": "View their website",
+      "linkHref": "https://bcm.io",
+      "itemThumbnail": "./img/bcm-logo.png"
+    }
+  ],
+  "unusedProjectItems":[
+    {
+      "itemID": "undergraduate-research",
+      "itemTitle": "Undergraduate Research",
+      "itemCompletionDate": "2017",
+      "itemCaption": "Between January 2016 and May of 2017, I combined two of my passions into one Undergraduate Research project. I am really passionate about the Earth and going green, and I wanted to use my skills in Web Design to help bring attention to the state of the environment. My study focused on the question 'Why do some college students recycle, and others don't?' I surveyed fellow students at the University of Nebraska at Kearney, and with the results I created an interactive website with the goal of reaching the audience that needed it: college students.",
+      "itemTags": ["environmental", "creative", "research"],
+      "linkTitle": "View the interactive results",
+      "linkHref": "http://www.lopers.net/students/lopers/harpersj/urf/index.html",
+      "itemThumbnail": "./img/undergrad-research-initial-thumbnail.png"
+    },
+    {
+      "itemID": "startup-week",
+      "itemTitle": "Startup Week 2017",
+      "itemCompletionDate": "2017-09-25",
+      "itemCaption": "Central Nebraska Startup Week 2017 was an entire week of events dedicated to entrepreneurship throughout the region. Events for all ages were held in Kearney, Grand Island, and Hastings, Nebraska. As a Multimedia Work Study Student in the Center for Entrepreneurship and Rural Development office at UNK, I created the Nebraska-themed banner using the pre-existing Techstars style guide. The style guide included colors that could be used, typefaces, and appropriate placement for the Techstars logo.",
+      "itemTags": ["illustration", "graphic-design"],
+      "linkTitle": "",
+      "linkHref": "",
+      "itemThumbnail": "./img/startupweek-banner.png"
+    },
+    {
+      "itemID": "glitch",
+      "itemTitle": "//glitch",
+      "itemCompletionDate": "2017-09-25",
+      "itemCaption": "You can only hide behind a computer screen for so long. //glitch, a concept Sci-Fi Thriller focuses on the dark side of the internet. In creating the animation, I used sounds that were a part of Creative Commons, and utilized open-use images to piece together the effects.",
+      "itemTags": ["animation"],
+      "linkTitle": "Watch the opening credits on Youtube",
+      "linkHref": "https://www.youtube.com/watch?v=fIO23Xo0oXo",
+      "itemThumbnail": "./img/glitch-thumbnail.png"
+    },
+    {
+      "itemID": "go-for-launch",
+      "itemTitle": "Go for Launch 2018",
+      "itemCompletionDate": "2018-04-25",
+      "itemCaption": "Go for Launch was a weekend-long workshop that brought startup business ideas to reality. As a Multimedia Work Study Student in the Center for Entrepreneurship and Rural Development office at UNK, I designed the majority of the promotional materials for the event, including the illustrations for postcards, flyers, and banners for email newsletters. The workshop had a limited 20 spots for attendees, and flyers were spread throughout the Kearney community and around the UNK campus.",
+      "itemTags": ["illustration", "graphic-design"],
+      "linkTitle": "",
+      "linkHref": "",
+      "itemThumbnail": ""
+    }
+  ]
+}

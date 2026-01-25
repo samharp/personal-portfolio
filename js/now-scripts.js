@@ -8,7 +8,7 @@ window.addEventListener("load", function(){
 
   function stickAside(nowAside){
 
-    var nowSection = document.getElementById("now-section");
+    var nowSection = document.getElementById("now");
     var nowSectionTop = nowSection.offsetTop;
 
     if(window.scrollY >= nowSectionTop){

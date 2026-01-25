@@ -1,5 +1,50 @@
 header{
-  max-width: 1200px;
+  position:fixed;
+  z-index:10;
+  top:0;
+  left:0;
+  right:0;
+  background-color:var(--site-background-color);
+  /* only works if opacity is added through the bg color */
+  /* backdrop-filter: blur(10px) opacity(50%); */
+}
+header nav{
+  padding:25px 5rem;
+  max-width:1200px;
   margin:0 auto;
-  padding: 40px;
+  font-size:14px;
+  gap:25px;
+}
+#main-nav-items-container{
+  width:100%;
+}
+#main-nav-items{
+  gap:25px;
+}
+
+/* mobile nav */
+@media (max-width: 750px) {
+  header nav{
+    padding:15px 1rem;
+    flex-wrap: wrap;
+  }
+  #main-nav-items{
+    flex-wrap: wrap;
+    gap:25px;
+    padding-bottom:80vh;
+  }
+  #main-nav-items-container .nav-item-container{
+    width:100%;
+  }
+}
+
+/* item container hover animation */
+header .nav-item-container{
+  transform:scale(1);
+  transition: transform .15s;
+}
+@media (hover: hover) and (pointer: fine) and (min-width:750px) {
+  .nav-item-container:hover{
+    transform:scale(1.05);
+  }
 }

@@ -1,4 +1,4 @@
-#now-section{
+#now{
   padding-bottom:60px;
 }
 
@@ -28,8 +28,10 @@
   }
 }
 
-#now-info-container h2{
+#now-info-container h1{
   margin-bottom:50px;
+  font-size: 58px;
+  line-height: 100%;
 }
 
 /* now page sections/items */
@@ -58,4 +60,7 @@
 }
 .item-category-container{
   margin-right:10px;
+}
+.item-header h2{
+  margin-bottom:0;
 }

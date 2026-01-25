@@ -14,6 +14,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget('img');
   eleventyConfig.addWatchTarget('site.webmanifest');
 
+  // COLLECTIONS
+
   // FILTERS
   eleventyConfig.addFilter("notExpired", function(items) {
     const today = new Date();

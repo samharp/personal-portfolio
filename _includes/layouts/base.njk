@@ -3,10 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }}
-    {% if subtitle %}
-      : {{ subtitle }}
-    {% endif %}
+  <title>{{ site.title }}{% if subtitle %}: {{ subtitle }}{% endif %}
   </title>
   <meta name="description" content="{{ description }}">
   <meta name="author" content="{{ site.author }}">
@@ -25,12 +22,15 @@
 
   {# aurum framework #}
   <link rel="stylesheet" type="text/css" href="https://au.goldenharpmedia.com/framework/packages/v1.1.1/au.css">
+
+  {# once built... #}
   {# <link href="https://www.au.goldenharpmedia.com/packages/vLatest" rel="stylesheet" type="text/css" /> #}
 
   {# site styles #}
   <link href="/css/general-styles.css" rel="stylesheet" type="text/css" />
 	<link href="/css/hero-styles.css" rel="stylesheet" type="text/css" />
 	<link href="/css/section-styles.css" rel="stylesheet" type="text/css" />
+	<link href="/css/header-styles.css" rel="stylesheet" type="text/css" />
 	<link href="/css/footer-styles.css" rel="stylesheet" type="text/css" />
   {# page styles #}
   {% if stylesheets %}
@@ -39,13 +39,12 @@
 
   {# shared scripts #}
 	<script src="/js/shared-scripts.js"></script>
-  {# page scripts will be in HTML? #}
   {% if scripts %}
   <script src="{{ scripts }}"></script>
   {% endif %}
 
   {# initial load transition #}
-	{# <style>
+	<style>
 		.loading{
 			opacity:0;
 		}
@@ -54,24 +53,24 @@
 		window.addEventListener("load", function(){
 			document.body.classList.remove("loading");
 		})
-	</script> #}
+	</script>
 
-	{# <noscript>
+	<noscript>
 		<style>
 			.loading{
 				opacity:1;
 			}
 		</style>
-	</noscript> #}
+	</noscript>
 
   {# hide JS only items when there isn't js #}
-	{# <noscript>
+	<noscript>
 		<style>
 			.show-with-js{
 				display:none;
 			}
 		</style>
-	</noscript> #}
+	</noscript>
 
   {# other metadata #}
   {# mastodon #}
@@ -85,7 +84,7 @@
   <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
 
 </head>
-<body data-theme="{{ defaults.uiTheme | default("system") }}">
+<body class="loading" data-theme="{{ defaults.uiTheme | default("system") }}">
   {# svg container component #}
   {% include "svgs.njk" %}
 
@@ -96,8 +95,6 @@
 
   <a name="top"></a>
 
-  {# <header>
-  </header> #}
   {{ content | safe }}
 
   {% include "footer.njk" %}
