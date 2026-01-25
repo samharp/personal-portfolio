@@ -57,10 +57,9 @@ window.addEventListener("load", function(){
     });
   }
 
-  function showPhotoSection(){
-    itemsContainer.classList.add("show-photo");
-  }
-
+  // function showPhotoSection(){
+  //   itemsContainer.classList.add("show-photo");
+  // }
   ///////////////
   
 }, false);

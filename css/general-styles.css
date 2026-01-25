@@ -187,6 +187,7 @@ a[href].item-category-badge:active{
 	display:inline-block;
 	cursor: pointer;
 	font-size: 2rem;
+	opacity:1;
   line-height: calc(100% + 2px);
 	top:0;
 	transform:scale(1);
@@ -198,7 +199,7 @@ a[href].item-category-badge:active{
 	width:70px;
 	height:70px;
 }
-@media (hover: hover) and (pointer: fine) {
+@media (hover: hover) and (pointer: fine) and (min-width:750px) {
   .icon-link:hover{
     top:-15px;
     transform:scale(1.05);
@@ -207,6 +208,7 @@ a[href].item-category-badge:active{
 }
 .icon-link:active{
   transform:scale(1);
+	opacity:.8;
 }
 /*icon link tooltips shown on icon hover*/
 .icon-link-tooltip{
@@ -314,6 +316,27 @@ svg{
 	display:none;
 	opacity:0;
 }
+/* contextual hiding */
+@media only screen and (max-width:750px){
+	.hide-on-mobile-only{
+		display:none;
+	}
+	.show-on-mobile-only{
+		display:block;
+	}
+}
+@media only screen and (min-width:750px){
+	.hide-on-mobile-only{
+		display:block;
+	}
+	.show-on-mobile-only{
+		display:none;
+	}
+}
+.show{
+	display:block!important;
+}
+
 .highlighter-container{
 	display:inline-block;
 	position:relative;
