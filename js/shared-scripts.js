@@ -29,9 +29,11 @@ window.addEventListener("load", function(){
   const navItemsContainer = document.querySelector("[data-trigger-menu-nav-items]");
   // #main-nav-items-container
 
-  navMenuTrigger.addEventListener("click", function(){
-    navItemsContainer.classList.toggle("show");
-  });
+  if (navMenuTrigger && navItemsContainer) {
+    navMenuTrigger.addEventListener("click", function(){
+      navItemsContainer.classList.toggle("show");
+    });
+  }
 
 }, false);
   

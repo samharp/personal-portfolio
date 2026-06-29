@@ -57,6 +57,17 @@
   margin-top:50px;
   max-width:500px;
 }
+.companies-container .company-logo{
+  width:5rem;
+  height:5rem;
+  margin:0 auto;
+}
+.companies-container .terrabyte .company-logo{
+  background-image:url(/img/terrabyte-a-mountain-profile-pic.png);
+}
+.companies-container .golden-harp-media .company-logo{
+  background-image:url(/img/ghm-official-harp-dark-logo-profile-pic-circle.png);
+}
 
 
 /*responsive*/

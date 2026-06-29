@@ -15,6 +15,14 @@
 	/* default: light theme */
 	--site-background-color: var(--base-white);
 	--site-text-color: var(--base-charcoal);
+
+	/* add to aurum eventually */
+	/* spacing */
+  --space-xsmall:0.5rem;
+  --space-small:1rem;
+  --space-medium:2rem;
+  --space-large:4rem;
+  --space-xlarge:6rem;
 }
 
 
@@ -48,6 +56,44 @@ body::-webkit-scrollbar-track{
 *::-webkit-scrollbar-thumb{
 	background-color: var(--site-accent-color);
 	border-radius:50px;
+}
+
+/* expand on Aurum styles; eventually move to Aurum package... */
+[data-au~="xsmall-gap"],
+.xsmall-gap{
+  gap:var(--space-xsmall);
+}
+[data-au~="small-gap"],
+.small-gap{
+  gap:var(--space-small);
+}
+[data-au~="medium-gap"],
+.medium-gap{
+  gap:var(--space-medium);
+}
+[data-au~="large-gap"],
+.large-gap{
+  gap:var(--space-large);
+}
+[data-au~="xlarge-gap"],
+.xlarge-gap{
+  gap:var(--space-xlarge);
+}
+
+/* adaptive flex-wrap */
+@media only screen and (max-width: 600px) {
+  [data-au~="mobile-flex-wrap"] {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 450px) {
+  [data-au~="small-mobile-flex-wrap"] {
+    flex-wrap: wrap;
+  }
+  [data-au~="small-mobile-flex-wrap"] > * {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
 }
 
 
@@ -105,6 +151,9 @@ p{
 }
 p:last-child{
 	margin-bottom:0;
+}
+.subtext{
+	font-size:0.9rem;
 }
 
 /*links*/
@@ -298,11 +347,9 @@ svg{
 	h2{
 		font-size:1.5rem;
 	}
-	a.standard-link,
   a.text-link{
 		text-decoration:underline;
 	}
-	a.standard-link:after,
   a.text-link:after{
 		background-color:transparent;
 	}

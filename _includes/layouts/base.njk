@@ -1,86 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.language }}">
 <head>
+
+<!--------->
+<!-- metadata -->
+<!--------->
+<!---->
+
+  {# robots: add noIndex: true to page frontmatter to de-index a page #}
+  {% if noIndex %}
+    <meta name="robots" content="noindex, nofollow">
+  {% endif %}
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }}{% if subtitle %}: {{ subtitle }}{% endif %}
-  </title>
-  <meta name="description" content="{{ description }}">
+
+  <title>{{ site.title }}{% if subtitle %}: {{ subtitle }}{% endif %}</title>
+
+  <meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="{{ site.author }}">
+  <meta name="keywords" content="{{ site.keywords }}{% if keywords %}, {{ keywords }}{% endif %}">
+  <meta name="theme-color" content="{{ site.themeColor }}">
+
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+  {# Open Graph #}
+  <meta property="og:title" content="{{ site.title }}{% if subtitle %}: {{ subtitle }}{% endif %}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:card" content="summary">
+
+  {# Schema.org #}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "{{ site.schemaType }}",
+      "name": "{{ site.author }}",
+      "url": "{{ site.url }}",
+      "description": "{{ site.description }}"
+    }
+  </script>
 
   {# favicons #}
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
-  {# css #}
+<!--------->
+<!-- css -->
+<!--------->
+<!---->
+
   {# fonts #}
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
-
-  {# shared styles #}
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
 
   {# aurum framework #}
   <link rel="stylesheet" type="text/css" href="https://au.goldenharpmedia.com/framework/packages/v1.1.1/au.css">
 
-  {# once built... #}
-  {# <link href="https://www.au.goldenharpmedia.com/packages/vLatest" rel="stylesheet" type="text/css" /> #}
-
   {# site styles #}
-  <link href="/css/general-styles.css" rel="stylesheet" type="text/css" />
-	<link href="/css/hero-styles.css" rel="stylesheet" type="text/css" />
-	<link href="/css/section-styles.css" rel="stylesheet" type="text/css" />
-	<link href="/css/header-styles.css" rel="stylesheet" type="text/css" />
-	<link href="/css/footer-styles.css" rel="stylesheet" type="text/css" />
+  <link href="/css/site-styles.css" rel="stylesheet" type="text/css" />
+  <link href="/css/hero-styles.css" rel="stylesheet" type="text/css" />
+  <link href="/css/section-styles.css" rel="stylesheet" type="text/css" />
+  <link href="/css/header-styles.css" rel="stylesheet" type="text/css" />
+  <link href="/css/footer-styles.css" rel="stylesheet" type="text/css" />
+
   {# page styles #}
-  {% if stylesheets %}
-    <link href="{{ stylesheets }}" rel="stylesheet" type="text/css" />
+  {% if styles %}
+    <link href="{{ styles }}" rel="stylesheet" type="text/css" />
   {% endif %}
 
+<!--------->
+<!-- js -->
+<!--------->
+<!---->
+
   {# shared scripts #}
-	<script src="/js/shared-scripts.js"></script>
+  <script src="/js/shared-scripts.js"></script>
+
+  {# page scripts #}
   {% if scripts %}
-  <script src="{{ scripts }}"></script>
+    <script src="{{ scripts }}"></script>
   {% endif %}
 
   {# initial load transition #}
-	<style>
-		.loading{
-			opacity:0;
-		}
-	</style>
-	<script>
-		window.addEventListener("load", function(){
-			document.body.classList.remove("loading");
-		})
-	</script>
+  <style>
+    .loading { opacity: 0; }
+  </style>
+  <script>
+    window.addEventListener("load", function(){
+      document.body.classList.remove("loading");
+    })
+  </script>
+  <noscript>
+    <style>
+      .loading { opacity: 1; }
+      .show-with-js { display: none; }
+    </style>
+  </noscript>
 
-	<noscript>
-		<style>
-			.loading{
-				opacity:1;
-			}
-		</style>
-	</noscript>
+<!--------->
+<!-- other metadata -->
+<!--------->
+<!---->
 
-  {# hide JS only items when there isn't js #}
-	<noscript>
-		<style>
-			.show-with-js{
-				display:none;
-			}
-		</style>
-	</noscript>
-
-  {# other metadata #}
   {# mastodon #}
   <link rel="me" href="https://climatejustice.social/@samharp"/>
-  {# indieauth login #}
-	<link rel="me" href="https://github.com/samharp"/>
+  {# indieauth #}
+  <link rel="me" href="https://github.com/samharp"/>
   {# webmentions #}
   <link rel="webmention" href="https://webmention.io/www.sammyharper.com/webmention" />
 
-  {# analytics #}
+<!--------->
+<!-- analytics -->
+<!--------->
+<!---->
+
   <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
 
 </head>
@@ -89,9 +125,7 @@
   {% include "svgs.njk" %}
 
   {# noscript banner component #}
-  {# <noscript> #}
   {% include "noscript-banner.njk" %}
-  {# </noscript> #}
 
   <a name="top"></a>
 
