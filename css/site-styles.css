@@ -347,11 +347,9 @@ svg{
 	h2{
 		font-size:1.5rem;
 	}
-	a.standard-link,
   a.text-link{
 		text-decoration:underline;
 	}
-	a.standard-link:after,
   a.text-link:after{
 		background-color:transparent;
 	}
