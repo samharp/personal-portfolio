@@ -1,0 +1,97 @@
+/* document page styles — uses site CSS variables and fonts */
+
+.document {
+  max-width: 800px;
+  margin: var(--space-xlarge) auto;
+  background-color: var(--site-background-color);
+  padding: var(--space-large);
+  border-radius: 8px;
+  line-height: 1.5;
+}
+
+.document .header {
+  text-align: center;
+}
+
+/* header overwrites */
+.document .header h1 {
+  font-size: 2rem;
+}
+
+.document .contact {
+  font-size: 0.85rem;
+  color:var(--base-off-white);
+}
+
+.document section{
+  padding:0;
+  width:100%;
+}
+.document .section h2 {
+  margin-bottom: var(--space-small);
+  border-bottom: 2px solid var(--base-off-white);
+  padding-bottom: 4px;
+}
+.document h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+.document p{
+  margin-bottom:var(--space-xsmall);;
+}
+
+.document .subline {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  margin-bottom: var(--space-xsmall);
+}
+
+.document ul {
+  margin: 0;
+  padding-left: var(--space-medium);
+}
+
+.document ul li {
+  margin-bottom: var(--space-xsmall);
+}
+
+.document .entry {
+  margin-bottom: var(--space-small);
+}
+
+/* dark mode: flatten the card to match the page */
+@media (prefers-color-scheme: dark) {
+  .document {
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+  .document .section h2 {
+    border-bottom-color: rgba(255,255,255,0.12);
+  }
+}
+
+@media only screen and (max-width: 750px){
+	.document{
+    padding: var(--space-small);
+  }
+}
+
+@media print {
+  body {
+    background: transparent !important;
+  }
+  header, footer{
+    display:none;
+  }
+  .document {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    color: black!important;
+    background-color: transparent!important;
+  }
+  .highlighter-container{
+    background-color:transparent!important;
+  }
+}
