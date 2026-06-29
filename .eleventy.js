@@ -16,6 +16,9 @@ module.exports = function (eleventyConfig) {
 
   // COLLECTIONS
 
+  // Shortcodes
+  eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
+
   // FILTERS
   eleventyConfig.addFilter("notExpired", function(items) {
     const today = new Date();

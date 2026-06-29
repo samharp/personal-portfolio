@@ -1,4 +1,4 @@
-# personal-portfolio
+# My Personal Portfolio - sammyharper.com
 
 ## Description
 
@@ -11,14 +11,19 @@ Website is built using Eleventy (11ty), Nunjucks is used for templating markup. 
 
 Below are some more involved sections/aspects of this website (things that maybe aren't as self-explanatory).
 
+For general purposes, build and watch the project using the following commands:
+
+```
+pnpm run build
+```
+
+```
+pnpm run start
+```
+
 ### Portfolio generation
 
-To better handle sorting/filtering and to allow for easier management, portfolio items are generated from **JSON**. The JSON file outlines an item's title, description, image source, and link (if applicable). Some styles require generating HTML each time, meaning that an easier show/hide toggle approach wouldn't work (as built in previous portfolio versions).
-
-Then, on page load, `build-projects-scripts.js` generates sections for each JSON item.
-
-**NOTE:** This will eventually be converted to utilizing the 11ty build process to handle JSON data/item generation.
-
+To better handle sorting/filtering and to allow for easier management, portfolio items are generated from **JSON**. The JSON file outlines an item's title, description, image source, and link (if applicable).
 
 ### `/now` page
 

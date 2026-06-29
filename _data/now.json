@@ -4,7 +4,7 @@
       "itemTitle": "The Eco Arcade",
       "itemCaption": "An arcade game like Wasted Space is really only properly experienced on a full-size arcade machine. So, I'm going to attempt building one! I am aiming to have it done in time to bring to Earth Day Omaha later this spring. It'll be equal parts promotion of Terrabyte, environmental education, and a conversation-starter of what environmentalism can even look like.",
       "itemCategory": "tb",
-      "linkTitle": "Play Wasted Space online!",
+      "linkTitle": "Play Wasted Space online",
       "linkHref": "https://www.wastedspace.fun"
     },
     {
@@ -15,11 +15,17 @@
       "linkHref": "https://patreon.com/terrabyte_tech"
     },
     {
+      "itemDateExpire": "2026-05-01",
       "itemTitle": "Earth Day Omaha",
       "itemCaption": "As a board member for the Green Omaha Coalition, I'm also helping plan this year's Earth Day Omaha event! Being my second EDO, I'm excited to help make it bigger and better than ever.",
       "itemCategory": "p",
       "linkTitle": "Learn more about Earth Day Omaha",
       "linkHref": "https://www.greenomaha.org"
+    },
+    {
+      "itemTitle": "The Green Omaha Directory",
+      "itemCaption": "It has been in the talks for a long time, but I'm very excited to be a part of the team finally making it happen. The Green Omaha Directory is a project to create a comprehensive directory of all the green businesses, organizations, and resources in the Omaha area. It's going to be a great resource for people looking to support local green businesses and get involved in the local environmental community. In collaboration with the Green Omaha Coalition, the Hillside Foundation, and other community partners, hopefully we'll have something put together before the end of 2026.",
+      "itemCategory": "tb"
     },
     {
       "itemTitle": "Pixel Planet Today",
@@ -34,6 +40,13 @@
       "itemCategory": "p",
       "linkTitle": "I'm on eBird!",
       "linkHref": "https://ebird.org/profile/NjE4NTM3Ng"
+    },
+    {
+      "itemTitle": "Carjeta",
+      "itemCaption": "I have had mixed results using existing digital business card services. So, I decided to create my own. First it was a solution to my own personal problem, but now, I'm building it as a beta SaaS product to offer clients. It's lightweight, fully customizable with CSS, and most importantly, gives you a way ot share your information without carrying a stack of cards. If you're interested in having a digital business card, or just want to see what I built, check it out!",
+      "itemCategory": "ghm",
+      "linkTitle": "View the Carjeta website",
+      "linkHref": "https://carjeta.com"
     },
     {
       "itemTitle": "Reading",

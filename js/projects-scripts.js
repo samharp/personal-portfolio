@@ -1,4 +1,4 @@
-// refactor to utilize 11ty as much as possible (for build process at least)
+// filter chip functionality for projects
 window.addEventListener("load", function(){
 
   console.log("[samharp] projects-scripts.js loaded");

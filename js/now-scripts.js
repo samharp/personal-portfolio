@@ -1,3 +1,4 @@
+// refactor to just use position:sticky in CSS and remove all this JS. But for now, here we are.
 window.addEventListener("load", function(){
 
   console.log("[samharp] now-scripts.js loaded");
