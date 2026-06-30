@@ -85,6 +85,9 @@ footer .p-name .highlighter-container span{
 
 /* ========== */
 /* footer links */
+footer h2{
+  font-size:1.5rem;
+}
 .footer-link-container {
   margin-bottom: 10px;
 }
