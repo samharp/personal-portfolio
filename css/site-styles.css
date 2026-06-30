@@ -141,7 +141,8 @@ h2{
 }
 
 h3{
-  font-size:32px;
+  /* font-size:32px; */
+	font-size:1.5rem;
   margin-bottom:30px;
 }
 h4{}

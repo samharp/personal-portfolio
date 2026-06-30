@@ -35,5 +35,40 @@ window.addEventListener("load", function(){
     });
   }
 
+  // change which pixel portrait is shown
+  let pixelPortraitElems = document.querySelectorAll("[data-pixel-portrait]");
+  const date = new Date();
+  const currentMonth = date.getMonth();
+
+  // go through defined seasons
+  const getSeason = function(target) {
+
+    // custom defined seasons as experienced in Omaha, NE
+    const customSeasons = {
+      "winter": [0, 1, 11],
+      "spring": [2, 3, 4],
+      "summer": [5, 6, 7, 8],
+      "fall": [9, 10]
+    }
+    
+    // go through seasons
+    for(const season in customSeasons){
+
+      const months = customSeasons[season];
+
+      for(let x = 0; x < months.length; x++){
+        if(months[x] == target){
+          return season;
+        }
+      }
+    }
+  };
+
+  const season = getSeason(currentMonth);
+
+  pixelPortraitElems.forEach(function(elem) {
+    elem.src = `img/self-pixel-portrait_${season}.png`;
+  });
+
 }, false);
   
