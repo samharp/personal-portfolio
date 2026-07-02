@@ -123,6 +123,12 @@ body{
   font-size: 12px;
 }
 
+/* "Return to..." nav */
+.page-nav{
+  margin-bottom:50px;
+	font-size: 14px;
+}
+
 /*shared native element attributes*/
 h1, h2, h3, h4, button{
 	font-family: 'Poppins', sans-serif;
@@ -151,7 +157,8 @@ p{
 p:last-child{
 	margin-bottom:0;
 }
-.subtext{
+.subtext,
+.small-text{
 	font-size:0.9rem;
 }
 
@@ -467,8 +474,8 @@ h4 .highlighter-container span{
 .filter-chip{
   border-radius: 100px;
   padding: 5px 15px;
-	user-select: none;
-	cursor:pointer;
+	/* user-select: none; */
+	/* cursor:pointer; */
 	transform:scale(1);
 }
 .filter-chip input{
@@ -477,12 +484,12 @@ h4 .highlighter-container span{
 }
 /* hover */
 @media (hover: hover) and (pointer: fine) {
-  .filter-chip:hover{
+  .filter-chip.clickable:hover{
     transform:scale(1.05);
   }
 }
 /* active click */
-.filter-chip:active{
+.filter-chip.clickable:active{
 	opacity:.75;
 }
 /* selected/checked */

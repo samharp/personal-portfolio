@@ -1,0 +1,44 @@
+---
+layout: layouts/base.njk
+---
+
+<section id="{{ id }}" class="case-study" data-au="flex-container flex-vertical large-gap">
+  <div class="page-header">
+    <div class="page-nav">
+      <p>&lt;&nbsp; <a class="text-link" href="/#projects">Return to Portfolio</a></p>
+    </div>
+    <h1>{{ header }}</h1>
+  </div>
+
+  <div class="page-summary" data-au="flex-container large-gap align-top mobile-flex-wrap">
+    <div data-au="flex-width">
+      <h2>{{ subheader }}</h2>
+      <p class="large-text">{{ summary }}</p>
+    </div>
+    <div class="credits-col" data-au="set-width">
+      <h3>Credits</h3>
+      <ul>
+        {% for credit in credits %}
+          <li>
+            <h4>{{ credit.name }}</h4>
+            <p class="small-text">{{ credit.role }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  {% if thumbnail %}
+    <div class="thumbnail-container" data-au="flex-container all-center">
+      <img class="material-shadow" src="{{ thumbnail }}" alt="{{ title }}">
+    </div>
+  {% endif %}
+
+  <div class="case-study-body">
+    {{ content | safe }}
+  </div>
+
+  {% if linkHref %}
+    <p><a class="text-link" href="{{ linkHref }}" target="_blank">{{ linkTitle | default("View the live project") }}</a></p>
+  {% endif %}
+</section>

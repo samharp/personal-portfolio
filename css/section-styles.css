@@ -122,7 +122,7 @@ div.show-photo + section[data-filter~="photography"]{
 }
 
 /* ncbvi */
-#ncbvi img{
+#ncbvi-branding img{
   width:275px;
 }
 
@@ -132,12 +132,17 @@ div.show-photo + section[data-filter~="photography"]{
 }
 
 /*eva*/
-#eva img{
+#eva-website img{
   width:420px;
 }
 
+/*eva branding*/
+#eva-branding img{
+  width:275px;
+}
+
 /* ne sheds */
-#ne-sheds img{
+#ne-sheds-website img{
   width:420px;
 }
 
@@ -332,7 +337,7 @@ div.show-photo + section[data-filter~="photography"]{
 @media (prefers-color-scheme: dark) {
   /* transparent logo images... */
   #bcm img,
-  #ncbvi img{
+  #ncbvi-branding img{
     background-color:var(--base-white);
   }
 }

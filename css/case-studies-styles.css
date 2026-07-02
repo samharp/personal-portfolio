@@ -1,0 +1,15 @@
+.case-study{
+  padding-top:80px;
+  padding-bottom:60px;
+}
+
+.credits-col{
+  width:300px;
+}
+.credits-col ul{
+  list-style-type:none;
+  padding-left:0;
+}
+.thumbnail-container{
+  order:unset;
+}
