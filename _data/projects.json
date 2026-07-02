@@ -95,18 +95,7 @@
       "itemID": "bcm-design-previewer",
       "itemTitle": "Beavercreek Marketing - Design Previewer",
       "itemCompletionDate": "",
-      "itemCaption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "itemTags": ["software", "interactive", "client"],
-      "itemLinks": [
-        { "label": "View their website", "href": "https://bcm.io" }
-      ],
-      "itemThumbnail": "./img/bcm-logo.png"
-    },
-    {
-      "itemID": "bcm-spec-builder",
-      "itemTitle": "Beavercreek Marketing - Spec Builder",
-      "itemCompletionDate": "",
-      "itemCaption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "itemCaption": "In order to display what a custom branded product would look like for a client, Beavercreek Marketing needed a way to preview the design, showcase the color palette, and see embedded images. I designed (and developed basic functionality for) a custom web wrapper that acted as a bridge between clients and branding specialists.",
       "itemTags": ["software", "interactive", "client"],
       "itemLinks": [
         { "label": "View their website", "href": "https://bcm.io" }

@@ -11,19 +11,21 @@ header: "Beavercreek Marketing - Online Education Center"
 subheader: "Website Redesign & Build"
 credits: [{"name": "Sammy Harper", "role": "UI/UX Designer, Web Designer, Web Developer"}, {"name": "Joe Gray", "role": "Client, Technical Project Manager"}, {"name": "Adam O'Callaghan", "role": "Client, Project Lead"}]
 summary: "In using a pre-existing design language, I redesigned and built web components for Beavercreek Marketing's existing Online Education Center (OEC). The OEC is used by BCM's clients to schedule social media content, email campaigns, and manage educational content available to them. The goal was to envision the OEC as a modern product, with capabilities like social media posting, scheduling through a calendar interface, and browsing a library of curated content. Users would be able to use existing content as a template, or start posts entirely from scratch."
-thumbnail: "/img/bcm-logo.png"
-linkHref: "https://bcm.io"
-linkTitle: "View their website"
+graphic: "/img/bcm-logo.png"
 ---
 
 ### The problem
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Beavercreek Marketing mostly builds technology for banks and other financial institutions. One of these core offerings is their Online Education Center (OEC), giving clients access to custom branded videos, articles, and click through demos of banking products. The OEC is the dashboard to everything Beavercreek Marketing does, and with an aging design, it can be a harder sell for some.
+
+But the problems to be solved in this redesign were twofold. One - the redesign had to incorporate a newly provided design language that would tie all Beavercreek Marketing's products together. And two - the redesign needed to support the functionality of the current OEC and then some. The current OEC could handle social media planning and provided a library of content, but it could not yet allow clients to plan their posts out on a calendar, integrate with Facebook/Instagram/etc. to directly post, or didn't support a review process for a multi-member team to approve or lock postings.
 
 ### The process
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The process to building the new OEC was a long one.
 
 ### The outcome
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+I was incredibly happy with the outcome. Unfortunately, as of this time, I don't believe the new OEC is put into production, but in passing it off to the Beavercreek Marketing team, I am confident that they have all of the design pieces to make it happen one day.
+
+View their website at [bcm.io](https://www.bcm.io).

@@ -1,6 +1,6 @@
 .case-study{
-  padding-top:80px;
-  padding-bottom:60px;
+  /* padding-top:80px; */
+  /* padding-bottom:60px; */
 }
 
 .credits-col{
@@ -10,6 +10,13 @@
   list-style-type:none;
   padding-left:0;
 }
-.thumbnail-container{
+
+.graphic-container{
   order:unset;
+  overflow:hidden;
+}
+.graphic-container img{
+  width:100%;
+  height:500px;
+  object-fit:cover;
 }
