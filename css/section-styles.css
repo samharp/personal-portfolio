@@ -44,10 +44,6 @@ section:nth-child(odd) .item-images-container{
 .item-badges-container{
   text-transform:capitalize;
 }
-.filter-row{
-  gap:10px;
-  /* margin-bottom:20px; */
-}
 
 /*standard mobile styles*/
 @media only screen and (max-width:750px){
@@ -164,6 +160,20 @@ div.show-photo + section[data-filter~="photography"]{
 #byteos-notes img{
   width:275px;
   background-color:#333333;
+}
+
+@media only screen and (max-width:750px){
+  .item-images-container{
+    width:100%;
+    height:200px;
+    overflow:hidden;
+  }
+  .item-images-container img{
+    width:100%!important;
+    /* height:200px; */
+    object-fit:cover;
+    max-width:100%;
+  }
 }
 
 /*******************/

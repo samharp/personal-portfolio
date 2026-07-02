@@ -135,14 +135,12 @@ h1{
 /* styles specific to hero h1 are found in the hero-styles.css */
 /*intro subtitle text and section titles*/
 h2{
-  /* font-size:20px; */
   font-size:2rem;
   margin-bottom:20px;
 }
 
 h3{
 	font-size:1.5rem;
-  /* margin-bottom:30px; */
 }
 h4{}
 
@@ -376,6 +374,9 @@ svg{
 @media only screen and (min-width:750px){
 	.hide-on-mobile-only{
 		display:block;
+	}
+	.hide-on-mobile-only[data-au~="flex-container"]{
+		display:flex;
 	}
 	.show-on-mobile-only{
 		display:none;
