@@ -1,6 +1,8 @@
-.case-study{
-  /* padding-top:80px; */
-  /* padding-bottom:60px; */
+.case-study section{
+  width:100%;
+}
+.case-study h1{
+  line-height:1;
 }
 
 .credits-col{

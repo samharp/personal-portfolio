@@ -32,8 +32,8 @@
     },
     {
       "itemID": "ne-sheds-website",
-      "itemTitle": "NE Sheds - Company Website",
-      "itemSubtitle": "Website Redesign & Build",
+      "itemTitle": "NE Sheds",
+      "itemSubtitle": "Company Website Redesign & Build",
       "itemCompletionDate": "",
       "itemCaption": "NE Sheds is a shed and outbuilding retailer based in Nebraska. In redesigning and rebuilding their website, I worked closely with the owners to create a site that fit both their vision, improve SEO/GEO, and enhance user experience.",
       "itemTags": ["creative", "client"],
@@ -44,8 +44,8 @@
     },
     {
       "itemID": "ncbvi-branding",
-      "itemTitle": "Nebraska Commission for the Blind and Visually Impaired - Organization Branding",
-      "itemSubtitle": "Logo & Brand Identity Redesign",
+      "itemTitle": "Nebraska Commission for the Blind and Visually Impaired",
+      "itemSubtitle": "Logo & Brand Redesign",
       "itemCompletionDate": "",
       "itemCaption": "The Nebraska Commission for the Blind and Visually Impaired initially reached out to me about redesigning their logo for their 20th anniversary, but has since led to additional design projects like business cards and social media images. I am incredibly fortunate to continue working with an agency that provides necessary services to those that need it.",
       "itemTags": ["creative", "client"],
@@ -56,8 +56,8 @@
     },
     {
       "itemID": "eva-website",
-      "itemTitle": "Eva Therapeutic Wellbeing - Company Website",
-      "itemSubtitle": "Website Rebuild",
+      "itemTitle": "Eva Therapeutic Wellbeing",
+      "itemSubtitle": "Company Website Redesign & Build",
       "itemCompletionDate": "",
       "itemCaption": "While I was working as a Multimedia Work Study Student in the Center for Entrepreneurship and Rural Development office at UNK, I was approached to build a website for a new small business, Eva Therapeutic Wellbeing. The owner, Eva, and I clicked very early on in the process, and she has been a joy of a client ever since. Since the initial build in 2017, I have rebuilt her website and worked with her on adding more content to the site.",
       "itemTags": ["creative", "client"],
@@ -68,8 +68,8 @@
     },
     {
       "itemID": "eva-branding",
-      "itemTitle": "Eva Therapeutic Wellbeing - Company Branding",
-      "itemSubtitle": "Logo & Brand Identity Redesign",
+      "itemTitle": "Eva Therapeutic Wellbeing",
+      "itemSubtitle": "Logo & Brand Redesign",
       "itemCompletionDate": "",
       "itemCaption": "In rebuilding Eva's website, I also worked with her to redesign her logo and brand identity. The new logo encompasses more of her personality and mission than the initial logo, and the new brand identity is cohesive online as well as in her office.",
       "itemTags": ["creative", "client"],
@@ -81,7 +81,7 @@
     {
       "itemID": "bcm-online-education-center",
       "itemTitle": "Beavercreek Marketing - Online Education Center",
-      "itemSubtitle": "Website Redesign & Build",
+      "itemSubtitle": "Product Redesign & Build",
       "itemCompletionDate": "",
       "itemCaption": "One of Beavercreek Marketing's cornerstone products is the Online Education Center (OEC) that clients use to promote their products and learn their capabilities. But with an 1990s aesthetic, and features left to be desired, they asked me to redesign and build the components needed to rebrand the OEC.",
       "itemTags": ["software", "interactive", "client"],
@@ -94,6 +94,7 @@
     {
       "itemID": "bcm-design-previewer",
       "itemTitle": "Beavercreek Marketing - Design Previewer",
+      "itemSubtitle": "Product Design & Build",
       "itemCompletionDate": "",
       "itemCaption": "In order to display what a custom branded product would look like for a client, Beavercreek Marketing needed a way to preview the design, showcase the color palette, and see embedded images. I designed (and developed basic functionality for) a custom web wrapper that acted as a bridge between clients and branding specialists.",
       "itemTags": ["software", "interactive", "client"],
