@@ -1,0 +1,41 @@
+---
+layout: layouts/base.njk
+---
+
+<div id="{{ id }}" class="case-study" data-au="flex-container flex-vertical large-gapx">
+  <section id="page-header">
+    <div class="page-nav">
+      <p>&lt;&nbsp; <a class="text-link" href="/#projects">Return to Portfolio</a></p>
+    </div>
+    <h1>{{ header }}</h1>
+  </section>
+
+  <section id="page-summary" data-au="flex-container large-gap align-top mobile-flex-wrap">
+    <div data-au="flex-width">
+      <h2><span class="highlighter-container"><span>{{ subheader }}</span></span></h2>
+      <p class="large-text">{{ summary }}</p>
+    </div>
+    <div class="credits-col" data-au="set-width">
+      <h3>Credits</h3>
+      <ul>
+        {% for credit in credits %}
+          <li>
+            <h4>{{ credit.name }}</h4>
+            <p class="small-text">{{ credit.role }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  {% if graphic %}
+    <div class="graphic-container" data-au="flex-container all-center">
+      <img class="" src="{{ graphic }}" alt="{{ header }}">
+    </div>
+  {% endif %}
+
+  <section id="case-study-body">
+    {{ content | safe }}
+  </section>
+
+</div>

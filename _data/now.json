@@ -8,6 +8,13 @@
       "linkHref": "https://www.github.com/samharp"
     },
     {
+      "itemTitle": "Canapi: Automated environmental contributions",
+      "itemCaption": "Canapi is a new project that I am working on to help make it easier for businesses to contribute to environmental causes. The idea is to create an API that can be integrated into existing business systems (like e-commerce platforms) to automatically calculate and process contributions based on user actions. The goal is to make it as easy as possible for businesses to give back to the environment, and for users to feel good about their purchases.",
+      "itemCategory": "tb",
+      "linkTitle": "Sign-up for the Canapi beta",
+      "linkHref": "https://www.canapi.io/#newsletter"
+    },
+    {
       "itemTitle": "The Eco Arcade",
       "itemCaption": "An arcade game like Wasted Space is really only properly experienced on a full-size arcade machine. So, I'm going to attempt building one! I am aiming to have it done in time to bring to Earth Day Omaha later this spring. It'll be equal parts promotion of Terrabyte, environmental education, and a conversation-starter of what environmentalism can even look like.",
       "itemCategory": "tb",

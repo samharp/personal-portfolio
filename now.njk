@@ -11,7 +11,7 @@ scripts: /js/now-scripts.js
 <section id="now" data-au="flex-container">
   <div id="now-info-container" data-au="set-width">
     <div class="page-nav">
-      <p>&lt;&nbsp; <a class="text-link" href="/index.html">Return to Portfolio</a></p>
+      <p>&lt;&nbsp; <a class="text-link" href="/">Return to Portfolio</a></p>
     </div>
 
     <h1>Sammy, what <em>are</em> you doing?</h1>
@@ -19,12 +19,12 @@ scripts: /js/now-scripts.js
     <p><a class="text-link" href="https://nownownow.com" target="_blank">Learn more</a> about the <a href="https://nownownow.com" target="_blank"><code>/now</code></a> webpage movement.</p>
   </div>
 
-  <div data-items-container class="flex-width now-items-container">
+  <div data-items-container class="now-items-container" data-au="flex-width flex-container flex-vertical large-gap">
 
     {# populate with non-expired #}
     {% for item in now.nowItems | notExpired %}
       <div class="item-row now-row">
-        <div class="item-header" data-au="flex-container align-center">
+        <div class="item-header" data-au="flex-container align-center small-gap">
           <div class="item-category-container" data-au="flex-container">
             {% if item.itemCategory == "tb" %}
               <a class="item-category-badge terrabyte-badge" href="https://www.terrabyte.eco" target="_blank">

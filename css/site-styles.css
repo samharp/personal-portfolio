@@ -123,6 +123,12 @@ body{
   font-size: 12px;
 }
 
+/* "Return to..." nav */
+.page-nav{
+  margin-bottom:50px;
+	font-size: 14px;
+}
+
 /*shared native element attributes*/
 h1, h2, h3, h4, button{
 	font-family: 'Poppins', sans-serif;
@@ -135,15 +141,12 @@ h1{
 /* styles specific to hero h1 are found in the hero-styles.css */
 /*intro subtitle text and section titles*/
 h2{
-  /* font-size:20px; */
   font-size:2rem;
   margin-bottom:20px;
 }
 
 h3{
-  /* font-size:32px; */
 	font-size:1.5rem;
-  margin-bottom:30px;
 }
 h4{}
 
@@ -154,7 +157,8 @@ p{
 p:last-child{
 	margin-bottom:0;
 }
-.subtext{
+.subtext,
+.small-text{
 	font-size:0.9rem;
 }
 
@@ -378,6 +382,9 @@ svg{
 	.hide-on-mobile-only{
 		display:block;
 	}
+	.hide-on-mobile-only[data-au~="flex-container"]{
+		display:flex;
+	}
 	.show-on-mobile-only{
 		display:none;
 	}
@@ -467,8 +474,8 @@ h4 .highlighter-container span{
 .filter-chip{
   border-radius: 100px;
   padding: 5px 15px;
-	user-select: none;
-	cursor:pointer;
+	/* user-select: none; */
+	/* cursor:pointer; */
 	transform:scale(1);
 }
 .filter-chip input{
@@ -477,12 +484,12 @@ h4 .highlighter-container span{
 }
 /* hover */
 @media (hover: hover) and (pointer: fine) {
-  .filter-chip:hover{
+  .filter-chip.clickable:hover{
     transform:scale(1.05);
   }
 }
 /* active click */
-.filter-chip:active{
+.filter-chip.clickable:active{
 	opacity:.75;
 }
 /* selected/checked */

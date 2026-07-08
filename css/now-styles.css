@@ -3,9 +3,6 @@
 }
 
 /* now info/summary */
-.page-nav{
-  margin-bottom:50px;
-}
 #now-info-container{
   width:390px;
   padding-right:30px;
@@ -47,19 +44,10 @@
 }
 
 /* now items */
-.item-row{
-  margin-bottom:40px;
-}
-.item-row:last-child{
-  margin-bottom:0;
-}
 
 /* item header */
 .item-header{
   margin-bottom:5px;
-}
-.item-category-container{
-  margin-right:10px;
 }
 .item-header h2{
   margin-bottom:0;
