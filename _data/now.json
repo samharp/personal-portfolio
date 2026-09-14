@@ -15,25 +15,18 @@
       "linkHref": "https://www.canapi.io/#newsletter"
     },
     {
-      "itemTitle": "The Eco Arcade",
-      "itemCaption": "An arcade game like Wasted Space is really only properly experienced on a full-size arcade machine. So, I'm going to attempt building one! I am aiming to have it done in time to bring to Earth Day Omaha later this spring. It'll be equal parts promotion of Terrabyte, environmental education, and a conversation-starter of what environmentalism can even look like.",
+      "itemTitle": "Eco Arcade: Play Terrabyte games IRL",
+      "itemCaption": "An arcade game like Wasted Space is really only properly experienced on a full-size arcade machine. So, I'm attempting to upcycle an old, defunct one into a working exhibit of what Terrabyte is all about! I am aiming to have it done in time to bring to Earth Day Omaha. It'll be equal parts promotion of Terrabyte, environmental education, and a conversation-starter of what environmentalism can even look like.",
       "itemCategory": "tb",
-      "linkTitle": "Play Wasted Space online",
+      "linkTitle": "Play Wasted Space online in the meantime",
       "linkHref": "https://www.wastedspace.fun"
     },
     {
-      "itemTitle": "Pixel Peeps Wallpaper Club",
+      "itemTitle": "Pixel Peep: The Pixel Wallpaper Club",
       "itemCaption": "Last year, I launched a Patreon that rewards subscribers with a new pixel art wallpaper every month. The designs incorporate Pixel Planet Today designs, environmental themes, or other pixel-y goodness. If you're interested in supporting my work and getting some cool wallpapers, I'd encourage you to check it out!",
       "itemCategory": "tb",
       "linkTitle": "Become a Pixel Peep",
       "linkHref": "https://patreon.com/terrabyte_tech"
-    },
-    {
-      "itemTitle": "Pixel Planet Today",
-      "itemCaption": "The world is constantly calling for environmental facts and pixel art: making this the project that never sleeps. I am trying to get into a more consistent posting schedule, but I got a lot going on... For not a lack of will, but a lack of time.",
-      "itemCategory": "tb",
-      "linkTitle": "View the Pixel Planet Today Website",
-      "linkHref": "https://www.pixelplanettoday.com"
     },
     {
       "itemTitle": "Birding",
@@ -43,16 +36,23 @@
       "linkHref": "https://ebird.org/profile/NjE4NTM3Ng"
     },
     {
-      "itemTitle": "Carjeta",
-      "itemCaption": "I have had mixed results using existing digital business card services. So, I decided to create my own. First it was a solution to my own personal problem, but now, I'm building it as a beta SaaS product to offer clients. It's lightweight, fully customizable with CSS, and most importantly, gives you a way ot share your information without carrying a stack of cards. If you're interested in having a digital business card, or just want to see what I built, check it out!",
+      "itemTitle": "Carjeta: A digital business card solution",
+      "itemCaption": "I have had mixed results using existing digital business card services. So, I decided to create my own. First it was a solution to my own personal problem, but now, I'm building it as a beta SaaS product to offer clients. It's lightweight, fully customizable with CSS, and most importantly, gives you a way to share your information without carrying a stack of cards. If you're interested in having a digital business card, or just want to see what I built, check it out!",
       "itemCategory": "ghm",
       "linkTitle": "View the Carjeta website",
       "linkHref": "https://carjeta.com"
     },
     {
       "itemTitle": "Reading",
-      "itemCaption": "With the new year, a new reading goal (8 books). Currently, I'm reading \"Silent Spring\" by Rachel Carson. Other books on my TBR for the year include \"The Phoenix Project\" and  \"They Both Die at the End.\"",
+      "itemCaption": "This year my reading goal is 8 books. I don't know if I'm going to reach that... Currently, I'm reading \"Silent Spring\" by Rachel Carson. Other books on my TBR for the year include \"The Phoenix Project\" and  \"They Both Die at the End.\"",
       "itemCategory": "p"
+    },
+    {
+      "itemTitle": "Pixel Planet Today: Environmental education on socials",
+      "itemCaption": "The world is constantly calling for environmental facts and pixel art: making this the project that never sleeps. I am trying to get into a more consistent posting schedule, but I got a lot going on... For not a lack of will, but a lack of time.",
+      "itemCategory": "tb",
+      "linkTitle": "View the Pixel Planet Today Website",
+      "linkHref": "https://www.pixelplanettoday.com"
     },
     {
       "itemTitle": "Omaha & Nebraska Public Transportation Plan",
