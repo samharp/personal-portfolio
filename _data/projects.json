@@ -31,11 +31,22 @@
       "itemThumbnail": "./img/byteos-notes-logo.png"
     },
     {
+      "itemID": "terrabyte-website",
+      "itemTitle": "Terrabyte",
+      "itemSubtitle": "Company Website Design & Build",
+      "itemCaption": "As a solo-founder, building a business also means building everything that goes with it - including its website. From what started as a flat HTML page has since evolved into a site built with the static-site generator 11ty, a lightweight alternative to Tailwind I built dubbed Aurum, and a UI library I built specifically for Terrabyte and its sub-brand websites.",
+      "itemTags": ["environmental", "creative"],
+      "itemLinks": [
+        { "label": "See the Terrabyte website", "href": "https://www.terrabyte.eco" }
+      ],
+      "itemThumbnail": "./img/terrabyte-website-thumbnail.png"
+    },
+    {
       "itemID": "ne-sheds-website",
       "itemTitle": "NE Sheds",
       "itemSubtitle": "Company Website Redesign & Build",
       "itemCompletionDate": "",
-      "itemCaption": "NE Sheds is a shed and outbuilding retailer based in Nebraska. In redesigning and rebuilding their website, I worked closely with the owners to create a site that fit both their vision, improve SEO/GEO, and enhance user experience.",
+      "itemCaption": "NE Sheds is a shed and outbuilding retailer based in Nebraska. In redesigning and rebuilding their website, I worked closely with the owners to create a site that fit both their vision, improve SEO/AIO/GEO, and enhance user experience.",
       "itemTags": ["creative", "client"],
       "itemLinks": [
         { "label": "Visit their website", "href": "https://www.nesheds.us/" }
@@ -79,29 +90,29 @@
       "itemThumbnail": "./img/eva-logo.png"
     },
     {
-      "itemID": "bcm-online-education-center",
-      "itemTitle": "Beavercreek Marketing - Online Education Center",
+      "itemID": "bcm-money-iq-social",
+      "itemTitle": "Beavercreek Marketing - Money iQ Social",
       "itemSubtitle": "Product Redesign & Build",
       "itemCompletionDate": "",
-      "itemCaption": "One of Beavercreek Marketing's cornerstone products is the Online Education Center (OEC) that clients use to promote their products and learn their capabilities. But with an 1990s aesthetic, and features left to be desired, they asked me to redesign and build the components needed to rebrand the OEC.",
+      "itemCaption": "One of Beavercreek Marketing's cornerstone products is MoneyiQ, custom-branded videos that clients use to promote their products, inform staff of new product capabilities, and display within their lobbies. But with a 1990s aesthetic and features left to be desired, they asked me to redesign and build the client dashboard used to share these videos on social media, email newsletters, and blog posts.",
       "itemTags": ["software", "interactive", "client"],
       "itemLinks": [
         { "label": "View their website", "href": "https://bcm.io" },
-        { "label": "Read the case study", "href": "/case-studies/bcm-online-education-center/" }
+        { "label": "Read the case study", "href": "/case-studies/bcm-money-iq-social/" }
       ],
-      "itemThumbnail": "./img/bcm-logo.png"
+      "itemThumbnail": "./img/money-iq-social_splash.png"
     },
     {
       "itemID": "bcm-design-previewer",
       "itemTitle": "Beavercreek Marketing - Design Previewer",
       "itemSubtitle": "Product Design & Build",
       "itemCompletionDate": "",
-      "itemCaption": "In order to display what a custom branded product would look like for a client, Beavercreek Marketing needed a way to preview the design, showcase the color palette, and see embedded images. I designed (and developed basic functionality for) a custom web wrapper that acted as a bridge between clients and branding specialists.",
+      "itemCaption": "In order to display what a custom branded product would look like for a client, Beavercreek Marketing needed a way to preview the design, showcase the color palette, and see embedded images. I designed (and developed basic functionality for) an internal, custom web wrapper that acted as a bridge between clients and branding specialists.",
       "itemTags": ["software", "interactive", "client"],
       "itemLinks": [
         { "label": "View their website", "href": "https://bcm.io" }
       ],
-      "itemThumbnail": "./img/bcm-logo.png"
+      "itemThumbnail": "./img/bcm_design-preview-thumbnail.png"
     }
   ],
   "unusedProjectItems":[

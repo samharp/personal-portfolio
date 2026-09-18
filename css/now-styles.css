@@ -2,6 +2,10 @@
   padding-bottom:60px;
 }
 
+h2{
+	line-height:1.1;
+}
+
 /* now info/summary */
 #now-info-container{
   width:390px;
