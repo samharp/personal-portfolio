@@ -31,11 +31,23 @@
       "itemThumbnail": "./img/byteos-notes-logo.png"
     },
     {
+      "itemID": "terrabyte-website",
+      "itemTitle": "Terrabyte",
+      "itemSubtitle": "Company Website Design & Build",
+      "itemCaption": "As a solo-founder, building a business also means building everything that goes with it - including its website. From what started as a flat HTML page has since evolved into a site built with the static-site generator 11ty, a lightweight alternative to Tailwind I built dubbed Aurum, and a UI library I built specifically for Terrabyte and its sub-brand websites.",
+      "itemTags": ["environmental", "creative"],
+      "itemLinks": [
+        { "label": "See the Terrabyte website", "href": "https://www.terrabyte.eco" },
+        { "label": "Read the case study", "href": "/case-studies/terrabyte-website/" }
+      ],
+      "itemThumbnail": "./img/terrabyte-website-thumbnail.png"
+    },
+    {
       "itemID": "ne-sheds-website",
       "itemTitle": "NE Sheds",
       "itemSubtitle": "Company Website Redesign & Build",
       "itemCompletionDate": "",
-      "itemCaption": "NE Sheds is a shed and outbuilding retailer based in Nebraska. In redesigning and rebuilding their website, I worked closely with the owners to create a site that fit both their vision, improve SEO/GEO, and enhance user experience.",
+      "itemCaption": "NE Sheds is a shed and outbuilding retailer based in Nebraska. In redesigning and rebuilding their website, I worked closely with the owners to create a site that fit both their vision, improve SEO/AIO/GEO, and enhance user experience.",
       "itemTags": ["creative", "client"],
       "itemLinks": [
         { "label": "Visit their website", "href": "https://www.nesheds.us/" }
@@ -96,12 +108,12 @@
       "itemTitle": "Beavercreek Marketing - Design Previewer",
       "itemSubtitle": "Product Design & Build",
       "itemCompletionDate": "",
-      "itemCaption": "In order to display what a custom branded product would look like for a client, Beavercreek Marketing needed a way to preview the design, showcase the color palette, and see embedded images. I designed (and developed basic functionality for) a custom web wrapper that acted as a bridge between clients and branding specialists.",
+      "itemCaption": "In order to display what a custom branded product would look like for a client, Beavercreek Marketing needed a way to preview the design, showcase the color palette, and see embedded images. I designed (and developed basic functionality for) an internal, custom web wrapper that acted as a bridge between clients and branding specialists.",
       "itemTags": ["software", "interactive", "client"],
       "itemLinks": [
         { "label": "View their website", "href": "https://bcm.io" }
       ],
-      "itemThumbnail": "./img/bcm-logo.png"
+      "itemThumbnail": "./img/bcm_design-preview-thumbnail.png"
     }
   ],
   "unusedProjectItems":[
