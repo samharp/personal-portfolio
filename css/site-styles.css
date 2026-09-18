@@ -142,6 +142,7 @@ h1{
 /*intro subtitle text and section titles*/
 h2{
   font-size:2rem;
+	/* line-height:1.1; */
   margin-bottom:20px;
 }
 

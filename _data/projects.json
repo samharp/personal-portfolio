@@ -37,8 +37,7 @@
       "itemCaption": "As a solo-founder, building a business also means building everything that goes with it - including its website. From what started as a flat HTML page has since evolved into a site built with the static-site generator 11ty, a lightweight alternative to Tailwind I built dubbed Aurum, and a UI library I built specifically for Terrabyte and its sub-brand websites.",
       "itemTags": ["environmental", "creative"],
       "itemLinks": [
-        { "label": "See the Terrabyte website", "href": "https://www.terrabyte.eco" },
-        { "label": "Read the case study", "href": "/case-studies/terrabyte-website/" }
+        { "label": "See the Terrabyte website", "href": "https://www.terrabyte.eco" }
       ],
       "itemThumbnail": "./img/terrabyte-website-thumbnail.png"
     },
@@ -91,17 +90,17 @@
       "itemThumbnail": "./img/eva-logo.png"
     },
     {
-      "itemID": "bcm-online-education-center",
-      "itemTitle": "Beavercreek Marketing - Online Education Center",
+      "itemID": "bcm-money-iq-social",
+      "itemTitle": "Beavercreek Marketing - Money iQ Social",
       "itemSubtitle": "Product Redesign & Build",
       "itemCompletionDate": "",
-      "itemCaption": "One of Beavercreek Marketing's cornerstone products is the Online Education Center (OEC) that clients use to promote their products and learn their capabilities. But with an 1990s aesthetic, and features left to be desired, they asked me to redesign and build the components needed to rebrand the OEC.",
+      "itemCaption": "One of Beavercreek Marketing's cornerstone products is MoneyiQ, custom-branded videos that clients use to promote their products, inform staff of new product capabilities, and display within their lobbies. But with a 1990s aesthetic and features left to be desired, they asked me to redesign and build the client dashboard used to share these videos on social media, email newsletters, and blog posts.",
       "itemTags": ["software", "interactive", "client"],
       "itemLinks": [
         { "label": "View their website", "href": "https://bcm.io" },
-        { "label": "Read the case study", "href": "/case-studies/bcm-online-education-center/" }
+        { "label": "Read the case study", "href": "/case-studies/bcm-money-iq-social/" }
       ],
-      "itemThumbnail": "./img/bcm-logo.png"
+      "itemThumbnail": "./img/money-iq-social_splash.png"
     },
     {
       "itemID": "bcm-design-previewer",
