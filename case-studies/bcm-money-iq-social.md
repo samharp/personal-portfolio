@@ -39,7 +39,7 @@ Once the final mockups were agreed on, I began to translate the Figma components
 <br>
 
 <!-- a few images here -->
-<div data-au="flex-container small-gap">
+<div data-au="flex-container small-gap mobile-flex-wrap">
   <img src="/img/money-iq-social_content-releases-page.png" alt="MoneyiQ; Content Releases Page Mockup" data-au="flex-width">
   <img src="/img/money-iq-social_view-media-modal.png" alt="MoneyiQ; View Media Modal Mockup" data-au="flex-width">
   <img src="/img/money-iq-social_settings_your-team.png" alt="MoneyiQ; Your Team Settings Page Mockup" data-au="flex-width">
